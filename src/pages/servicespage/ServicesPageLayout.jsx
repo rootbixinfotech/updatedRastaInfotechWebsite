@@ -2,6 +2,7 @@ import React from "react";
 import ServiceSidebar from "../../components/ServiceSidebar";
 import services from "../../components/services";
 import { Outlet, useLocation } from "react-router-dom";
+
 import {
   sapConsultingBanner,
   sapImplementationBanner,
@@ -55,6 +56,7 @@ const ServicesPageLayout = () => {
         <aside className="w-full md:w-[30%] px-2 md:px-0">
           <ServiceSidebar services={services} />
         </aside>
+
         <main className="w-full md-[70%] px-2 md:px-8 mb-10">
           <Outlet />
         </main>

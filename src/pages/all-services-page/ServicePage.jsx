@@ -130,9 +130,7 @@ const ServicePage = ({ serviceData }) => {
             {whyChooseUs.heading}
           </h2>
           <p className="text-gray-700 mb-6">{whyChooseUs.description}</p>
-          {/* <button className="bg-gradient-to-r from-blue-500 to-blue-400 text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-full hover:from-blue-600 hover:to-blue-500 transition w-full sm:w-auto">
-            Subscribe
-          </button> */}
+       
         </div>
       </div>
 
@@ -143,9 +141,7 @@ const ServicePage = ({ serviceData }) => {
             {technologies.heading}
           </h2>
           <p className="text-gray-700 mb-6">{technologies.description}</p>
-          {/* <button className="bg-gradient-to-r from-blue-500 to-blue-400 text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-full hover:from-blue-600 hover:to-blue-500 transition w-full sm:w-auto">
-            Subscribe
-          </button> */}
+       
         </div>
         <div className="md:w-1/2">
           <img

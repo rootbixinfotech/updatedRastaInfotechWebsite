@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import ContactModal from "../../components/ContactModal";
 
 const SAPStaffing = () => {
+  const [showModal, setShowModal] = useState(false);
+
   const staffingTypes = [
     {
       title: "Contract-Based SAP Staff",
@@ -115,11 +118,17 @@ const SAPStaffing = () => {
             We’re ready to help you streamline your business with intelligent
             SAP solutions.
           </p>
-          <button className="bg-gradient-to-r from-blue-500 to-blue-300 text-white font-semibold px-6 py-2 rounded-full hover:from-blue-600 hover:to-blue-400 transition">
+          <button
+            className="bg-gradient-to-r from-blue-500 to-blue-300 text-white font-semibold px-6 py-2 rounded-full hover:from-blue-600 hover:to-blue-400 transition"
+            onClick={() => {
+              setShowModal(true);
+            }}
+          >
             Get Started
           </button>
         </section>
       </div>
+      <ContactModal isOpen={showModal} onClose={() => setShowModal(false)} />
     </div>
   );
 };
