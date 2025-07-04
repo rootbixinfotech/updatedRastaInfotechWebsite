@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import peopleBanner from "../../assets/peopleview.jpg"; // Replace with your actual banner image
 import peopleBanner from "../../assets/terms.jpg";
 import ContactModal from "../../components/ContactModal";
 

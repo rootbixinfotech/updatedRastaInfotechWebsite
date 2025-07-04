@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import joinBanner from "../../assets/terms.jpg";
 import ContactModal from "../../components/ContactModal";
 

@@ -113,6 +113,7 @@ const MegaMenu = ({ type, isMobile }) => {
                 </p>
               </div>
             </li>
+
             {/* <li
               className="flex items-start space-x-2 cursor-pointer hover:bg-blue-50 p-2 rounded-md transition-colors duration-300"
               onClick={() => navigate("/careers")}
@@ -125,6 +126,7 @@ const MegaMenu = ({ type, isMobile }) => {
                 <p className="text-gray-500 text-xs">Join our growing team</p>
               </div>
             </li> */}
+            
             <li
               className="flex items-start space-x-2 cursor-pointer hover:bg-blue-50 p-2 rounded-md transition-colors duration-300"
               onClick={() => navigate("/contact")}

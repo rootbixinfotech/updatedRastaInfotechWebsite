@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import valuesBanner from "../../assets/peoplevalues.jpg"; /
 import valuesBanner from "../../assets/terms.jpg";
 import ContactModal from "../../components/ContactModal";
 

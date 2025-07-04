@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import codeImage from "../../assets/ethichComplain.jfif";
 import ethicsBanner from "../../assets/ethicbanner.jfif";
 import ContactModal from "../../components/ContactModal";
