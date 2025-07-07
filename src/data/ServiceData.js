@@ -1,13 +1,35 @@
-import blockchainimg1 from "../assets/blockchain_img1.jpg";
-import blockchainimg2 from "../assets/blockchainimg4.jfif";
+import blockchainimg1 from "../assets/blockchain.jpg";
 import bannerblockchain from "../assets/blockchainbannerimg1.jfif";
-import Automation from "../assets/Automation.jpg"
+import Automation from "../assets/APPLICATION SERVICES.jpg"
+import infrasturcture from"../assets/INFRASTRUCTURE SERVICES.jpg"
+import DevopsAutomation from "../assets/DEVOPS AUTOMATION SERVICES.jpg"
+import governance from "../assets/GOVERNANCE, RISK & COMPLIANCE.jpg"
+import microservice from "../assets/Microsoft COE.jpg"
+import AgileIT from "../assets/AGILE IT OPERATIONS.jpg"
+import XaapImage from "../assets/PLATFORMS & PROTOCOLS - XAAP.jpg"
+import cloudImg from "../assets/CLOUD.jpg"
+import Azure from "../assets/AZURE SERVICES.jpeg"
+import Cognitive from "../assets/COGNITIVE (1).jpg"
+import platformImg from "../assets/PLATFORMS & PROTOCOLS - XAAP.jpg"
+import productEnggImg from "../assets/PRODUCT-ENGINEERING-SERVICES.jpg"
+import salefore from "../assets/SALESFORCE CONSULTING AND SERVICES.jpg"
+import Awsimg from "../assets/AWS SERVICES.jpeg"
+import TanzuImg from "../assets/VMWARE TANZU SERVICES.jpg"
+
+
+
+
+
+
 
 import cyberimg1 from "../assets/cyberimg.jpg";
 import cyberimg2 from "../assets/Toolweuseimg.jpg";
+import DigitalMarketing from "../assets/127431 DIGITAL MARKETING.jpg"
+
 
 import devopsimg1 from "../assets/devops-1.jpg";
 import devopsimg2 from "../assets/devops-2.jpg";
+import Ai from "../assets/AI.jpg"
 // import bannercybersecurity from "../assets/cybersecurity_banner.jpg";
 
 export const BlockchainPageContent = {
@@ -60,7 +82,7 @@ export const BlockchainPageContent = {
   },
 
   technologies: {
-    image: blockchainimg2,
+    image: blockchainimg1,
     heading: "Technologies We Use",
     description:
       "To deliver cutting-edge blockchain solutions, Rasta InfoTech leverages a variety of platforms and tools tailored to meet client needs. We work with industry-leading technologies such as Ethereum, Binance Smart Chain, Hyperledger Fabric, and Polygon to design systems that are both flexible and future-ready. Using Solidity for smart contract programming and tools like IPFS for decentralized file storage, we create comprehensive solutions that handle everything from data transparency to transaction speed and scalability. Our tech stack ensures that your blockchain application is not only innovative but also secure, performant, and fully aligned with your business goals.",
@@ -233,7 +255,7 @@ export const DevOpsAutomationPageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1,
+    image: DevopsAutomation,
     heading: "Why Choose DevOps Automation with Rasta InfoTech?",
     description:
       "At Rasta InfoTech, we go beyond conventional IT delivery by embedding automation at the heart of your DevOps journey. We recognize that speed, reliability, and agility are not just desirable—they are essential to modern business success. Our DevOps Automation Services are tailored to meet your specific business and technical goals, ensuring seamless collaboration across teams and faster time-to-market for your applications. Whether you're transforming legacy systems or building new cloud-native platforms, our certified DevOps engineers bring expertise in automation tooling, container orchestration, cloud infrastructure, and pipeline management to ensure operational excellence.",
@@ -354,7 +376,7 @@ export const DigitalMarketingPageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1,
+    image: DigitalMarketing,
     heading: "Why Choose Digital Marketing with Rasta InfoTech?",
     description:
       "At Rasta InfoTech, we understand that digital marketing is not just about driving traffic—it's about creating meaningful connections with your audience. Our team of experienced marketers combines creativity, data-driven strategies, and cutting-edge technology to deliver results that matter. We take the time to understand your business goals, target audience, and competitive landscape to create customized marketing plans that drive growth. Whether you're looking to increase brand awareness, generate leads, or boost sales, our digital marketing services are designed to help you achieve your objectives.",
@@ -474,7 +496,7 @@ export const GovernanceRiskCompliancePageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1,
+    image: governance,
     heading: "Why Choose Governance, Risk & Compliance with Rasta InfoTech?",
     description:
       "At Rasta InfoTech, we understand that effective GRC practices are critical to achieving business success and maintaining stakeholder trust. Our team of experts brings deep knowledge and experience in risk management, compliance, and corporate governance. We work closely with our clients to develop customized GRC solutions that align with their unique needs and objectives. Whether you're navigating regulatory changes, managing risks, or enhancing governance frameworks, our GRC services provide the insights and tools needed to make informed decisions and drive sustainable growth.",
@@ -596,7 +618,7 @@ export const MicrosoftCOEPageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1,
+    image: microservice,
     heading: "Why Choose Microsoft COE with Rasta InfoTech?",
     description:
       "At Rasta InfoTech, we understand that leveraging Microsoft technologies requires specialized expertise and a strategic approach. Our Microsoft COE team consists of certified professionals with deep knowledge and experience in Microsoft solutions. We work closely with our clients to develop customized strategies that align with their business goals and drive innovation. Whether you're looking to migrate to the cloud, optimize data analytics, enhance collaboration, or automate processes, our Microsoft COE services provide the insights and tools needed to achieve excellence.",
@@ -718,7 +740,7 @@ export const AgileITOpsPageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1, // replace with your actual image import
+    image: AgileIT, // replace with your actual image import
     heading: "Why Choose Agile IT Ops with Rasta InfoTech?",
     description: `Rasta InfoTech is your trusted partner in building resilient, scalable, and forward-looking IT operations. Our Agile IT Ops services are designed to evolve with your business needs. We understand that modern IT isn't just about fixing problems—it's about preventing them, anticipating future needs, and enabling business innovation. 
 
@@ -816,7 +838,7 @@ export const XAAPPageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1, // Replace with actual image import
+    image: XaapImage, // Replace with actual image import
     heading: "Why Choose XAAP with Rasta InfoTech?",
     description: `Rasta InfoTech is a trusted name when it comes to building enterprise-grade platforms with protocol intelligence at the core. Our XAAP-based solutions are not just about connecting systems—they’re about orchestrating meaningful workflows, enforcing industry standards, and delivering measurable ROI. We bring deep technical knowledge of modern platforms, APIs, and communication protocols and apply them in a way that simplifies complexity for your business.
 
@@ -913,7 +935,7 @@ export const CloudPageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1,
+    image: cloudImg,
     heading: "Why Rasta InfoTech for Cloud Services?",
     description: `Rasta InfoTech is a leading cloud solutions provider with deep expertise in cloud strategy, infrastructure automation, and application development. We offer customized cloud consulting services tailored to your business goals—whether you're launching a new SaaS product, migrating enterprise systems, or modernizing legacy applications. Our team of certified cloud architects ensures smooth deployment, high performance, and security compliance across your cloud ecosystem.
 
@@ -1009,7 +1031,7 @@ export const AzureServicesPageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1, // Replace with Azure-specific image
+    image: Azure, // Replace with Azure-specific image
     heading: "Why Choose Azure Services with Rasta InfoTech?",
     description:
       "Rasta InfoTech is your trusted partner in deploying and managing Azure cloud solutions that drive innovation and efficiency. Our certified Azure professionals provide strategic guidance, architectural planning, and hands-on implementation tailored to your business objectives. We combine deep technical expertise with a customer-centric approach to ensure secure, scalable, and high-performance cloud environments. Whether you are starting your cloud journey or looking to optimize your existing Azure setup, we deliver end-to-end solutions that align with your digital goals.",
@@ -1131,7 +1153,7 @@ export const ApplicationServicesPageContent = {
   ],
 
   whyChooseUs: {
-    image: cyberimg1, // Replace with your actual image
+    image: Cognitive, // Replace with your actual image
     heading: "Why Choose Rasta InfoTech for Application Services?",
     description: `Rasta InfoTech is more than just an application development company—we are your strategic technology partner. With a team of experienced designers, developers, architects, and QA engineers, we take a holistic approach to application delivery. Every solution we build is aligned with your business objectives, user expectations, and industry standards.
 
@@ -1327,7 +1349,7 @@ export const AIPageContent = {
   ],
 
   whyChooseUs: {
-    image: cyberimg1, // Replace with actual image import
+    image: Ai, // Replace with actual image import
     heading: "Why Rasta InfoTech for AI Development?",
     description: `At Rasta InfoTech, we help you go beyond AI experimentation and deliver real business value. Our end-to-end AI service model—spanning strategy, data preparation, model development, deployment, and ongoing optimization—ensures that your investment translates into scalable, sustainable results.
 
@@ -1382,7 +1404,7 @@ export const AIPageContent = {
 
 export const EnterpriseAutomationPageContent = {
   banner: {
-    image: Automation, // Replace with actual imported banner image
+    image: bannerblockchain, // Replace with actual imported banner image
     heading: "Enterprise Automation Services",
     breadcrumb: ["HOME", "SERVICES", "ENTERPRISE AUTOMATION"],
   },
@@ -1425,7 +1447,7 @@ export const EnterpriseAutomationPageContent = {
   ],
 
   whyChooseUs: {
-    image: cyberimg1,
+    image: Automation,
     heading: "Why Choose Rasta InfoTech for Enterprise Automation?",
     description: `At Rasta InfoTech, we go beyond automating individual tasks—we help you reimagine your workflows from the ground up. With our enterprise automation services, we unlock hidden efficiencies, improve compliance, and boost productivity across departments. Our team of automation architects, RPA developers, and business analysts work together to identify automation opportunities, reduce manual dependencies, and integrate your systems into a unified, intelligent ecosystem.
 
@@ -1521,7 +1543,7 @@ export const InfrastructureServicesPageContent = {
   ],
 
   whyChooseUs: {
-    image: cyberimg1, // Replace with your actual image
+    image: infrasturcture, // Replace with your actual image
     heading: "Why Choose Rasta InfoTech for Infrastructure Services?",
     description: `Rasta InfoTech stands at the intersection of infrastructure modernization and digital transformation. We design, implement, and manage reliable IT foundations that deliver maximum uptime, agility, and business continuity. With a deep understanding of enterprise IT challenges, we offer tailored infrastructure services that reduce operational costs, mitigate risks, and optimize performance.
 
@@ -1616,7 +1638,7 @@ export const ProductEngineeringPageContent = {
   ],
 
   whyChooseUs: {
-    image: cyberimg2, // Replace with actual image
+    image: productEnggImg, // Replace with actual image
     heading: "Why Choose Rasta InfoTech for Product Engineering?",
     description: `Rasta InfoTech is a trusted partner for digital product innovation. With a deep understanding of business strategy and emerging technologies, we help clients deliver future-ready products that scale. Our engineering process is guided by lean principles, agile execution, and quality-first thinking.
 
@@ -1624,7 +1646,7 @@ export const ProductEngineeringPageContent = {
   },
 
   technologies: {
-    image: cyberimg1,
+    image: platformImg,
     heading: "Technologies & Tools We Work With",
     description: `We use a modern and diverse technology stack to power high-performance digital products. For frontend development, we use React, Next.js, Angular, and Vue.js. Our backend technologies include Node.js, .NET Core, Java Spring Boot, Python (Django, FastAPI), and Golang.
 
@@ -1713,7 +1735,7 @@ export const SalesforcePageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1, // Replace with your actual image
+    image: salefore, // Replace with your actual image
     heading: "Why Rasta InfoTech for Salesforce COE Services?",
     description: `With a dedicated Salesforce Center of Excellence, Rasta InfoTech combines strategic insight with deep platform expertise to deliver Salesforce solutions that transform your business. Our consultants, developers, and architects follow agile methodologies, Salesforce best practices, and industry-aligned templates to deliver faster, smarter, and more sustainable outcomes.
 
@@ -1814,7 +1836,7 @@ export const AwsServicesPageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1,
+    image: Awsimg,
     heading: "Why Choose Rasta InfoTech for AWS Cloud Services?",
     description: `At Rasta InfoTech, we are an advanced AWS service provider with certified cloud architects, DevOps specialists, and security engineers. We’ve helped organizations across industries accelerate their cloud transformation journey using AWS’s robust ecosystem. Our approach combines deep domain knowledge, agile delivery, and cost optimization strategies to ensure tangible business outcomes.
 
@@ -1907,7 +1929,7 @@ export const TanzuServicesPageContent = {
   ],
 
   whyChooseUs: {
-    image: devopsimg1,
+    image: TanzuImg,
     heading: "Why Choose Rasta InfoTech for Tanzu Services?",
     description: `Rasta InfoTech combines deep expertise in cloud-native technologies, DevOps practices, and VMware Tanzu platforms to help businesses modernize efficiently and securely. Our VMware-certified professionals deliver customized Tanzu solutions for development, deployment, and platform automation. We emphasize standardization, developer productivity, and operational resilience.
 
