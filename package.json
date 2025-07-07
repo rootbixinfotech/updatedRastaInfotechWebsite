@@ -8,9 +8,7 @@
     "prebuild": "chmod +x node_modules/.bin/vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "preinstall": "npx npm-force-resolutions"
-
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -35,10 +33,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
-    "npm-force-resolutions": "^0.0.10",
+    "rollup": "^3.29.5",
     "vite": "^6.3.5"
-  },
-  "resolutions": {
-    "rollup": "npm:@rollup/wasm-node"
   }
 }
