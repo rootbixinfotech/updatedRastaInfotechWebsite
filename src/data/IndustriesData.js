@@ -458,7 +458,6 @@ export const HiTechPageContent = {
 };
 
 
-
 export const EnergyAndUtilitiesPageContent = {
   banner: {
     image: bannerHealthCare,

@@ -10,6 +10,7 @@ const ContactModal = ({ isOpen, onClose }) => {
     name: "",
     phone: "",
     email: "",
+    message: "",
   });
 
   if (!isOpen) return null;
@@ -28,9 +29,9 @@ const ContactModal = ({ isOpen, onClose }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const { name, phone, email } = formData;
+    const { name, phone, email, message } = formData;
 
-    // VALIDATION
+    // Validation
     if (!/^[A-Za-z\s]+$/.test(name)) {
       toast.error("Name must contain only alphabets and spaces.");
       return;
@@ -46,14 +47,19 @@ const ContactModal = ({ isOpen, onClose }) => {
       return;
     }
 
-    // Success logic
+    if (message.trim().length < 10) {
+      toast.error("Message must be at least 10 characters long.");
+      return;
+    }
+
+    // Success
     setSubmitted(true);
     toast.success("Submitted successfully!");
 
     setTimeout(() => {
       setSubmitted(false);
       onClose();
-      setFormData({ name: "", phone: "", email: "" });
+      setFormData({ name: "", phone: "", email: "", message: "" });
     }, 2500);
   };
 
@@ -130,6 +136,21 @@ const ContactModal = ({ isOpen, onClose }) => {
               />
             </div>
 
+            <div>
+              <label className="block text-sm font-medium text-gray-700">
+                Your Message
+              </label>
+              <textarea
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                placeholder="Write your message here..."
+                rows={4}
+                className="w-full px-4 py-2 mt-1 border rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                required
+              ></textarea>
+            </div>
+
             <div className="flex justify-center">
               <button
                 type="submit"
@@ -140,6 +161,7 @@ const ContactModal = ({ isOpen, onClose }) => {
             </div>
           </form>
         )}
+
         <ToastContainer position="top-right" autoClose={3000} />
       </div>
     </div>

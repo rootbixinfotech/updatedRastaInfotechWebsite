@@ -16,12 +16,6 @@ import salefore from "../assets/SALESFORCE CONSULTING AND SERVICES.jpg"
 import Awsimg from "../assets/AWS SERVICES.jpeg"
 import TanzuImg from "../assets/VMWARE TANZU SERVICES.jpg"
 
-
-
-
-
-
-
 import cyberimg1 from "../assets/cyberimg.jpg";
 import cyberimg2 from "../assets/Toolweuseimg.jpg";
 import DigitalMarketing from "../assets/127431 DIGITAL MARKETING.jpg"
@@ -209,8 +203,64 @@ export const CybersecurityPageContent = {
       description:
         "Educates employees and users on best practices to recognize and prevent cyber threats.",
     },
+    {
+      title: "Identity and Access Management",
+      description:
+        "Identifying, tracking, and managing authorized users' access to a system, application, or IT instance.",
+    },
+    {
+      title: "Data Leakage Prevention",
+      description:
+        "Helps businesses in improving security with DAM & vulnerability assessment.",
+    },
+    {
+      title: "Database Security",
+      description:
+        "An entire set of context controls together with event logging and data shadowing printing.",
+    },
+    {
+      title: "Email Security",
+      description:
+        "Value-added distributors with Anti-Virus solutions being one of our core offerings.",
+    },
+    {
+      title: "End Point Security",
+      description:
+        "Value-added distributors with Anti-Virus solutions being one of our core offerings.",
+    },
+    {
+      title: "Enterprise Data Erasure",
+      description:
+        "Securely erase any drive, including complex SSDs, in PCs, laptops, servers.",
+    },
+    {
+      title: "Exposure Management",
+      description:
+        "Integrate Identity & Access Management policies across all environments.",
+    },
+    {
+      title: "Security Management",
+      description:
+        "Reviewing logs and setting up notifications to prove security and compliance benefits.",
+    },
+    {
+      title: "Operations Management",
+      description:
+        "We provide upfront analysis & planning to use virtual resources efficiently.",
+    },
+    {
+      title: "Risk & Compliance",
+      description:
+        "A comprehensive approach to effectively manage social engineering attacks.",
+    },
+    {
+      title: "Web Application Security",
+      description:
+        "Web application firewall to monitor your applications, instantly detect and prevent threats.",
+    },
   ],
 };
+
 
 export const DevOpsAutomationPageContent = {
   banner: {

@@ -45,6 +45,34 @@ import SocialPeopleImpact from "./pages/responsibility/SocialPeopleImpact";
 import PeopleJoin from "./pages/people/PeopleJoin";
 import PeopleValues from "./pages/people/PeopleValues";
 import PeopleView from "./pages/people/PeopleView";
+import Documents from "./components/documents/Documents";
+import Csr from "./pages/Csr";
+import CompanyPolicy from "./pages/website-policies/CompanyPolicy";
+import TermsConditions from "./pages/website-policies/TermsConditions";
+import CookiesPolicy from "./pages/website-policies/CookiesPolicy";
+
+import {
+  SapEwm,
+  SapTm,
+  SapYl,
+  SapIbp,
+  SapSppEspp,
+  SapBusinessDataCloud,
+  SapAnalyticsCloud,
+  SapDatasphere,
+  SapS4hana,
+  SapBusinessSuite,
+  RiseWithSap,
+  GrowWithSap,
+  SapSignavio,
+  SapLeanIx,
+  SapActivate,
+  SapBtp,
+  SapGreenToken,
+  SapSct,
+  SapSdx,
+} from "./pages/sap-solution-page";
+import Disclaimer from "./pages/website-policies/Disclmair";
 
 function App() {
   return (
@@ -56,7 +84,10 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/features" element={<Features />} />
-        <Route path="/Training" element={<Training />} />
+        <Route path="/documents" element={<Documents />} />
+        <Route path="/training" element={<Training />} />
+        <Route path="/csr" element={<Csr />} />
+
         <Route path="/servicespage" element={<ServicesPageLayout />}>
           <Route path="sap-consulting" element={<SAPConsulting />} />
           <Route path="sap-implementation" element={<SAPImplementation />} />
@@ -64,6 +95,29 @@ function App() {
           <Route path="sap-enterprise" element={<SAPEnterprise />} />
           <Route path="sap-data-migration" element={<SAPDataMigration />} />
           <Route path="sap-staffing" element={<SAPStaffing />} />
+          {/* SAP Solutions routes */}
+          <Route path="sap-ewm" element={<SapEwm />} />
+          <Route path="sap-tm" element={<SapTm />} />
+          <Route path="sap-yl" element={<SapYl />} />
+          <Route path="sap-ibp" element={<SapIbp />} />
+          <Route path="sap-spp-espp" element={<SapSppEspp />} />
+          <Route
+            path="sap-business-data-cloud"
+            element={<SapBusinessDataCloud />}
+          />
+          <Route path="sap-analytics-cloud" element={<SapAnalyticsCloud />} />
+          <Route path="sap-datasphere" element={<SapDatasphere />} />
+          <Route path="sap-s4hana" element={<SapS4hana />} />
+          <Route path="sap-business-suite" element={<SapBusinessSuite />} />
+          <Route path="rise-with-sap" element={<RiseWithSap />} />
+          <Route path="grow-with-sap" element={<GrowWithSap />} />
+          <Route path="sap-signavio" element={<SapSignavio />} />
+          <Route path="sap-leanix" element={<SapLeanIx />} />
+          <Route path="sap-activate" element={<SapActivate />} />
+          <Route path="sap-btp" element={<SapBtp />} />
+          <Route path="sap-green-token" element={<SapGreenToken />} />
+          <Route path="sap-sct" element={<SapSct />} />
+          <Route path="sap-sdx" element={<SapSdx />} />
         </Route>
         <Route
           path="/all-services-page/blockchain"
@@ -174,6 +228,13 @@ function App() {
         <Route path="/people/people-join" element={<PeopleJoin />} />
         <Route path="/people/people-view" element={<PeopleView />} />
         <Route path="/people/people-values" element={<PeopleValues />} />
+
+        {/* footer section  */}
+
+        <Route path="/privacy-policy" element={<CompanyPolicy />} />
+        <Route path="/terms-conditions" element={<TermsConditions />} />
+        <Route path="/cookies" element={<CookiesPolicy />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
       </Routes>
       <FooterSection />
     </Router>

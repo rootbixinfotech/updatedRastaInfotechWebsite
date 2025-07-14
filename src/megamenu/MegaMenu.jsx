@@ -9,6 +9,7 @@ const MegaMenu = ({ type, isMobile }) => {
 
   const serviceRoutes = {
     "SAP CONSULTING SERVICES": "/servicespage/sap-consulting",
+    
     "BLOCKCHAIN": "/all-services-page/blockchain",
     "CYBER SECURITY": "/all-services-page/cyber-security",
     "DEVOPS AUTOMATION SERVICES": "/all-services-page/devops",
@@ -21,15 +22,14 @@ const MegaMenu = ({ type, isMobile }) => {
     "AZURE SERVICES": "/all-services-page/azure-services-page",
     "APPLICATION SERVICES": "/all-services-page/application-services-content",
     "COGNITIVE": "/all-services-page/cognitive-page-content",
-     "AI" : "/all-services-page/AI-page-content",
-     "ENTERPRISE AUTOMATION" : "/all-services-page/enterprise-automation-content",
-     "PRODUCT-ENGINEERING-SERVICES":"/all-services-page/product-engineering-content",
-     "SALESFORCE CONSULTING AND SERVICES COE" : "/all-services-page/salesforce-page-content",
-     "AWS SERVICES":"/all-services-page/aws-services-page-content",
-     "VMWARE TANZU SERVICES":"/all-services-page/tanzu-services-content",
-     "INFRASTRUCTURE SERVICES":"/all-services-page/infrastructure-services-content"
+    "AI": "/all-services-page/AI-page-content",
+    "ENTERPRISE AUTOMATION": "/all-services-page/enterprise-automation-content",
+    "PRODUCT-ENGINEERING-SERVICES": "/all-services-page/product-engineering-content",
+    "SALESFORCE CONSULTING AND SERVICES COE": "/all-services-page/salesforce-page-content",   
+    "AWS SERVICES": "/all-services-page/aws-services-page-content",
+    "VMWARE TANZU SERVICES": "/all-services-page/tanzu-services-content",
+    "INFRASTRUCTURE SERVICES": "/all-services-page/infrastructure-services-content",
      
-
 
     // Add more special cases here if needed
   };
@@ -114,19 +114,6 @@ const MegaMenu = ({ type, isMobile }) => {
               </div>
             </li>
 
-            {/* <li
-              className="flex items-start space-x-2 cursor-pointer hover:bg-blue-50 p-2 rounded-md transition-colors duration-300"
-              onClick={() => navigate("/careers")}
-            >
-              <span>💼</span>
-              <div>
-                <p className="font-semibold hover:text-blue-600 transition-colors duration-300">
-                  Careers
-                </p>
-                <p className="text-gray-500 text-xs">Join our growing team</p>
-              </div>
-            </li> */}
-            
             <li
               className="flex items-start space-x-2 cursor-pointer hover:bg-blue-50 p-2 rounded-md transition-colors duration-300"
               onClick={() => navigate("/contact")}
@@ -137,6 +124,19 @@ const MegaMenu = ({ type, isMobile }) => {
                   Contact
                 </p>
                 <p className="text-gray-500 text-xs">Get in touch with us</p>
+              </div>
+            </li>
+
+            <li
+              className="flex items-start space-x-2 cursor-pointer hover:bg-blue-50 p-2 rounded-md transition-colors duration-300"
+              onClick={() => navigate("/documents")}
+            >
+              <span>💼</span>
+              <div>
+                <p className="font-semibold hover:text-blue-600 transition-colors duration-300">
+                  Documents
+                </p>
+                <p className="text-gray-500 text-xs">See our Documentation</p>
               </div>
             </li>
           </ul>

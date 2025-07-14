@@ -21,6 +21,7 @@ const Navbar = () => {
     { label: "CONTACT", key: "CONTACT", hasSub: false },
     { label: "RESPONSIBILITY", key: "RESPONSIBILITY", hasSub: true },
     { label: "PEOPLE", key: "PEOPLE", hasSub: true },
+    { label: "CSR", key: "CSR", hasSub: true },
   ];
 
   const routeMap = {
@@ -32,6 +33,7 @@ const Navbar = () => {
     CONTACT: "/contact",
     RESPONSIBILITY: "/responsibility",
     PEOPLE: "/people",
+    CSR: "/csr"
   };
 
   const responsibilityItems = [
@@ -55,36 +57,6 @@ const Navbar = () => {
     { label: "View", path: "/people/people-view" },
     { label: "Values", path: "/people/people-values" },
   ];
-
-  // Sub-items for sections
-  // const getSubItems = (section) => {
-  //   if (section === "SERVICES")
-  //     return ServiceList.map((s) => ({ label: s.title, key: s.title }));
-  //   if (section === "INDUSTRIES")
-  //     return Industries.map((i) => ({ label: i.title, key: i.title }));
-  //   if (section === "RESPONSIBILITY")
-  //     return responsibilityItems.map((s) => ({ label: s, key: s }));
-  //   if (section === "PEOPLE") return people.map((s) => ({ label: s, key: s }));
-  //   return [];
-  // };
-
-  // const getSubItems = (section) => {
-  //   if (section === "SERVICES")
-  //     return ServiceList.map((s) => ({ label: s.title, key: s.path }));
-  //   if (section === "INDUSTRIES")
-  //     return Industries.map((i) => ({ label: i.title, key: i.path }));
-  //   if (section === "RESPONSIBILITY")
-  //     return responsibilityItems.map((item) => ({
-  //       label: item.label,
-  //       key: item.path,
-  //     }));
-  //   if (section === "PEOPLE")
-  //     return people.map((item) => ({
-  //       label: item.label,
-  //       key: item.path,
-  //     }));
-  //   return [];
-  // };
 
 
   const generatePath = (title) =>

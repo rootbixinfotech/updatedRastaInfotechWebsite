@@ -4,16 +4,16 @@ import "swiper/css";
 import "swiper/css/pagination";
 import {  Autoplay } from "swiper/modules";
 
-import banner_1 from "../../assets/Homebanner_1.jpg";
-import banner_2 from "../../assets/Homebanner_2.jpg";
-import banner_3 from "../../assets/Homebanner_3.jpg";
+import banner_1 from "../../assets/Welcome to Rasta Infotech.jpg";
+import banner_2 from "../../assets/Reliable IT Services for Every Stage of Growth.jpg";
+import banner_3 from "../../assets/Seamless IT Services to Drive Your Business Forward.jpg";
 
 const slides = [
   {
     id: 1,
     title: "Welcome to Rasta Infotech",
     description: "Unlock Online Success with our Customized It Services",
-    image: banner_3,
+    image: banner_1,
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const slides = [
     id: 3,
     title: "Seamless IT Services to Drive Your Business Forward",
     description: "From Infrastructure to Innovation – We’ve Got IT Covered",
-    image: banner_1,
+    image: banner_3,
   },
 ];
 

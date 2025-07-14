@@ -10,7 +10,7 @@ const teamMembers = [
   { img: team1, name: "John Doe", role: "Director" },
   { img: team2, name: "Mike Doe", role: "Senior Designer" },
   { img: team3, name: "Jane Doe", role: "Senior Designer" },
-  { img: team4, name: "Karen Doe", role: "Project Manager" },
+  { img: team4, name: "Karen Doe", role: "Project Manager"},
 ];
 
 const TeamSection = () => {
@@ -31,7 +31,7 @@ const TeamSection = () => {
                 alt={member.name}
                 className="w-full h-[250px] object-cover rounded"
               />
-              <h3 className="mt-4 text-lg font-semibold">{member.name}</h3>
+              <h3 className="mt-4 text-lg font-semibold">{member.name} </h3> 
               <p className="text-gray-500">{member.role}</p>
             </div>
           ))}

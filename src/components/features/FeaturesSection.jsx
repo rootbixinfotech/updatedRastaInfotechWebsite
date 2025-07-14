@@ -1,32 +1,37 @@
 import { useState } from "react";
-import { FaHeadset, FaChartLine, FaShieldAlt, FaCogs } from "react-icons/fa";
 import ContactModal from "../ContactModal";
+import {
+  FaUserClock,
+  FaChartBar,
+  FaDatabase,
+  FaProjectDiagram,
+} from "react-icons/fa";
 
 const features = [
   {
     id: 1,
-    icon: <FaHeadset size={40} />,
+    icon: <FaUserClock size={40} />, // Represents 24/7 support/availability
     title: "24/7 Managed IT Support",
     description:
       "Our dedicated support team is available round-the-clock to ensure seamless IT operations, resolve issues quickly, and maintain system uptime for your business.",
   },
   {
     id: 2,
-    icon: <FaChartLine size={40} />,
+    icon: <FaChartBar size={40} />, // Represents analytics/BI dashboards
     title: "Business Intelligence and Automation",
     description:
       "Unlock the power of your data with our BI solutions and streamline workflows through smart automation tools tailored to accelerate your business performance.",
   },
   {
     id: 3,
-    icon: <FaShieldAlt size={40} />,
+    icon: <FaDatabase size={40} />, // Represents backup/recovery/data protection
     title: "Disaster Recovery & Business Continuity",
     description:
       "Protect your data and ensure uninterrupted business operations with our comprehensive disaster recovery planning and failover solutions.",
   },
   {
     id: 4,
-    icon: <FaCogs size={40} />,
+    icon: <FaProjectDiagram size={40} />, // Represents systems integration/deployment
     title: "Software Deployment & Integration",
     description:
       "We offer smooth deployment and integration of enterprise software, ensuring compatibility, scalability, and minimal downtime during implementation.",

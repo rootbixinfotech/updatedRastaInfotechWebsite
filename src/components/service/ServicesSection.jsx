@@ -1,58 +1,58 @@
 import React from "react";
 import {
-  FaWordpress,
-  FaCartPlus,
-  FaCloudDownloadAlt,
-  FaLanguage,
-  FaPlane,
-  FaChartPie,
+  FaCogs,
+  FaLink,
+  FaShieldAlt,
+  FaRobot,
+  FaServer,
+  FaCloud,
 } from "react-icons/fa";
-
 
 const services = [
   {
     id: 1,
-    icon: <FaWordpress size={40} />,
+    icon: <FaCogs size={40} />, // Represents configuration and consulting (SAP)
     title: "SAP CONSULTING SERVICES",
     description:
       "Optimize your business operations with our SAP consulting services, offering end-to-end implementation, customization, and support for enterprise-grade solutions",
   },
   {
     id: 2,
-    icon: <FaCartPlus size={40} />,
+    icon: <FaLink size={40} />, // Represents connected decentralized networks (Blockchain)
     title: "BLOCKCHAIN",
     description:
       "Leverage secure, decentralized applications and smart contracts with our blockchain development services, tailored for supply chain, finance, and more",
   },
   {
     id: 3,
-    icon: <FaCloudDownloadAlt size={40} />,
+    icon: <FaShieldAlt size={40} />, // Represents protection and security
     title: "CYBER SECURITY",
     description:
       "Protect your digital assets with our advanced cybersecurity services, including threat detection, penetration testing, and risk management",
   },
   {
     id: 4,
-    icon: <FaLanguage size={40} />,
+    icon: <FaRobot size={40} />, // Represents automation and CI/CD
     title: "DEVOPS AUTOMATION SERVICES",
     description:
       "Accelerate your software delivery pipeline with our DevOps automation, covering CI/CD, infrastructure as code, and monitoring solutions",
   },
   {
     id: 5,
-    icon: <FaPlane size={40} />,
+    icon: <FaServer size={40} />, // Represents infrastructure, servers, data centers
     title: "INFRASTRUCTURE SERVICES",
     description:
       "Ensure scalability and reliability with our IT infrastructure services, including network setup, data center management, and cloud migration",
   },
   {
     id: 6,
-    icon: <FaChartPie size={40} />,
+    icon: <FaCloud size={40} />, // Represents cloud services
     title: "CLOUD",
     description:
       "Harness the power of the cloud with our cloud consulting, migration, and managed services across AWS, Azure, and Google Cloud",
   },
 ];
+
 
 const ServicesSection = () => {
   return (

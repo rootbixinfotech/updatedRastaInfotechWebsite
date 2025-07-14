@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceSidebar from "../../components/ServiceSidebar";
-import services from "../../components/services";
+import services, { SapSolutions } from "../../components/services";
 import { Outlet, useLocation } from "react-router-dom";
 
 import {
@@ -51,10 +51,11 @@ const ServicesPageLayout = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col">
       {/* Dynamic Banner */}
       {bannerData && <ServiceBanner {...bannerData} />}
+      
       {/* Sidebar and Content below banner */}
       <div className="flex flex-col md:flex-row w-full max-w-[1400px] mx-auto mt-8">
         <aside className="w-full md:w-[30%] px-2 md:px-0">
-          <ServiceSidebar services={services} />
+          <ServiceSidebar services={services} sapSolutions={SapSolutions} />
         </aside>
 
         <main className="w-full md-[70%] px-2 md:px-8 mb-10">

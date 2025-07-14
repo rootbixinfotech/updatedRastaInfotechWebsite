@@ -85,7 +85,7 @@ const ContactUs = () => {
           },
           {
             icon: <FaPhoneAlt className="h-9 w-8" />,
-            text: "+91 98765 43210",
+            text: "+91-97425-07066",
             description:
               "Call our team directly for immediate assistance or consultation.",
           },
@@ -118,14 +118,11 @@ const ContactUs = () => {
           <h3 className="text-xl font-semibold text-blue-700">
             Contact Information
           </h3>
-          <p className="text-sm text-gray-700">
-            We’ll create high-quality linkable content and build at least 40
-            high-authority links tailored to your needs.
-          </p>
+         
           <div className="flex flex-col gap-4 text-sm text-gray-700">
             <div className="flex items-center gap-2">
               <FaPhoneAlt className="text-blue-600" />
-              <span>+91-9972-9266-77</span>
+              <span>+91-97425-07066</span>
             </div>
 
             <div className="flex items-center gap-2">
@@ -135,8 +132,8 @@ const ContactUs = () => {
             <div className="flex items-center gap-2">
               <FaMapMarkerAlt className="text-blue-600" />
               <span>
-                Office Address : 23 2nd Cros, Near Malnad, Coaching Centr MHR
-                Layout, Bangalore North, Karnataka, India, 560090
+                Office Address : 23 2nd Cross, Near Malnad, Coaching Center MHR
+                Layout, Bangalore North, Karnataka, India-560090
               </span>
             </div>
           </div>

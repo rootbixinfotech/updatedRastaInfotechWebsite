@@ -16,16 +16,20 @@ import logo_white from "../../assets/logo_white.png";
 import rastainfotech_white from "../../assets/rastainfotech_white.png";
 import { Link } from "react-router-dom";
 
+import { useNavigate } from "react-router-dom";
+
 const links = [
   { name: "Home", path: "/" },
   { name: "About Us", path: "/about" },
   { name: "Contact Us", path: "/contact" },
   { name: "Blogs" },
-  { name: "FAQ" },
-  { name: "Faculty" },
+  // { name: "FAQ" },
+  // { name: "Faculty" },
 ];
 
 const FooterSection = () => {
+  const navigate = useNavigate();
+
   return (
     <footer className="bg-[#0B121B] text-white py-12 px-6 md:px-16 ">
       {/* join section  */}
@@ -65,16 +69,30 @@ const FooterSection = () => {
           </div>
 
           <p className="text-sm text-gray-300">
-            Welcome to Rasta Infotech, your ultimate destination for top-notch
-            online training and education. Since 2021, we have empowered 10,000+
-            students and facilitated 9200 placements.
+            Your trusted partner on the Road to Success! We provide end-to-end
+            IT solutions, from SAP and digital marketing to AI, cybersecurity,
+            and beyond, fueling innovation and growth for your business.
           </p>
           <div className="flex gap-4 text-xl mt-4">
             <FaFacebookF />
             <FaXTwitter />
-            <FaLinkedinIn />
+            <a
+              href="https://www.linkedin.com/company/rastainfotech/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-blue-900 transition"
+            >
+              <FaLinkedinIn />
+            </a>
             <FaYoutube />
-            <FaInstagram />
+            <a
+              href="https://www.instagram.com/rasta_infotech/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-blue-900 transition"
+            >
+              <FaInstagram />
+            </a>
           </div>
         </div>
 
@@ -121,20 +139,21 @@ const FooterSection = () => {
           <div className="flex items-start gap-2 text-gray-300 text-sm mb-3">
             <HiOutlineLocationMarker className="mt-1" />
             <span>
-              Office Address : 23 2nd Cros, Near Malnad, Coaching Centr MHR
+              Office Address : 23 2nd Cross, Near Malnad, Coaching Centr MHR
               Layout, Bangalore North, Karnataka, India, 560090
             </span>
           </div>
           <div className="flex items-center gap-2 mb-2 text-gray-300">
-            <HiOutlinePhone /> +91-9972-9266-77
+            <HiOutlinePhone /> +91-97425-07066
           </div>
           <div className="flex items-center gap-2 mb-4 text-gray-300">
             <HiOutlineMail /> info@rastainfotech.com
           </div>
-          <div className="flex gap-4">
+
+          {/* <div className="flex gap-4">
             <img src="/google-play.png" alt="Google Play" className="h-10" />
             <img src="/app-store.png" alt="App Store" className="h-10" />
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -148,11 +167,32 @@ const FooterSection = () => {
 
       {/* Bottom Links */}
       <div className="mt-4 text-sm flex flex-wrap justify-center gap-6 text-gray-300">
-        <a href="#">Terms & Conditions</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Refund Policy</a>
-        <a href="#">Accessibility Statement</a>
-        <a href="#">Cookies Setting</a>
+        <span
+          onClick={() => navigate("/terms-conditions")}
+          className="cursor-pointer hover:text-white"
+        >
+          Terms & Condition
+        </span>
+        <span
+          onClick={() => navigate("/privacy-policy")}
+          className="cursor-pointer hover:text-white"
+        >
+          Privacy Policy
+        </span>
+
+        <span
+          onClick={() => navigate("/disclaimer")}
+          className="cursor-pointer hover:text-white"
+        >
+          Disclaimer
+        </span>
+
+        <span
+          onClick={() => navigate("/cookies")}
+          className="cursor-pointer hover:text-white"
+        >
+          Cookies Setting
+        </span>
       </div>
     </footer>
   );
