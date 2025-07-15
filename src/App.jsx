@@ -50,6 +50,7 @@ import Csr from "./pages/Csr";
 import CompanyPolicy from "./pages/website-policies/CompanyPolicy";
 import TermsConditions from "./pages/website-policies/TermsConditions";
 import CookiesPolicy from "./pages/website-policies/CookiesPolicy";
+import ScrollToTop from "./components/ScrollToTop";
 
 import {
   SapEwm,
@@ -78,6 +79,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<ContactUs />} />
