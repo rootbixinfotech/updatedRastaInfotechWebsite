@@ -21,7 +21,7 @@ const SAPConsulting = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             What is Supply Chain Consulting?
           </h2>
-          <p className="text-gray-700 text-base leading-relaxed">
+          <p className="text-gray-700 text-base leading-relaxed text-justify">
             Supply chain consulting is a process of advising businesses on how
             to improve their supply chains. Consultants help businesses identify
             and fix inefficiencies, reduce costs, and improve customer service.
@@ -40,7 +40,7 @@ const SAPConsulting = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Highly Collaborative Approach for Optimal Business Performance
           </h2>
-          <p className="text-gray-700 text-base leading-relaxed">
+          <p className="text-gray-700 text-base leading-relaxed text-justify">
             As a leading SAP Consulting Company, we take a collaborative
             approach to unlock maximum productivity with new technologies. This
             strategy has resulted in a 100% success rate for our clients.
@@ -57,7 +57,7 @@ const SAPConsulting = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Leveraging the Power of SAP Technology for Business Development
           </h2>
-          <p className="text-gray-700 text-base leading-relaxed">
+          <p className="text-gray-700 text-base leading-relaxed text-justify">
             We provide technical SAP services including SAP Fiori & UI5, SAP S/4
             Hana, and more. Our experience spans full project lifecycles from
             planning to deployment.
@@ -74,7 +74,7 @@ const SAPConsulting = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Why Choose Rasta Infotech for Supply Chain Consulting Services?
           </h2>
-          <ul className="list-disc ml-6 text-gray-700 text-base space-y-3">
+          <ul className="list-disc ml-6 text-gray-700 text-base space-y-3 text-justify">
             <li>
               <strong>Expertise:</strong> Proven experience in identifying and
               solving supply chain challenges.
@@ -88,12 +88,12 @@ const SAPConsulting = () => {
               practices, and analytics.
             </li>
           </ul>
-          <p className="mt-6 text-gray-700 leading-relaxed">
+          <p className="mt-6 text-gray-700 leading-relaxed text-justify">
             Ready to take your supply chain to the next level? We’ll discuss
             your goals and challenges and create a customized roadmap for
             success.
           </p>
-          <div className="mt-6">
+          <div className="mt-6 text-justify">
             <span className="font-bold text-blue-600 text-lg">
               “Contact Rasta Infotech today for a quick consultation and learn
               how we can help you improve your supply chain.”
@@ -106,7 +106,7 @@ const SAPConsulting = () => {
           <h3 className="text-xl font-semibold mb-2">
             Need expert SAP guidance?
           </h3>
-          <p className="text-base mb-4">
+          <p className="text-base mb-4 text-justify">
             We’re ready to help you streamline your business with intelligent
             SAP solutions.
           </p>

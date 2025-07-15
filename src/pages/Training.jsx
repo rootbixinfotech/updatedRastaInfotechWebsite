@@ -57,7 +57,7 @@ const Training = () => {
                 <br /> of the Way
               </span>
             </h1>
-            <p className="text-gray-600 mt-6 text-lg max-w-xl">
+            <p className="text-gray-600 mt-6 text-lg max-w-xl text-justify">
               Enterprise Consulting Company focused on SAP Consulting, Corporate
               IT Training, Recruitment, Talent Management, and Product
               Development.
@@ -353,7 +353,7 @@ const Training = () => {
                     Developments & Innovation
                   </h2>
 
-                  <p className="text-gray-600 mb-4 leading-relaxed">
+                  <p className="text-gray-600 mb-4 leading-relaxed text-justify">
                     Development is where ideas come to life. Whether it's coding
                     a new feature, optimizing a system, or exploring emerging
                     technologies, our development teams are at the forefront of
@@ -361,7 +361,7 @@ const Training = () => {
                     user-friendly solutions that meet real-world needs.
                   </p>
 
-                  <p className="text-gray-600 mb-4 leading-relaxed">
+                  <p className="text-gray-600 mb-4 leading-relaxed text-justify">
                     Through continuous learning and collaboration, we encourage
                     innovation and excellence in every project. Our developers
                     are equipped with modern tools, agile methodologies, and a
@@ -395,7 +395,7 @@ const Training = () => {
                     Project Services
                   </h2>
 
-                  <p className="text-gray-600 mb-4 leading-relaxed">
+                  <p className="text-gray-600 mb-4 leading-relaxed text-justify">
                     Projects are the foundation of our work at{" "}
                     <strong>Rasta Infotech.</strong>
                     Each project is a focused initiative designed to deliver
@@ -405,7 +405,7 @@ const Training = () => {
                     and purpose.
                   </p>
 
-                  <p className="text-gray-600 mb-4 leading-relaxed">
+                  <p className="text-gray-600 mb-4 leading-relaxed text-justify">
                     Whether you're managing a client-facing solution or
                     contributing to internal innovation, understanding our
                     project framework is key to your success.
@@ -437,7 +437,7 @@ const Training = () => {
                     Support Services
                   </h2>
 
-                  <p className="text-gray-600 mb-4 leading-relaxed">
+                  <p className="text-gray-600 mb-4 leading-relaxed text-justify">
                     We provide comprehensive support across technical,
                     functional, and operational areas. Whether it's resolving a
                     system issue, guiding a client through a process, or
@@ -445,7 +445,7 @@ const Training = () => {
                     equipped to handle it all with professionalism and care.
                   </p>
 
-                  <p className="text-gray-600 mb-4 leading-relaxed">
+                  <p className="text-gray-600 mb-4 leading-relaxed text-justify">
                     Our goal is to deliver seamless experiences and build
                     long-term trust through consistent and high-quality support.
                   </p>
@@ -489,7 +489,7 @@ const Training = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-[#0f0f3a] mb-4">
               Real Success Stories
             </h2>
-            <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+            <p className="text-gray-700 text-lg mb-6 leading-relaxed text-justify">
               <strong>RastaInfotech</strong> isn't just about acquiring new
               skills; it's about transforming lives. Our alumni network is a
               testament to the impact of our training, with countless graduates
@@ -557,16 +557,16 @@ const Training = () => {
               <h2 className="text-2xl font-semibold mb-4 text-blue-700">
                 Rasta Infotech & GTR Academy Collaboration
               </h2>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-4 text-justify">
                 Rasta Infotech forwards all training-related leads to GTR
                 Academy. If you’re here to learn, just submit your details — GTR
                 Academy will get in touch with you.
               </p>
-              <p className="text-gray-700">
+              <p className="text-gray-700 text-justify">
                 Let’s bridge the gap between learning and real-world skills
                 through this industry-academia partnership.
               </p>
-              <div className="text-center mt-16">
+              <div className="text-center mt-5">
                 <a
                   href="https://gtracademy.in"
                   target="_blank"

@@ -29,7 +29,6 @@ const SAPStaffing = () => {
     <div className="w-full h-full pt-24 px-4 md:px-20 bg-gray-50">
       <div className="max-w-6xl mx-auto space-y-12">
         {/* Header */}
-
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-800 leading-snug">
             Hire Highly Qualified{" "}
@@ -42,7 +41,7 @@ const SAPStaffing = () => {
 
         {/* Introduction */}
         <section className="bg-white p-6 rounded-xl shadow-md">
-          <p className="text-gray-700 text-base leading-relaxed">
+          <p className="text-gray-700 text-base leading-relaxed text-justify">
             Rasta Infotech bridges the gap between SAP talent and enterprise
             opportunity. With deep industry knowledge and a vast network, we
             connect you to top-tier SAP professionals across all modules —
@@ -52,7 +51,7 @@ const SAPStaffing = () => {
             We maintain one of the largest SAP staffing teams with proven
             placement across varied domains.
           </p>
-          <ul className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-gray-800 list-disc list-inside">
+          <ul className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-gray-800 list-disc list-inside text-justify">
             <li>SAP Extended Warehouse Management (SAP EWM)</li>
             <li>SAP Transportation Management Services</li>
             <li>SAP Warehouse Robotics/Automation</li>
@@ -68,7 +67,7 @@ const SAPStaffing = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Our SAP Staffing Services Include:
           </h2>
-          <p className="text-gray-700 text-base mb-6">
+          <p className="text-gray-700 text-base mb-6 text-justify">
             At Rasta Infotech Pvt Ltd, our team of SAP experts and recruiters
             deeply understands the hiring needs for enterprise SAP
             implementations. We offer adaptable contract and contingent staffing
@@ -81,7 +80,9 @@ const SAPStaffing = () => {
                 <MdOutlineKeyboardDoubleArrowRight className="text-blue-600 text-2xl mt-1" />
                 <div>
                   <p className="font-bold text-gray-800">{item.title}</p>
-                  <p className="text-sm text-gray-600">{item.desc}</p>
+                  <p className="text-sm text-gray-600 text-justify">
+                    {item.desc}
+                  </p>
                 </div>
               </div>
             ))}
@@ -93,7 +94,7 @@ const SAPStaffing = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Why Choose Rasta Infotech Pvt. Ltd. for SAP Staffing?
           </h2>
-          <p className="text-gray-700 text-base mb-4">
+          <p className="text-gray-700 text-base mb-4 text-justify">
             Rasta Infotech provides skilled SAP developers capable of designing
             and optimizing mission-critical enterprise solutions. Our flexible
             staffing models are aligned with project-specific and budgetary
@@ -103,7 +104,9 @@ const SAPStaffing = () => {
             {benefits.map((benefit, index) => (
               <div key={index} className="flex items-start gap-3">
                 <MdOutlineKeyboardDoubleArrowRight className="text-blue-600 text-xl mt-1" />
-                <p className="text-gray-700 font-medium">{benefit}</p>
+                <p className="text-gray-700 font-medium text-justify">
+                  {benefit}
+                </p>
               </div>
             ))}
           </div>
@@ -128,6 +131,7 @@ const SAPStaffing = () => {
           </button>
         </section>
       </div>
+
       <ContactModal isOpen={showModal} onClose={() => setShowModal(false)} />
     </div>
   );

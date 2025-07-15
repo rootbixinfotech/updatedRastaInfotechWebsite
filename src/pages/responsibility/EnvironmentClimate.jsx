@@ -41,7 +41,6 @@ const EnvironmentClimate = () => {
 
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-2 sm:px-6 md:px-10 py-10 md:py-16 space-y-16">
-
         {/* About Section */}
         <section className="grid md:grid-cols-2 gap-8 items-center">
           <div>
@@ -50,15 +49,33 @@ const EnvironmentClimate = () => {
             </h2>
             <ul className="list-disc list-inside space-y-2 text-sm sm:text-base">
               {/* List items as-is */}
-              <li><strong>Air:</strong> The atmosphere that surrounds us...</li>
-              <li><strong>Water:</strong> Oceans, rivers, lakes...</li>
-              <li><strong>Land:</strong> Forests, deserts, urban areas...</li>
-              <li><strong>Biodiversity:</strong> Variety of life forms...</li>
-              <li><strong>Climate:</strong> Long-term weather patterns...</li>
-              <li><strong>Soil:</strong> A vital resource for agriculture...</li>
-              <li><strong>Energy Resources:</strong> Natural sources...</li>
-              <li><strong>Forests:</strong> Crucial ecosystems...</li>
-              <li><strong>Oceans:</strong> Regulate climate...</li>
+              <li>
+                <strong>Air:</strong> The atmosphere that surrounds us...
+              </li>
+              <li>
+                <strong>Water:</strong> Oceans, rivers, lakes...
+              </li>
+              <li>
+                <strong>Land:</strong> Forests, deserts, urban areas...
+              </li>
+              <li>
+                <strong>Biodiversity:</strong> Variety of life forms...
+              </li>
+              <li>
+                <strong>Climate:</strong> Long-term weather patterns...
+              </li>
+              <li>
+                <strong>Soil:</strong> A vital resource for agriculture...
+              </li>
+              <li>
+                <strong>Energy Resources:</strong> Natural sources...
+              </li>
+              <li>
+                <strong>Forests:</strong> Crucial ecosystems...
+              </li>
+              <li>
+                <strong>Oceans:</strong> Regulate climate...
+              </li>
             </ul>
             <p className="mt-4 text-sm sm:text-base">
               A healthy environment supports life, regulates climate...
@@ -108,15 +125,33 @@ const EnvironmentClimate = () => {
               Solutions and Sustainability
             </h2>
             <ul className="list-disc list-inside space-y-2 text-sm sm:text-base">
-              <li><strong>Renewable Energy:</strong> Harness clean power...</li>
-              <li><strong>Sustainable Agriculture:</strong> Crop rotation...</li>
-              <li><strong>Conservation:</strong> Preserve natural resources...</li>
-              <li><strong>Green Infrastructure:</strong> Sustainable designs...</li>
-              <li><strong>Circular Economy:</strong> Reduce, reuse, recycle...</li>
-              <li><strong>Water Conservation:</strong> Efficient use...</li>
-              <li><strong>Sustainable Transportation:</strong> EVs, transit...</li>
-              <li><strong>Climate Education:</strong> Raise awareness...</li>
-              <li><strong>Corporate Responsibility:</strong> Green practices...</li>
+              <li>
+                <strong>Renewable Energy:</strong> Harness clean power...
+              </li>
+              <li>
+                <strong>Sustainable Agriculture:</strong> Crop rotation...
+              </li>
+              <li>
+                <strong>Conservation:</strong> Preserve natural resources...
+              </li>
+              <li>
+                <strong>Green Infrastructure:</strong> Sustainable designs...
+              </li>
+              <li>
+                <strong>Circular Economy:</strong> Reduce, reuse, recycle...
+              </li>
+              <li>
+                <strong>Water Conservation:</strong> Efficient use...
+              </li>
+              <li>
+                <strong>Sustainable Transportation:</strong> EVs, transit...
+              </li>
+              <li>
+                <strong>Climate Education:</strong> Raise awareness...
+              </li>
+              <li>
+                <strong>Corporate Responsibility:</strong> Green practices...
+              </li>
             </ul>
           </div>
           <img
@@ -140,13 +175,29 @@ const EnvironmentClimate = () => {
         </section>
 
         {/* Looking Ahead */}
-        <section className="grid md:grid-cols-2 gap-8 items-center">
+        <section className="grid md:grid-cols-2 gap-8 items-center py-10">
           <div>
             <h2 className="text-xl md:text-2xl font-bold text-green-800 mb-4">
               Looking Ahead
             </h2>
-            <p className="text-sm sm:text-base">
-              The future of our planet hinges on today’s actions...
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+              The future of our planet hinges on today’s actions. As global
+              temperatures continue to rise, glaciers melt, and sea levels
+              increase, the time for passive concern has passed. It’s now
+              imperative to build sustainable habits, adopt renewable energy
+              sources, and invest in environmental education and awareness. The
+              choices we make today—whether personal, corporate, or
+              governmental—will determine whether future generations inherit a
+              thriving Earth or a struggling one.
+              <br />
+              <br />
+              Innovations in clean technology, stricter environmental policies,
+              reforestation efforts, and global climate treaties are shaping the
+              path forward. However, without widespread citizen participation
+              and behavioral change, policy alone is not enough.
+              Everyone—individuals, communities, and businesses—must look ahead
+              with intention and action to create a future where nature and
+              humanity can thrive in balance.
             </p>
           </div>
           <img
@@ -157,12 +208,31 @@ const EnvironmentClimate = () => {
         </section>
 
         {/* Conclusion */}
-        <section>
+        <section className="py-10">
           <h2 className="text-xl md:text-2xl font-bold text-green-800 mb-4">
             Conclusion
           </h2>
-          <p className="text-sm sm:text-base">
-            The environment and climate are deeply intertwined...
+          <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+            The environment and climate are deeply intertwined, forming the
+            foundation of life on Earth. As we confront challenges like
+            deforestation, pollution, and climate change, we must also embrace
+            opportunities—opportunities to innovate, educate, and inspire
+            sustainable change.
+            <br />
+            <br />
+            Protecting our planet is not just an environmental duty—it’s a
+            social, economic, and moral responsibility. Businesses must
+            integrate green practices into their operations. Schools and
+            institutions must educate future leaders about ecological
+            stewardship. And individuals must make conscious choices in how they
+            consume, travel, and live.
+            <br />
+            <br />
+            Together, through collective responsibility and forward-thinking
+            action, we can build a resilient and regenerative future—one that
+            ensures clean air, safe water, fertile soil, and a stable climate
+            for generations to come. The planet does not need saving; it needs
+            understanding, care, and commitment.
           </p>
         </section>
 

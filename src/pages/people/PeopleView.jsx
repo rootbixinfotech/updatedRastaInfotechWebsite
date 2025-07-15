@@ -9,7 +9,7 @@ const PeopleView = () => {
   return (
     <div className="bg-slate-50 text-gray-800 pt-20">
       {/* Banner */}
-      <section className="relative h-[420px] overflow-hidden rounded-b-3xl shadow-md">
+      <section className="relative h-[420px] overflow-hidden rounded-b-3xl shadow-md text-justify">
         <img
           src={peopleBanner}
           alt="People at Rasta Infotech"
@@ -96,7 +96,7 @@ const PeopleView = () => {
         {/* Join CTA */}
         <div className="bg-blue-100 border-l-4 border-blue-600 p-6 rounded-xl shadow">
           <h3 className="text-2xl font-bold text-blue-800 mb-3">Join the Experience</h3>
-          <p className="text-lg text-gray-700">
+          <p className="text-lg text-gray-700 text-justify">
             If you’re looking for a company where your voice matters, your growth is supported,
             and your work makes a difference, Rasta Infotech is the place to be. Discover what
             it’s like to be part of a team that values people, celebrates progress, and leads with purpose.
@@ -114,7 +114,7 @@ const PeopleView = () => {
 const Section = ({ title, content }) => (
   <section>
     <h2 className="text-3xl font-bold text-blue-800 mb-4">{title}</h2>
-    <p className="text-lg leading-relaxed text-gray-700">{content}</p>
+    <p className="text-lg leading-relaxed text-gray-700 text-justify">{content}</p>
   </section>
 );
 
@@ -122,7 +122,7 @@ const Section = ({ title, content }) => (
 const QuoteSection = ({ title, quote, author, content }) => (
   <section className="bg-white rounded-3xl shadow-md p-8 space-y-4">
     <h2 className="text-2xl font-semibold text-green-700">{title}</h2>
-    <p className="text-gray-700">{content}</p>
+    <p className="text-gray-700 text-justify">{content}</p>
     <blockquote className="italic border-l-4 border-green-500 pl-4 text-gray-600">
       “{quote}” — <strong>{author}</strong>
     </blockquote>

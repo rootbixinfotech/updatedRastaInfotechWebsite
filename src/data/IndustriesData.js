@@ -14,30 +14,28 @@ export const HealthCarePageContent = {
     content: `At Rasta Infotech, we empower pharmaceutical, biotech, and medical device companies to unlock value across the entire healthcare ecosystem. Our digital solutions enhance patient experiences, optimize clinical operations, and ensure compliance in a highly regulated environment. From R&D acceleration to smart manufacturing and patient-centric platforms, we enable intelligent transformation backed by data and automation. Our deep domain knowledge and proven engineering practices make us the ideal partner for life sciences organizations aiming to scale innovation securely and efficiently.`,
   },
 
-   latestThinkingArticles : [
-      {
-        title: "Digital Therapeutics Platforms",
-        summary:
-          "Exploring how digital platforms are transforming patient behavior and chronic disease management through AI-driven insights."
-      },
-      {
-        title: "Remote Patient Monitoring",
-        summary:
-          "Advancing connected healthcare with real-time data from wearables and IoMT devices for proactive intervention."
-      },
-      {
-        title: "EMR/EHR System Development",
-        summary:
-          "The role of FHIR standards and secure architecture in modernizing patient records across institutions."
-      },
-      {
-        title: "Health Analytics",
-        summary:
-          "Unlocking clinical insights through structured and unstructured data pipelines in healthcare organizations."
-      }
-    ],
-
-  
+  latestThinkingArticles: [
+    {
+      title: "Digital Therapeutics Platforms",
+      summary:
+        "Exploring how digital platforms are transforming patient behavior and chronic disease management through AI-driven insights.",
+    },
+    {
+      title: "Remote Patient Monitoring",
+      summary:
+        "Advancing connected healthcare with real-time data from wearables and IoMT devices for proactive intervention.",
+    },
+    {
+      title: "EMR/EHR System Development",
+      summary:
+        "The role of FHIR standards and secure architecture in modernizing patient records across institutions.",
+    },
+    {
+      title: "Health Analytics",
+      summary:
+        "Unlocking clinical insights through structured and unstructured data pipelines in healthcare organizations.",
+    },
+  ],
 
   industryHighlights: [
     {
@@ -45,27 +43,27 @@ export const HealthCarePageContent = {
       title: "Clinical Data Management",
       description:
         "Streamline clinical trial data handling with secure, real-time digital systems ensuring integrity, compliance, and faster insights.",
-      bgColor: "bg-green-200",
-      textColor: "text-green-900",
-      iconBg: "bg-green-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🏥",
       title: "Hospital Automation",
       description:
         "Enable seamless patient journeys with hospital information systems, remote diagnostics, and digital care coordination.",
-      bgColor: "bg-blue-100",
-      textColor: "text-blue-900",
-      iconBg: "bg-blue-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "💊",
       title: "Supply Chain Visibility",
       description:
         "Track pharma inventory, logistics, and cold chain data through IoT-enabled dashboards and real-time alerts.",
-      bgColor: "bg-indigo-100",
-      textColor: "text-indigo-900",
-      iconBg: "bg-indigo-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
@@ -158,27 +156,27 @@ export const HospitalityPageContent = {
       title: "Smart Hotel Operations",
       description:
         "Digitize front desk, housekeeping, and maintenance workflows for faster service and reduced operational costs.",
-      bgColor: "bg-yellow-100",
-      textColor: "text-yellow-900",
-      iconBg: "bg-yellow-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "📱",
       title: "Contactless Guest Experience",
       description:
         "Enable mobile check-in/out, digital keys, and app-based room controls for a frictionless stay.",
-      bgColor: "bg-purple-100",
-      textColor: "text-purple-900",
-      iconBg: "bg-purple-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "📊",
       title: "Revenue Management",
       description:
         "Use AI-driven forecasting and dynamic pricing tools to maximize occupancy and profitability.",
-      bgColor: "bg-pink-100",
-      textColor: "text-pink-900",
-      iconBg: "bg-pink-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
@@ -238,7 +236,8 @@ export const OilAndGasPageContent = {
   },
 
   introduction: {
-    title: "Driving Efficiency and Safety in Oil & Gas Through Digital Innovation",
+    title:
+      "Driving Efficiency and Safety in Oil & Gas Through Digital Innovation",
     content: `At Rasta Infotech, we empower upstream, midstream, and downstream oil & gas enterprises to optimize operations, enhance safety, and reduce environmental impact. Our digital solutions span asset management, predictive maintenance, real-time monitoring, and compliance automation. With deep domain expertise and advanced engineering capabilities, we help energy companies modernize infrastructure, improve decision-making, and achieve sustainable growth.`,
   },
 
@@ -271,27 +270,27 @@ export const OilAndGasPageContent = {
       title: "Asset Performance Management",
       description:
         "Monitor and optimize the performance of critical assets using real-time data and predictive analytics.",
-      bgColor: "bg-orange-100",
-      textColor: "text-orange-900",
-      iconBg: "bg-orange-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🛢️",
       title: "Pipeline Monitoring & Safety",
       description:
         "Implement IoT-based surveillance and leak detection systems to ensure pipeline integrity and safety.",
-      bgColor: "bg-red-100",
-      textColor: "text-red-900",
-      iconBg: "bg-red-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "⚙️",
       title: "Smart Refinery Operations",
       description:
         "Digitize refinery workflows with automation, analytics, and integrated control systems for improved efficiency.",
-      bgColor: "bg-gray-100",
-      textColor: "text-gray-900",
-      iconBg: "bg-gray-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
@@ -343,7 +342,6 @@ export const OilAndGasPageContent = {
   ],
 };
 
-
 export const HiTechPageContent = {
   banner: {
     image: bannerHealthCare,
@@ -385,27 +383,27 @@ export const HiTechPageContent = {
       title: "Product Engineering Services",
       description:
         "Accelerate time-to-market with end-to-end product development, from concept to deployment, across embedded systems, software, and hardware.",
-      bgColor: "bg-blue-100",
-      textColor: "text-blue-900",
-      iconBg: "bg-blue-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "📡",
       title: "Next-Gen Connectivity",
       description:
         "Leverage 5G, Wi-Fi 6, and LPWAN technologies to build connected ecosystems for smart homes, cities, and industries.",
-      bgColor: "bg-indigo-100",
-      textColor: "text-indigo-900",
-      iconBg: "bg-indigo-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🔐",
       title: "IP Protection & Security",
       description:
         "Implement secure development lifecycles, encryption, and access control to safeguard proprietary technologies and data.",
-      bgColor: "bg-red-100",
-      textColor: "text-red-900",
-      iconBg: "bg-red-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
@@ -457,7 +455,6 @@ export const HiTechPageContent = {
   ],
 };
 
-
 export const EnergyAndUtilitiesPageContent = {
   banner: {
     image: bannerHealthCare,
@@ -466,7 +463,8 @@ export const EnergyAndUtilitiesPageContent = {
   },
 
   introduction: {
-    title: "Empowering the Energy & Utilities Sector Through Digital Transformation",
+    title:
+      "Empowering the Energy & Utilities Sector Through Digital Transformation",
     content: `At Rasta Infotech, we help energy and utility companies modernize their infrastructure, optimize operations, and transition toward sustainable and resilient systems. Our digital solutions span across power generation, transmission, distribution, and customer engagement. With a focus on smart grids, renewable integration, predictive maintenance, and regulatory compliance, we enable organizations to meet the growing demand for clean, reliable, and efficient energy. Our deep industry expertise, combined with advanced technologies like AI, IoT, and cloud computing, positions us as a strategic partner for utilities navigating the energy transition.`,
   },
 
@@ -499,27 +497,27 @@ export const EnergyAndUtilitiesPageContent = {
       title: "Smart Grid Solutions",
       description:
         "Enable real-time monitoring, automated fault detection, and dynamic load balancing with intelligent grid technologies.",
-      bgColor: "bg-yellow-100",
-      textColor: "text-yellow-900",
-      iconBg: "bg-yellow-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🌞",
       title: "Renewable Energy Management",
       description:
         "Integrate and manage distributed energy resources (DERs) with advanced forecasting and grid orchestration tools.",
-      bgColor: "bg-green-100",
-      textColor: "text-green-900",
-      iconBg: "bg-green-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "📈",
       title: "Energy Analytics & Forecasting",
       description:
         "Leverage big data and machine learning to predict demand, optimize supply, and reduce operational costs.",
-      bgColor: "bg-blue-100",
-      textColor: "text-blue-900",
-      iconBg: "bg-blue-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
@@ -571,7 +569,6 @@ export const EnergyAndUtilitiesPageContent = {
   ],
 };
 
-
 export const ManufacturingPageContent = {
   banner: {
     image: bannerHealthCare,
@@ -613,27 +610,27 @@ export const ManufacturingPageContent = {
       title: "Smart Manufacturing",
       description:
         "Digitize production processes with IoT-enabled equipment, MES integration, and real-time performance monitoring.",
-      bgColor: "bg-gray-100",
-      textColor: "text-gray-900",
-      iconBg: "bg-gray-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🔧",
       title: "Predictive Maintenance",
       description:
         "Use sensor data and AI to anticipate equipment failures, reduce downtime, and extend asset life cycles.",
-      bgColor: "bg-blue-100",
-      textColor: "text-blue-900",
-      iconBg: "bg-blue-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "📦",
       title: "Supply Chain Optimization",
       description:
         "Enhance visibility, traceability, and responsiveness across your supply network with digital logistics platforms.",
-      bgColor: "bg-yellow-100",
-      textColor: "text-yellow-900",
-      iconBg: "bg-yellow-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
@@ -685,7 +682,6 @@ export const ManufacturingPageContent = {
   ],
 };
 
-
 export const TravelAndTransportationPageContent = {
   banner: {
     image: bannerHealthCare,
@@ -727,27 +723,28 @@ export const TravelAndTransportationPageContent = {
       title: "Smart Travel Solutions",
       description:
         "Digitize the traveler journey with mobile apps, AI chatbots, and real-time updates for a seamless experience.",
-      bgColor: "bg-blue-100",
-      textColor: "text-blue-900",
-      iconBg: "bg-blue-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🚚",
       title: "Fleet & Logistics Optimization",
       description:
         "Use GPS tracking, route optimization, and predictive maintenance to streamline logistics and reduce costs.",
-      bgColor: "bg-green-100",
-      textColor: "text-green-900",
-      iconBg: "bg-green-500",
+
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🛳️",
       title: "Multimodal Transportation Platforms",
       description:
         "Integrate air, rail, road, and sea transport into unified booking and tracking systems for end-to-end visibility.",
-      bgColor: "bg-purple-100",
-      textColor: "text-purple-900",
-      iconBg: "bg-purple-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
@@ -807,7 +804,8 @@ export const LifeSciencesPageContent = {
   },
 
   introduction: {
-    title: "Accelerating Innovation in Life Sciences Through Digital Transformation",
+    title:
+      "Accelerating Innovation in Life Sciences Through Digital Transformation",
     content: `In a rapidly evolving healthcare landscape, Rasta Infotech partners with life sciences organizations to harness the power of digital technologies, accelerate research, streamline operations, and ensure regulatory compliance. From pharmaceuticals and biotechnology to medical devices and clinical research, our tailored digital solutions empower companies to drive scientific breakthroughs, enhance patient outcomes, and bring life-saving therapies to market faster.
 
 We enable a digital-first approach across the life sciences value chain—leveraging AI, machine learning, cloud computing, and data analytics to transform drug discovery, clinical trials, manufacturing, and post-market surveillance. Whether you're optimizing R&D pipelines, digitizing regulatory submissions, or ensuring data integrity in GxP environments, our expertise supports innovation with precision and compliance. Rasta Infotech helps you stay competitive and resilient in an increasingly complex and regulated global market.`,
@@ -842,27 +840,27 @@ We enable a digital-first approach across the life sciences value chain—levera
       title: "Digital Drug Development",
       description:
         "Accelerate research and preclinical development through AI-driven molecule modeling, lab automation, and data unification.",
-      bgColor: "bg-purple-100",
-      textColor: "text-purple-900",
-      iconBg: "bg-purple-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "📊",
       title: "Clinical Data Management",
       description:
         "Centralize patient data, automate trial workflows, and gain insights through EDC, CTMS, and real-world data integration.",
-      bgColor: "bg-blue-100",
-      textColor: "text-blue-900",
-      iconBg: "bg-blue-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🔬",
       title: "Regulatory and Quality Compliance",
       description:
         "Digitize document management, audit trails, and SOP workflows to ensure alignment with FDA, EMA, and global regulatory bodies.",
-      bgColor: "bg-red-100",
-      textColor: "text-red-900",
-      iconBg: "bg-red-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
@@ -922,7 +920,8 @@ export const PublicSectorPageContent = {
   },
 
   introduction: {
-    title: "Digital Government Services for an Inclusive, Efficient, and Secure Public Sector",
+    title:
+      "Digital Government Services for an Inclusive, Efficient, and Secure Public Sector",
     content: `At Rasta Infotech, we empower governments, public agencies, and non-profit organizations to leverage digital innovation for better service delivery, increased transparency, and enhanced citizen engagement. As governments around the world embrace digital-first initiatives, we provide cutting-edge solutions that modernize public infrastructure, automate services, and optimize resource utilization.
 
 We specialize in helping local, state, and federal bodies accelerate e-governance, streamline operations, and enhance public trust. From smart cities and digital identity platforms to data-driven policymaking and cybersecurity, our tailored services are aligned with public sector compliance standards and citizen-centric goals. Our technology-driven transformation helps public organizations reduce bureaucracy, foster collaboration, and improve the quality of services delivered to citizens and stakeholders.`,
@@ -957,33 +956,34 @@ We specialize in helping local, state, and federal bodies accelerate e-governanc
       title: "E-Governance Platforms",
       description:
         "Build digital portals and mobile apps that streamline public services, registrations, and citizen grievance redressal systems.",
-      bgColor: "bg-green-100",
-      textColor: "text-green-900",
-      iconBg: "bg-green-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🛡️",
       title: "Public Sector Cybersecurity",
       description:
         "Implement robust cybersecurity frameworks to protect national infrastructure and comply with data protection mandates.",
-      bgColor: "bg-red-100",
-      textColor: "text-red-900",
-      iconBg: "bg-red-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🌐",
       title: "Smart City Solutions",
       description:
         "Enable urban innovation with IoT-enabled infrastructure, intelligent traffic management, smart utilities, and real-time monitoring.",
-      bgColor: "bg-blue-100",
-      textColor: "text-blue-900",
-      iconBg: "bg-blue-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
   whyChooseUs: {
     image: healthcarelabImg,
-    heading: "Why Choose Rasta Infotech for Public Sector Digital Transformation?",
+    heading:
+      "Why Choose Rasta Infotech for Public Sector Digital Transformation?",
     description:
       "With deep experience in delivering secure, scalable, and citizen-focused technology, Rasta Infotech supports public sector organizations in navigating the complex challenges of modernization. We understand regulatory compliance, budget constraints, and the critical need for public trust. Our government solutions are built with accessibility (WCAG), interoperability (OGC, NIEM), and cybersecurity (NIST, ISO 27001) at their core. From social welfare and tax systems to education portals and emergency services—we deliver transformational outcomes that benefit both government agencies and the communities they serve.",
   },
@@ -1037,7 +1037,8 @@ export const CommunicationsPageContent = {
   },
 
   introduction: {
-    title: "Revolutionizing the Communications Industry with Next-Gen Digital Solutions",
+    title:
+      "Revolutionizing the Communications Industry with Next-Gen Digital Solutions",
     content: `In an era defined by hyper-connectivity and digital disruption, Rasta Infotech empowers communication service providers (CSPs), telecom operators, and media enterprises to transform their networks, operations, and customer experiences. From 5G infrastructure and cloud-native OSS/BSS systems to real-time analytics and AI-driven personalization, we help accelerate digital transformation across the communications value chain.
 
 Our solutions are designed to enhance network performance, optimize customer journeys, and drive operational agility. We support telcos in unlocking new revenue streams through digital platforms, IoT monetization, and edge computing. Whether you're looking to modernize legacy telecom infrastructure or scale content delivery, our domain expertise and technology capabilities ensure a competitive edge in the rapidly evolving communications landscape.`,
@@ -1072,27 +1073,27 @@ Our solutions are designed to enhance network performance, optimize customer jou
       title: "5G Network Enablement",
       description:
         "Design, deploy, and optimize 5G infrastructure with edge computing, SDN/NFV, and real-time orchestration capabilities.",
-      bgColor: "bg-blue-100",
-      textColor: "text-blue-900",
-      iconBg: "bg-blue-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "📱",
       title: "Digital Customer Experience",
       description:
         "Transform customer interactions with AI-powered chatbots, self-care portals, and omnichannel engagement strategies.",
-      bgColor: "bg-green-100",
-      textColor: "text-green-900",
-      iconBg: "bg-green-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "💼",
       title: "Business Support System (BSS) Modernization",
       description:
         "Implement modular, API-first BSS solutions to support billing, CRM, order management, and partner enablement at scale.",
-      bgColor: "bg-yellow-100",
-      textColor: "text-yellow-900",
-      iconBg: "bg-yellow-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
@@ -1187,27 +1188,27 @@ With rising customer expectations, volatile demand, and global disruptions, logi
       title: "Fleet & Transport Management",
       description:
         "Digitize fleet operations with GPS tracking, route optimization, driver behavior analytics, and predictive maintenance.",
-      bgColor: "bg-blue-100",
-      textColor: "text-blue-900",
-      iconBg: "bg-blue-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "🏪",
       title: "Warehouse Management Systems (WMS)",
       description:
         "Implement advanced WMS solutions integrated with robotics, barcode scanning, and inventory optimization algorithms.",
-      bgColor: "bg-yellow-100",
-      textColor: "text-yellow-900",
-      iconBg: "bg-yellow-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
     {
       icon: "📦",
       title: "Last-Mile Delivery Optimization",
       description:
         "Enhance last-mile efficiency using AI-powered route planning, mobile delivery apps, and real-time delivery tracking.",
-      bgColor: "bg-green-100",
-      textColor: "text-green-900",
-      iconBg: "bg-green-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-800",
+      iconBg: "bg-blue-100",
     },
   ],
 
@@ -1268,11 +1269,3 @@ With rising customer expectations, volatile demand, and global disruptions, logi
     },
   ],
 };
-
-
-
-
-
-
-
-

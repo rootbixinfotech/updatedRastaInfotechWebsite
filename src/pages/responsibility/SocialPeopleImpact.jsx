@@ -46,7 +46,7 @@ const SocialPeopleImpact = () => {
       </div>
 
       {/* Introduction */}
-      <section className="space-y-4">
+      <section className="space-y-4 text-justify">
         <p>
           At <strong>Rasta Infotech</strong>, we believe that true success is
           measured not only by innovation and growth but also by the positive
@@ -64,7 +64,7 @@ const SocialPeopleImpact = () => {
           <h2 className="text-3xl font-semibold text-blue-700 mb-4">
             Empowering People Through Opportunity
           </h2>
-          <p className="mb-4">
+          <p className="mb-4 text-justify">
             People are at the heart of everything we do. Whether it’s our
             employees, partners, or the communities we serve, we are dedicated
             to creating opportunities that uplift and empower.
@@ -125,11 +125,11 @@ const SocialPeopleImpact = () => {
           <h2 className="text-3xl font-semibold text-blue-700 mb-4">
             Environmental Responsibility
           </h2>
-          <p>
+          <p className="text-justify">
             We integrate sustainability into everything we do—because social
             impact and environmental stewardship go hand in hand.
           </p>
-          <ul className="list-disc pl-5 space-y-2 mt-4 text-gray-700">
+          <ul className="list-disc pl-5 space-y-2 mt-4 text-gray-700 text-justify">
             <li>
               <strong>Green Offices:</strong> Energy-efficient systems,
               paperless practices, and employee-led eco-initiatives.
@@ -148,7 +148,7 @@ const SocialPeopleImpact = () => {
       </section>
 
       {/* Technology for Good */}
-      <section className="grid md:grid-cols-2 gap-12 items-center">
+      <section className="grid md:grid-cols-2 gap-12 items-center text-justify">
         <img
           src={educationImage}
           alt="Technology for Good"
@@ -198,7 +198,7 @@ const SocialPeopleImpact = () => {
       </section>
 
       {/* Ethical Business */}
-      <section className="grid md:grid-cols-2 gap-12 items-center">
+      <section className="grid md:grid-cols-2 gap-12 items-center text-justify">
         <div>
           <h2 className="text-3xl font-semibold text-blue-700 mb-4">
             Ethical Business Practices
@@ -249,7 +249,7 @@ const SocialPeopleImpact = () => {
         <h2 className="text-3xl font-semibold text-blue-700">
           Measuring Our Impact
         </h2>
-        <p>
+        <p className="text-justify">
           We believe in accountability and transparency. That’s why we track and
           report our impact through measurable goals—from the number of students
           trained to the amount of carbon offset. At{" "}
@@ -265,7 +265,7 @@ const SocialPeopleImpact = () => {
         </p>
 
         <h2 className="text-3xl font-semibold text-green-700">Looking Ahead</h2>
-        <p>
+        <p className="text-justify">
           As we grow, so does our responsibility. We continue to deepen our
           partnerships, expand our initiatives, and build a future where
           technology empowers people and businesses lead with purpose.{" "}

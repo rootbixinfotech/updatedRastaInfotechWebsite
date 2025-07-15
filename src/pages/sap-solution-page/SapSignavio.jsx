@@ -81,7 +81,7 @@ const SapSignavio = () => {
     <div className="max-w-7xl mx-auto px-4 py-24 text-gray-800">
       <h1 className="text-4xl font-bold mb-8 text-blue-900">SAP Signavio</h1>
 
-      <p className="mb-6">
+      <p className="mb-6 text-justify">
         SAP Signavio is a powerful suite that combines process mining,
         management, and automation. It enables enterprises to design, analyze,
         improve, and manage processes with transparency and intelligence.
@@ -99,7 +99,7 @@ const SapSignavio = () => {
             <h3 className="text-xl font-semibold text-blue-700 mb-2">
               {index + 1}. {useCase.title}
             </h3>
-            <p className="text-gray-700">{useCase.content}</p>
+            <p className="text-gray-700 text-justify">{useCase.content}</p>
           </div>
         ))}
       </div>
@@ -116,7 +116,7 @@ const SapSignavio = () => {
             <h3 className="text-lg font-bold text-blue-700 mb-2">
               {benefit.title}
             </h3>
-            <p>{benefit.content}</p>
+            <p className="text-justify">{benefit.content}</p>
           </div>
         ))}
       </div>
@@ -124,7 +124,7 @@ const SapSignavio = () => {
       <h2 className="text-2xl font-semibold text-blue-800 mb-4 mt-10">
         Why Rasta Infotech for SAP Signavio?
       </h2>
-      <ul className="list-disc pl-5 space-y-2">
+      <ul className="list-disc pl-5 space-y-2 text-justify">
         <li>Certified consultants with in-depth expertise.</li>
         <li>Trusted partnership with the SAP Signavio team.</li>
         <li>Clients across industries and geographies.</li>
@@ -207,7 +207,9 @@ const SapSignavio = () => {
                 <td className="px-4 py-4 text-gray-600 whitespace-nowrap">
                   {item.duration}
                 </td>
-                <td className="px-4 py-4 text-gray-700">{item.activities}</td>
+                <td className="px-4 py-4 text-gray-700 text-justify">
+                  {item.activities}
+                </td>
               </tr>
             ))}
           </tbody>

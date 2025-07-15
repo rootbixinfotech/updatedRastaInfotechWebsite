@@ -82,7 +82,7 @@ const FaqSection = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="text-gray-600">{item.answer}</p>
+                <p className="text-gray-600 text-justify">{item.answer}</p>
               </div>
             </div>
           ))}
@@ -93,7 +93,7 @@ const FaqSection = () => {
           <h3 className="text-2xl font-semibold mb-4">
             Let's <span className="font-bold">collaborate</span>
           </h3>
-          <p className="text-gray-700 mb-6">
+          <p className="text-gray-700 mb-6 text-justify">
             No matter where you are in the world, our assistance is readily
             available. Initiate a project or reach out to us for crafting a
             personalized package tailored to your business.

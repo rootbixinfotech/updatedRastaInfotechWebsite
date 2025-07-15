@@ -45,10 +45,10 @@ const GrowWithSap = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-24 text-gray-800">
+    <div className="max-w-7xl mx-auto px-4 py-24 text-gray-800 ">
       <h1 className="text-4xl font-bold mb-8 text-blue-900">GROW with SAP</h1>
 
-      <p className="mb-6">
+      <p className="mb-6 text-justify">
         GROW with SAP is a cloud-based ERP offering from SAP, specifically designed to help midmarket
         and fast-growing companies quickly adopt and benefit from SAP S/4HANA Cloud Public Edition.
         It’s a streamlined, cost-effective, and scalable solution tailored for businesses that want to
@@ -58,7 +58,7 @@ const GrowWithSap = () => {
       <h2 className="text-2xl font-semibold text-blue-800 mb-4 mt-10">
         Why Start with GROW with SAP?
       </h2>
-      <ul className="space-y-3 list-disc list-inside">
+      <ul className="space-y-3 list-disc list-inside text-justify">
         <li>Manage continuous changes and regulations with ease</li>
         <li>Grow into new markets while reducing your cost base</li>
         <li>Simplify IT infrastructure with secure, cloud-based ERP and automatic upgrades</li>
@@ -67,7 +67,7 @@ const GrowWithSap = () => {
         <li>Leverage AI technology to automate repetitive tasks</li>
       </ul>
 
-      <p className="mt-4 italic">
+      <p className="mt-4 italic text-justify">
         If your answer is yes to any of these questions, then the GROW with SAP offering could be the
         solution for you.
       </p>
@@ -82,7 +82,7 @@ const GrowWithSap = () => {
             className="p-6 border rounded-lg shadow-md hover:shadow-lg transition duration-300"
           >
             <h3 className="text-lg font-bold mb-2 text-blue-700">{item.title}</h3>
-            <p>{item.content}</p>
+            <p className="text-justify">{item.content}</p>
           </div>
         ))}
       </div>
@@ -90,16 +90,16 @@ const GrowWithSap = () => {
       <h2 className="text-2xl font-semibold text-blue-800 mb-4 mt-10">
         The Implementation Approach – SAP Activate Methodology
       </h2>
-      <p className="mb-4">
+      <p className="mb-4 text-justify">
         At Westernacher, our goal is a holistic business transformation—not just a tech
         implementation. GROW with SAP is based on the ‘Cloud Mindset’ approach, which means adopting
         best practices over customizations. 
       </p>
-      <p className="mb-4">
+      <p className="mb-4 text-justify">
         SAP Activate methodology is the recommended implementation approach. With SAP’s
         prescriptive tools, accelerators, and methodology, you get speed and quality.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 text-justify">
         Westernacher advocates a 'core foundation first' strategy. Focus first on core processes
         (Wave 1) to go live quickly, gain immediate value, and prepare your team for future expansion
         (Wave 2).

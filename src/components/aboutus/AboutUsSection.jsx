@@ -35,7 +35,7 @@ const AboutUsSection = () => {
             ABOUT US
             <div className="w-20 h-1 bg-blue-500 mt-1"></div>
           </h2>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-justify">
             At <span className="text-black font-semibold">Rasta InfoTech</span>,
             we are passionate about transforming ideas into innovative
             technology solutions. Founded with a vision to empower businesses
@@ -48,7 +48,7 @@ const AboutUsSection = () => {
               science projects.
             </span>
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-justify">
             What sets{" "}
             <span className="text-black font-semibold">Rasta InfoTech</span>{" "}
             apart is our unwavering commitment to quality, timely delivery, and

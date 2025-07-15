@@ -6,6 +6,7 @@ import logo from "../../assets/logo.svg";
 import rastainfotech_black from "../../assets/rastainfotech_black.png";
 import MegaMenu from "../../megamenu/MegaMenu";
 import { ServiceList, Industries } from "../../data/Data";
+import { getServicePath, getIndustryPath } from "../../utils/pathUtils";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,24 +60,19 @@ const Navbar = () => {
   ];
 
 
-  const generatePath = (title) =>
-  "/services/" +
-  title
-    .toLowerCase()
-    .replace(/[,&]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-");
+  // Replace generatePath with two functions:
+  // Remove local generateServicePath and generateIndustryPath
 
 const getSubItems = (section) => {
   if (section === "SERVICES")
     return ServiceList.map((s) => ({
       label: s.title,
-      key: generatePath(s.title),
+      key: getServicePath(s.title),
     }));
   if (section === "INDUSTRIES")
     return Industries.map((i) => ({
       label: i.title,
-      key: generatePath(i.title),
+      key: getIndustryPath(i.title),
     }));
   if (section === "RESPONSIBILITY")
     return responsibilityItems.map((item) => ({

@@ -63,7 +63,7 @@ const About = () => {
         <h3 className="text-2xl md:text-3xl font-semibold mb-6">
           We make sure your idea & creation delivered properly
         </h3>
-        <div className="grid md:grid-cols-2 gap-8 text-gray-600">
+        <div className="grid md:grid-cols-2 gap-8 text-gray-600 text-justify">
           <p>
             <strong>Rasta Infotech</strong> is a leading digital solutions
             provider specializing in custom software development, enterprise
@@ -105,14 +105,14 @@ const About = () => {
             <h3 className="text-3xl font-semibold mb-6">
               We empower small business owners
             </h3>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
+            <p className="text-gray-700 mb-4 text-lg leading-relaxed text-justify">
               At <strong>Rasta Infotech</strong>, we believe that small
               businesses are the backbone of innovation and community growth.
               Our mission is to empower entrepreneurs and small business owners
               with affordable, scalable, and smart digital solutions that help
               them compete in today’s fast-paced market.
             </p>
-            <blockquote className="border-l-4 border-yellow-400 pl-4 text-gray-700 italic">
+            <blockquote className="border-l-4 border-yellow-400 pl-4 text-gray-700 italic text-justify">
               “Whether you're launching a startup, running a local shop, or
               expanding your online presence, we provide the tools and
               technology to help you succeed.”

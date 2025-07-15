@@ -27,7 +27,7 @@ const Csr = () => {
           <h1 className="text-4xl md:text-5xl font-extrabold drop-shadow-md mb-2">
             🌍 Corporate Social Responsibility
           </h1>
-          <p className="text-xl md:text-2xl font-medium text-orange-800 drop-shadow-sm">
+          <p className="text-xl md:text-2xl font-medium text-gray-800 drop-shadow-sm">
             Uplifting Communities
           </p>
           <p className="text-xl md:text-2xl font-medium text-blue-800 drop-shadow-sm">
@@ -41,7 +41,7 @@ const Csr = () => {
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">
           What are our <span className="text-orange-500">responsibility</span>
         </h2>
-        <p className="text-lg mx-45 leading-relaxed text-gray-300">
+        <p className="text-lg mx-45 leading-relaxed text-gray-300 text-justify">
           At <span className="font-semibold italic">Rasta Infotech</span>,
           responsibility doesn’t end at the firewall. Our Corporate Social
           Responsibility (CSR) philosophy blends compassion with action—building
@@ -52,7 +52,7 @@ const Csr = () => {
       {/* Food Drives Section */}
       <div className="bg-gray-100 py-16 px-6 rounded-2xl shadow-md mb-16">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-          <div data-aos="fade-right ">
+          <div data-aos="fade-right">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">
               🍲 Community Nourishment: Food Drives That Matter
             </h2>
@@ -80,7 +80,6 @@ const Csr = () => {
           src={clothesImage}
           alt="Clothing Distribution"
           className="rounded-xl shadow-xl hover:scale-105 transition-transform duration-300"
-          // data-aos="zoom-in"
         />
         <div data-aos="fade-left">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">
@@ -119,7 +118,7 @@ const Csr = () => {
               <strong>women's empowerment at its core</strong>. In rural areas
               where opportunity is scarce, we invest in:
             </p>
-            <ul className="list-disc ml-6 text-gray-700 space-y-2 text-lg">
+            <ul className="list-disc ml-6 text-gray-700 space-y-2 text-lg text-justify">
               <li>
                 <span className="italic">Educational programs</span> covering
                 digital literacy, financial planning, and career skills
@@ -148,7 +147,6 @@ const Csr = () => {
             src={womenImage}
             alt="Women Empowerment"
             className="rounded-xl shadow-xl hover:scale-105 transition-transform duration-600"
-            // data-aos="zoom-in"
           />
         </div>
       </div>
@@ -159,7 +157,6 @@ const Csr = () => {
           src={innovationImage}
           alt="Innovation"
           className="rounded-xl shadow-xl hover:scale-105 transition-transform duration-300"
-          // data-aos="zoom-in"
         />
         <div data-aos="fade-left">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">

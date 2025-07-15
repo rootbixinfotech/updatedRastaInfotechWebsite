@@ -51,7 +51,7 @@ const PeopleValues = () => {
   return (
     <div className="bg-slate-50 text-gray-800 pt-20">
       {/* Banner */}
-      <section className="relative h-[420px] overflow-hidden rounded-b-3xl shadow-md">
+      <section className="relative h-[420px] overflow-hidden rounded-b-3xl shadow-md text-justify">
         <img
           src={valuesBanner}
           alt="People Values at Rasta Infotech"
@@ -79,7 +79,7 @@ const PeopleValues = () => {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-16 space-y-16">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 py-16 space-y-16 text-justify">
         {/* Intro */}
         <Section
           title="Guided by Values, Driven by Purpose"
@@ -105,6 +105,7 @@ const PeopleValues = () => {
 
         {/* Living Our Values */}
         <Section
+        className="text-justify"
           title="How We Live Our Values"
           content={
             <>
@@ -134,7 +135,7 @@ const PeopleValues = () => {
         />
 
         {/* Testimonials */}
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6 text-justify">
           {[
             {
               quote:
@@ -163,6 +164,7 @@ const PeopleValues = () => {
 
         {/* Conclusion */}
         <Section
+        className="text-justify"
           title="Conclusion"
           content="Our people values are the soul of Rasta Infotech. They define who we are, how we operate, and what we stand for. By living these values every day, we create a workplace that is ethical, inclusive, innovative, and impactful. We’re proud of our culture—and excited for the future we’re shaping together."
         />
@@ -172,7 +174,7 @@ const PeopleValues = () => {
           <h3 className="text-2xl font-bold text-blue-800 mb-3">
             We Live Our Values
           </h3>
-          <p className="text-lg text-gray-700">
+          <p className="text-lg text-gray-700 text-justify">
             At Rasta Infotech, values aren’t just what we believe—they’re what
             we live. Join a team that leads with integrity, empathy, and
             purpose.
@@ -189,7 +191,7 @@ const PeopleValues = () => {
 const Section = ({ title, content }) => (
   <section>
     <h2 className="text-3xl font-bold text-blue-800 mb-4">{title}</h2>
-    <div className="text-lg leading-relaxed">{content}</div>
+    <div className="text-lg leading-relaxed text-justify">{content}</div>
   </section>
 );
 

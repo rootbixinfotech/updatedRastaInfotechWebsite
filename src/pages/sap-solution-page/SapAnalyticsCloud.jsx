@@ -42,7 +42,7 @@ const SapAnalyticsCloud = () => {
           <h1 className="text-4xl font-bold text-gray-800 mb-4">
             SAP Analytics Cloud (SAC)
           </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
             SAP Analytics Cloud is a unified cloud analytics platform for data
             modeling, forecasting, reporting, collaboration, and planning—all
             powered by AI and designed to empower data-driven decisions.
@@ -54,14 +54,14 @@ const SapAnalyticsCloud = () => {
           <h2 className="text-2xl font-semibold text-gray-800">
             What is SAP Analytics Cloud?
           </h2>
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-justify">
             SAP Analytics Cloud (SAC) is a cloud-based analytics platform that
             enables organizations to gain real-time insights into their data,
             collaborate effectively, and make smarter decisions. It supports a
             full range of analytics—from data visualization and predictive
             analytics to planning and reporting.
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-justify">
             SAC provides scalability, intuitive interfaces, and deep integration
             across SAP and non-SAP environments, making it ideal for businesses
             seeking agility, automation, and collaboration in their analytics
@@ -126,16 +126,16 @@ const SapAnalyticsCloud = () => {
               intuitive dashboards for users of all skill levels.
             </li>
             <li>
-              <strong>Collaboration:</strong> Work in real time with
-              team-based sharing, commenting, and report editing.
+              <strong>Collaboration:</strong> Work in real time with team-based
+              sharing, commenting, and report editing.
             </li>
             <li>
               <strong>Scalability:</strong> A cloud-native design that scales
               with your users, data sources, and business growth.
             </li>
             <li>
-              <strong>Cost Savings:</strong> Reduce IT overhead with
-              cloud-based deployment and no infrastructure to maintain.
+              <strong>Cost Savings:</strong> Reduce IT overhead with cloud-based
+              deployment and no infrastructure to maintain.
             </li>
           </ul>
         </section>
@@ -154,7 +154,7 @@ const SapAnalyticsCloud = () => {
                 <h3 className="text-lg font-semibold text-blue-700 mb-2">
                   {idx + 1}. {item.title}
                 </h3>
-                <p className="text-gray-700">{item.description}</p>
+                <p className="text-gray-700 text-justify">{item.description}</p>
               </div>
             ))}
           </div>

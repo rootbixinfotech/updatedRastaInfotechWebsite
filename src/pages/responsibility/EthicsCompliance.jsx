@@ -38,7 +38,7 @@ const EthicsCompliance = () => {
       </div>
 
       {/* Intro */}
-      <section className="space-y-4 text-sm sm:text-base">
+      <section className="space-y-4 text-sm sm:text-base text-justify">
         <p>
           At <strong>Rasta Infotech</strong>, we are committed to conducting business with the highest standards of integrity, transparency, and accountability.
         </p>
@@ -54,7 +54,7 @@ const EthicsCompliance = () => {
       </section>
 
       {/* Commitment */}
-      <section className="space-y-4 text-sm sm:text-base">
+      <section className="space-y-4 text-sm sm:text-base text-justify">
         <h2 className="text-2xl sm:text-3xl font-semibold text-blue-700">Our Commitment</h2>
         <p>
           We believe that ethical conduct is not just a legal obligation—it’s a core value that defines who we are.
@@ -74,7 +74,7 @@ const EthicsCompliance = () => {
           <p className="mb-4 text-sm sm:text-base">
             Our Code of Conduct outlines the principles that guide our behavior. It includes:
           </p>
-          <ul className="list-disc pl-5 space-y-2 text-sm sm:text-base">
+          <ul className="list-disc pl-5 space-y-2 text-sm sm:text-base text-justify">
             <li>Anti-corruption and bribery prevention</li>
             <li>Fair competition and antitrust compliance</li>
             <li>Data privacy and protection</li>
@@ -94,7 +94,7 @@ const EthicsCompliance = () => {
       </section>
 
       {/* Ethical Decision-Making */}
-      <section className="space-y-4 text-sm sm:text-base">
+      <section className="space-y-4 text-sm sm:text-base text-justify">
         <h2 className="text-2xl sm:text-3xl font-semibold text-blue-700">Ethical Decision-Making</h2>
         <p>
           We empower employees with tools and frameworks to make ethical decisions in complex situations.

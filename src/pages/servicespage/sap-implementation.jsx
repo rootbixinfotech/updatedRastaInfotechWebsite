@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import ContactModal from "../../components/ContactModal";
 
-
 const SAPImplementation = () => {
-   const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className="w-full h-full pt-24 px-4 md:px-20 bg-gray-50">
       <div className="w-full max-w-5xl mx-auto space-y-12">
@@ -21,7 +20,7 @@ const SAPImplementation = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Welcome to Rasta Infotech
           </h2>
-          <p className="text-gray-700 text-base leading-relaxed">
+          <p className="text-gray-700 text-base leading-relaxed text-justify">
             In today's fast-paced business environment, leveraging the power of
             SAP can be a game-changer for organizations seeking to optimize
             their supply chain processes and streamline their operations. We
@@ -35,7 +34,7 @@ const SAPImplementation = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Introduction to Rasta Infotech
           </h2>
-          <p className="text-gray-700 text-base leading-relaxed">
+          <p className="text-gray-700 text-base leading-relaxed text-justify">
             At Rasta Infotech, we understand the critical role that effective
             supply chain management plays in the success of any organization.
             With over 10 years of experience, we have become a leading provider
@@ -56,7 +55,7 @@ const SAPImplementation = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Why Implement SAP?
           </h2>
-          <ul className="list-disc ml-6 text-gray-700 text-base space-y-3">
+          <ul className="list-disc ml-6 text-gray-700 text-base space-y-3 text-justify">
             <li>
               <strong>Streamlined Processes:</strong> Automate and optimize core
               business processes, reducing manual effort and errors.
@@ -81,7 +80,7 @@ const SAPImplementation = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Our SAP Implementation Process
           </h2>
-          <ol className="list-decimal ml-6 text-gray-700 text-base space-y-3">
+          <ol className="list-decimal ml-6 text-gray-700 text-base space-y-3 text-justify">
             <li>
               <strong>Needs Assessment and Planning:</strong> We start by
               understanding your business objectives and requirements,
@@ -116,11 +115,11 @@ const SAPImplementation = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             SAP Development Services
           </h2>
-          <p className="text-gray-700 text-base leading-relaxed mb-4">
+          <p className="text-gray-700 text-base leading-relaxed mb-4 text-justify">
             Every business has unique requirements. Our SAP Development services
             include:
           </p>
-          <ul className="list-disc ml-6 text-gray-700 text-base space-y-3">
+          <ul className="list-disc ml-6 text-gray-700 text-base space-y-3 text-justify">
             <li>
               <strong>Custom SAP Reports:</strong> Tailored reports and
               dashboards for actionable insights.
@@ -149,7 +148,7 @@ const SAPImplementation = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Why Choose Rasta Infotech for SAP Implementation?
           </h2>
-          <ul className="list-disc ml-6 text-gray-700 text-base space-y-3">
+          <ul className="list-disc ml-6 text-gray-700 text-base space-y-3 text-justify">
             <li>
               <strong>Expertise and Experience:</strong> Decades of experience
               in SAP implementation and development.
@@ -182,7 +181,7 @@ const SAPImplementation = () => {
             We’re ready to help you streamline your business with intelligent
             SAP solutions.
           </p>
-         <button
+          <button
             className="bg-gradient-to-r from-blue-500 to-blue-300 text-white font-semibold px-6 py-2 rounded-full hover:from-blue-600 hover:to-blue-400 transition"
             onClick={() => {
               setShowModal(true);
@@ -192,8 +191,8 @@ const SAPImplementation = () => {
           </button>
         </section>
       </div>
-      <ContactModal isOpen={showModal} onClose={() => setShowModal(false)} />
 
+      <ContactModal isOpen={showModal} onClose={() => setShowModal(false)} />
     </div>
   );
 };

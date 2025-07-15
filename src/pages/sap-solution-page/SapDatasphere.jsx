@@ -9,7 +9,7 @@ const SapDatasphere = () => {
           <h1 className="text-4xl font-bold text-gray-800 mb-4">
             SAP Datasphere
           </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
             Unleash the power of your business data with SAP Datasphere — a
             modern data fabric platform for harmonized, secure, and
             business-context-rich data access across your enterprise.
@@ -21,14 +21,14 @@ const SapDatasphere = () => {
           <h2 className="text-2xl font-semibold text-gray-800">
             What is SAP Datasphere?
           </h2>
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-justify">
             SAP Datasphere helps organizations unlock the full value of their
             data without the need to transfer it between technologies. Built on
             the concept of a business data fabric, it offers a unified view of
             your entire data landscape—across SAP and non-SAP systems—while
             retaining crucial business context.
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-justify">
             It simplifies complex data environments and empowers users with
             trusted, real-time, governed data to accelerate decision-making and
             innovation.
@@ -40,7 +40,7 @@ const SapDatasphere = () => {
           <h2 className="text-2xl font-semibold text-gray-800">
             Core Services of SAP Datasphere
           </h2>
-          <ul className="list-disc list-inside text-gray-700 space-y-2">
+          <ul className="list-disc list-inside text-gray-700 space-y-2 text-justify">
             <li>
               <strong>Data Integration:</strong> Seamlessly connect and ingest
               data from disparate systems.
@@ -103,7 +103,7 @@ const SapDatasphere = () => {
                 <h3 className="text-lg font-semibold text-blue-700 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-700">{item.desc}</p>
+                <p className="text-gray-700 text-justify">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -114,13 +114,13 @@ const SapDatasphere = () => {
           <h2 className="text-2xl font-semibold text-gray-800">
             Built for an Open Data Ecosystem
           </h2>
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-justify">
             SAP Datasphere allows seamless integration with leading open data
             and AI platforms. It lets you extend your existing investments,
             connect to third-party systems, and enrich your internal data with a
             wide array of external sources from its built-in data marketplace.
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-justify">
             With integration capabilities and support for modern architectures,
             it acts as a scalable foundation for enterprise-wide data
             strategies.

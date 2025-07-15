@@ -88,7 +88,7 @@ export const ServiceList = [
 
   {
     icon: "fa fa-wordpress",
-    title: "DEVOPS_AUTOMATION_SERVICES",
+    title: "DEVOPS AUTOMATION SERVICES",
     description: "Enhance your software development lifecycle with our DevOps automation tools and practices, reducing errors and improving release speed and stability."
   },
   {

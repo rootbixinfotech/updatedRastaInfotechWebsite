@@ -50,7 +50,7 @@ const SustainableCorporate = () => {
           <h2 className="text-3xl font-semibold text-blue-700 mb-4">
             What Is Sustainable Corporate Governance?
           </h2>
-          <p className="text-lg leading-8">
+          <p className="text-lg leading-8 text-justify">
             Sustainable corporate governance refers to the systems, principles,
             and processes by which companies are directed and controlled, with a
             focus on long-term value creation for all stakeholders—including
@@ -95,14 +95,14 @@ const SustainableCorporate = () => {
           <h3 className="text-2xl font-semibold text-blue-600 mb-4">
             Why It Matters
           </h3>
-          <p className="text-lg leading-8 mb-4">
+          <p className="text-lg leading-8 mb-4 text-justify">
             In an age of climate change, social inequality, and digital
             disruption, businesses are under increasing pressure to demonstrate
             responsible leadership. Investors, regulators, and consumers are
             demanding more than financial performance—they want to see companies
             contributing positively to society and the planet.
           </p>
-          <ul className="list-disc pl-6 space-y-3 text-lg">
+          <ul className="list-disc pl-6 space-y-3 text-lg text-justify">
             <li>Enhanced Reputation</li>
             <li>Risk Mitigation</li>
             <li>Investor Confidence</li>
@@ -178,7 +178,7 @@ const SustainableCorporate = () => {
           <h3 className="text-2xl font-semibold text-blue-600 mb-4">
             Future-Ready Governance
           </h3>
-          <p className="text-lg leading-8">
+          <p className="text-lg leading-8 text-justify">
             As we look ahead, emerging technologies like AI, blockchain, and big
             data are reshaping how companies manage risk, transparency, and
             stakeholder engagement. At Rasta Infotech, we are committed to

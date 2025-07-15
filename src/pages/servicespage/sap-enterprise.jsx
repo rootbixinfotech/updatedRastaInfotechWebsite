@@ -17,7 +17,6 @@ const SAPEnterprise = () => {
     <div className="w-full h-full pt-24 px-4 md:px-20 bg-gray-50">
       <div className="max-w-6xl mx-auto space-y-12">
         {/* Heading */}
-
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-800 leading-snug">
             SAP{" "}
@@ -33,7 +32,7 @@ const SAPEnterprise = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-2">
             Enterprise Digital Transformation with Rasta Infotech
           </h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed text-justify">
             Rasta Infotech is a leading provider of enterprise digital
             transformation services. We help organizations of all sizes
             implement and optimize SAP solutions to achieve digital excellence.
@@ -45,7 +44,7 @@ const SAPEnterprise = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-2">
             What is Enterprise Digital Transformation?
           </h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed text-justify">
             It's the integration of digital technologies into every aspect of
             your business – automating processes, enabling new models, and
             improving decision-making.
@@ -57,7 +56,7 @@ const SAPEnterprise = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Why is Digital Transformation Important?
           </h2>
-          <ul className="list-none space-y-3 text-gray-700 text-base">
+          <ul className="list-none space-y-3 text-gray-700 text-base text-justify">
             {bulletList([
               "Improve efficiency and productivity",
               "Reduce costs",
@@ -73,7 +72,7 @@ const SAPEnterprise = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             How Rasta Infotech Helps in SAP Digital Transformation
           </h2>
-          <ul className="list-none space-y-3 text-gray-700 text-base">
+          <ul className="list-none space-y-3 text-gray-700 text-base text-justify">
             {bulletList([
               "Develop a digital transformation strategy",
               "Select and implement the right SAP solutions",
@@ -90,7 +89,7 @@ const SAPEnterprise = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Advantages of a Digital Platform
           </h2>
-          <ul className="list-none space-y-3 text-gray-700 text-base">
+          <ul className="list-none space-y-3 text-gray-700 text-base text-justify">
             {bulletList([
               "Generate new revenue streams & become a platform company",
               "Build ecosystems with partners, suppliers, and customers",
@@ -109,14 +108,14 @@ const SAPEnterprise = () => {
           <h2 className="text-2xl font-semibold text-blue-700">
             SAP Digital Transformation Framework
           </h2>
-          <div className="space-y-3 text-gray-700 text-base">
+          <div className="space-y-3 text-gray-700 text-base text-justify">
             {bulletList([
               `Digital Enterprise Architecture:
-              A unified, enterprise-ready platform simplifying IT landscapes and integrating
-              front-end and back-end operations for innovation.`,
+          A unified, enterprise-ready platform simplifying IT landscapes and integrating
+          front-end and back-end operations for innovation.`,
               `Next-Gen SAP Solutions:
-              SAP S/4HANA as a digital core, with support from SAP Ariba, Concur, SuccessFactors, Fieldglass, and Hybris –
-              covering supply chain, finance, HR, and customer engagement.`,
+          SAP S/4HANA as a digital core, with support from SAP Ariba, Concur, SuccessFactors, Fieldglass, and Hybris –
+          covering supply chain, finance, HR, and customer engagement.`,
             ])}
           </div>
         </section>
@@ -126,7 +125,7 @@ const SAPEnterprise = () => {
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
             Advantages of SAP Digital Transformation
           </h2>
-          <ul className="list-none space-y-3 text-gray-700 text-base">
+          <ul className="list-none space-y-3 text-gray-700 text-base text-justify">
             {bulletList([
               "Rapid creation of new value from SAP applications",
               "Improved agility and innovation across teams",
@@ -142,13 +141,13 @@ const SAPEnterprise = () => {
           <h2 className="text-2xl font-semibold text-blue-700">
             Benefits of Working with Rasta Infotech
           </h2>
-          <ul className="list-disc ml-6 text-gray-700 space-y-2">
+          <ul className="list-disc ml-6 text-gray-700 space-y-2 text-justify">
             <li>Deep SAP solution expertise</li>
             <li>Proven success with global clients</li>
             <li>Customer-first engagement models</li>
             <li>On-time, on-budget delivery</li>
           </ul>
-          <p className="text-gray-700 mt-4">
+          <p className="text-gray-700 mt-4 text-justify">
             Ready to transform your enterprise digitally? Contact us today to
             discuss your goals and explore how Rasta Infotech can empower your
             journey.

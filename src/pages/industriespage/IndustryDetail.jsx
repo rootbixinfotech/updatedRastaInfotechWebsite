@@ -100,7 +100,7 @@ const IndustryDetail = () => {
               <p className="text-sm text-blue-900 font-semibold">
                 {item.title}
               </p>
-              <p className="text-sm text-gray-800 leading-snug">
+              <p className="text-sm text-gray-800 leading-snug md:text-justify " style={{ textJustify:"inter-word"}}>
                 {item.summary}
               </p>
             </div>
@@ -114,7 +114,7 @@ const IndustryDetail = () => {
           <h2 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-4">
             {industryData.introduction.title}
           </h2>
-          <p className="text-lg leading-8 text-gray-700">
+          <p className="text-lg leading-8 text-gray-700 text-justify">
             {industryData.introduction.content}
           </p>
         </div>
@@ -210,7 +210,7 @@ const IndustryDetail = () => {
                 <h3 className="text-xl font-bold text-gray-800 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
+                <p className="text-sm text-gray-600 leading-relaxed text-justify">
                   {item.description}
                 </p>
               </div>
@@ -232,7 +232,7 @@ const IndustryDetail = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               {industryData.whyChooseUs.heading}
             </h2>
-            <p className="text-lg text-gray-700 mb-8 max-w-3xl">
+            <p className="text-lg text-gray-700 mb-8 max-w-3xl text-justify">
               {industryData.whyChooseUs.description}
             </p>
           </div>

@@ -128,7 +128,7 @@ function App() {
           element={<ServicePage serviceData={CybersecurityPageContent} />}
         />
         <Route
-          path="/all-services-page/devops"
+          path="/all-services-page/devopsautomationservices"
           element={<ServicePage serviceData={DevOpsAutomationPageContent} />}
         />
         <Route

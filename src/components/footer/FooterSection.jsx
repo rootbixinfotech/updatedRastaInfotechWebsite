@@ -31,47 +31,23 @@ const FooterSection = () => {
   const navigate = useNavigate();
 
   return (
-    <footer className="bg-[#0B121B] text-white py-12 px-6 md:px-16 ">
-      {/* join section  */}
-      {/* <div className="relative z-10 -mt-30 px-4 mb-10">
-        <div className="bg-yellow-400 rounded-[2rem] p-6 md:p-10 flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto shadow-md">
-          <div className="text-center md:text-left mb-4 md:mb-0">
-            <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900">
-              Stay updated
-            </h2>
-            <p className="text-gray-800 font-medium">
-              We'll be releasing more features soon
-            </p>
-          </div>
-
-          <button className="bg-[#2C2362] text-white font-semibold px-8 py-3 rounded-xl shadow-[0px_6px_0px_0px_#DF52BF] transition duration-300 hover:brightness-110">
-            <span>JOIN US</span>
-          </button>
-        </div>
-      </div> */}
-
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
-        {/* Logo + Description + Social */}
+ <footer className="bg-[#0B121B] text-white py-12 px-6 md:px-16">
+      {/* Grid Section */}
+      <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10 md:gap-20 lg:gap-28">
+        {/* Logo + Description + Social Icons */}
         <div className="space-y-4">
-          {/* <img src={logo_white} alt="GTR Academy" className="h-10" /> */}
-
           <div className="flex items-center gap-1.5">
             <Link to="/" className="flex items-center">
               <img src={logo_white} alt="logo_white" className="h-10 w-auto" />
             </Link>
             <Link to="/" className="flex items-center">
-              <img
-                src={rastainfotech_white}
-                alt="logo_white"
-                className="h-5 w-auto space-"
-              />
+              <img src={rastainfotech_white} alt="rasta_infotech" className="h-5 w-auto" />
             </Link>
           </div>
-
-          <p className="text-sm text-gray-300">
-            Your trusted partner on the Road to Success! We provide end-to-end
-            IT solutions, from SAP and digital marketing to AI, cybersecurity,
-            and beyond, fueling innovation and growth for your business.
+          <p className="text-sm text-gray-300 text-justify">
+            Your trusted partner on the Road to Success! We provide end-to-end IT solutions,
+            from SAP and digital marketing to AI, cybersecurity, and beyond, fueling innovation
+            and growth for your business.
           </p>
           <div className="flex gap-4 text-xl mt-4">
             <FaFacebookF />
@@ -97,21 +73,8 @@ const FooterSection = () => {
         </div>
 
         {/* Useful Links */}
-        {/* <div>
-          <h3 className="text-lg font-semibold mb-4">Useful Links</h3>
-          {["Home", "About Us", "Contact Us", "Blogs", "FAQ", "Faculty"].map(
-            (item, idx) => (
-              <div key={idx} className="flex items-center mb-2 text-gray-300">
-                <IoIosArrowForward className="mr-2" /> {item}
-              </div>
-            )
-          )}
-        </div> */}
-
         <div>
-          <h3 className="text-lg font-semibold mb-4 text-white">
-            Useful Links
-          </h3>
+          <h3 className="text-lg font-semibold mb-4 text-white">Useful Links</h3>
           {links.map((item, idx) => (
             <Link
               to={item.path}
@@ -123,24 +86,13 @@ const FooterSection = () => {
           ))}
         </div>
 
-        {/* Our Center */}
-        <div>
-          <h3 className="text-lg font-semibold mb-4">Our Center</h3>
-          {["Delhi NCR", "Bangalore"].map((location, idx) => (
-            <div key={idx} className="flex items-center mb-2 text-gray-300">
-              <IoIosArrowForward className="mr-2" /> {location}
-            </div>
-          ))}
-        </div>
-
         {/* Contact Us */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+          <h3 className="text-lg font-semibold mb-4 text-white">Contact Us</h3>
           <div className="flex items-start gap-2 text-gray-300 text-sm mb-3">
-            <HiOutlineLocationMarker className="mt-1" />
+            <HiOutlineLocationMarker className="mt-1 text-justify " />
             <span>
-              Office Address : 23 2nd Cross, Near Malnad, Coaching Centr MHR
-              Layout, Bangalore North, Karnataka, India, 560090
+              Office Address: 23 2nd Cross, Near Malnad, Coaching Centr MHR Layout, Bangalore North, Karnataka, India, 560090
             </span>
           </div>
           <div className="flex items-center gap-2 mb-2 text-gray-300">
@@ -149,19 +101,13 @@ const FooterSection = () => {
           <div className="flex items-center gap-2 mb-4 text-gray-300">
             <HiOutlineMail /> info@rastainfotech.com
           </div>
-
-          {/* <div className="flex gap-4">
-            <img src="/google-play.png" alt="Google Play" className="h-10" />
-            <img src="/app-store.png" alt="App Store" className="h-10" />
-          </div> */}
         </div>
       </div>
 
       {/* Bottom Section */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-sm text-gray-400 flex flex-col md:flex-row justify-between items-center gap-4">
         <p>
-          Copyright 2025, <span className="text-green-500">Rasta Infotech</span>
-          . All Rights Reserved.
+          Copyright 2025, <span className="text-green-500">Rasta Infotech</span>. All Rights Reserved.
         </p>
       </div>
 
@@ -179,14 +125,12 @@ const FooterSection = () => {
         >
           Privacy Policy
         </span>
-
         <span
           onClick={() => navigate("/disclaimer")}
           className="cursor-pointer hover:text-white"
         >
           Disclaimer
         </span>
-
         <span
           onClick={() => navigate("/cookies")}
           className="cursor-pointer hover:text-white"
@@ -197,5 +141,8 @@ const FooterSection = () => {
     </footer>
   );
 };
+
+
+
 
 export default FooterSection;

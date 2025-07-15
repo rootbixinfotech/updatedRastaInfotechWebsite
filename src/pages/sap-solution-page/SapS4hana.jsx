@@ -9,7 +9,7 @@ const SapS4hana = () => {
           <h1 className="text-4xl font-bold text-gray-800 mb-4">
             Getting Started with SAP S/4HANA
           </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
             The most important questions about getting started with SAP
             S/4HANA—understand the Why, What, and How to ensure a successful
             transformation.
@@ -51,7 +51,7 @@ const SapS4hana = () => {
               <h2 className="text-xl font-semibold text-blue-700 mb-4">
                 {item.title}
               </h2>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
+              <ul className="list-disc list-inside text-gray-700 space-y-2 text-justify">
                 {item.points.map((point, idx) => (
                   <li key={idx}>{point}</li>
                 ))}
@@ -66,9 +66,10 @@ const SapS4hana = () => {
             <h2 className="text-3xl font-bold text-gray-800">
               Your Path to SAP S/4HANA
             </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto mt-2">
+            <p className="text-gray-600 max-w-2xl mx-auto mt-2 text-justify">
               Migrating to SAP S/4HANA is a matter of when and how—not if.
-              Planning now ensures readiness by 2027 when SAP ECC 6 support ends.
+              Planning now ensures readiness by 2027 when SAP ECC 6 support
+              ends.
             </p>
           </div>
 
@@ -94,7 +95,7 @@ const SapS4hana = () => {
                 <h3 className="text-lg font-semibold text-blue-700 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-700">{item.desc}</p>
+                <p className="text-gray-700 text-justify">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -105,7 +106,7 @@ const SapS4hana = () => {
           <h2 className="text-2xl font-semibold text-gray-800">
             Key Features of SAP S/4HANA
           </h2>
-          <ul className="list-disc list-inside text-gray-700 space-y-2">
+          <ul className="list-disc list-inside text-gray-700 space-y-2 text-justify">
             <li>
               <strong>In-Memory Computing:</strong> Ultra-fast data processing
               powered by SAP HANA.
@@ -131,7 +132,7 @@ const SapS4hana = () => {
 
         {/* Final Summary */}
         <section className="text-center">
-          <p className="text-gray-700 text-lg max-w-3xl mx-auto">
+          <p className="text-gray-700 text-lg max-w-3xl mx-auto text-justify">
             SAP S/4HANA is more than just an ERP—it’s a next-generation digital
             core that transforms business operations and enables real-time,
             insight-driven decision-making. Now is the time to act.

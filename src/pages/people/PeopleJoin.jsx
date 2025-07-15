@@ -34,7 +34,7 @@ const PeopleJoin = () => {
       </div>
 
       {/* Content */}
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-16 space-y-16">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 py-16 space-y-16 text-justify">
         {/* Sections */}
         <Section
           title="Introduction"
@@ -42,7 +42,7 @@ const PeopleJoin = () => {
           content="At Rasta Infotech, we believe that people are the driving force behind innovation, growth, and transformation. When individuals choose to join us, they’re not just starting a job—they’re becoming part of a purpose-driven community."
         />
 
-        <CardSection title="A Culture of Belonging">
+        <CardSection title="A Culture of Belonging ">
           We foster an inclusive environment where every voice is heard, every
           idea is valued, and every individual is respected. At{" "}
           <strong>Rasta Infotech</strong>, we believe that diversity is our
@@ -83,7 +83,7 @@ const PeopleJoin = () => {
           ]}
         />
 
-        <CardSection title="Collaboration & Innovation">
+        <CardSection title="Collaboration & Innovation text-justify">
           Hackathons, brainstorming sessions, and a culture of curiosity define
           our innovation approach. At <strong>Rasta Infotech</strong>, we
           believe that great ideas can come from anywhere—and we make space for
@@ -165,7 +165,7 @@ const CardSection = ({ title, children, list = [] }) => (
   <section className="bg-white rounded-3xl shadow-md p-8">
     <h2 className="text-2xl font-semibold text-green-700 mb-4">{title}</h2>
     {list.length > 0 ? (
-      <ul className="list-disc list-inside space-y-2 text-gray-700">
+      <ul className="list-disc list-inside space-y-2 text-gray-700 text-justify">
         {list.map((item, i) => (
           <li key={i}>{item}</li>
         ))}

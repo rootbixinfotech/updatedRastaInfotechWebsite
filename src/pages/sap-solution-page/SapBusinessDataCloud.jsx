@@ -32,7 +32,7 @@ const SapBusinessDataCloud = () => {
           <h1 className="text-4xl font-bold text-gray-800 mb-4">
             SAP Business Data Cloud
           </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
             SAP Business Data Cloud is your foundation for AI-driven, connected
             insights—bringing together data, analytics, and intelligent
             applications in one unified platform.
@@ -44,7 +44,7 @@ const SapBusinessDataCloud = () => {
           <h2 className="text-2xl font-semibold text-gray-800">
             What is SAP Business Data Cloud?
           </h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed text-justify">
             The SAP Business Data Cloud solution enables deep integration by
             combining semantically rich data from critical applications with
             intelligent decision support. It empowers business leaders to act
@@ -52,10 +52,10 @@ const SapBusinessDataCloud = () => {
             insights across functions such as working capital, distribution, and
             workforce planning.
           </p>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed text-justify">
             Built as a managed SaaS solution, SAP Business Data Cloud leverages
-            a modern architecture to streamline your entire data value chain—from
-            ingestion to visualization and action.
+            a modern architecture to streamline your entire data value
+            chain—from ingestion to visualization and action.
           </p>
         </section>
 
@@ -64,7 +64,7 @@ const SapBusinessDataCloud = () => {
           <h2 className="text-2xl font-semibold text-gray-800">
             What’s in the SAP Business Data Cloud Platform?
           </h2>
-          <ul className="list-disc list-inside text-gray-700 space-y-2">
+          <ul className="list-disc list-inside text-gray-700 space-y-2 text-justify">
             <li>
               <strong>SAP Analytics Cloud:</strong> State-of-the-art analytics
               with enterprise-grade planning.
@@ -89,10 +89,10 @@ const SapBusinessDataCloud = () => {
           <h2 className="text-2xl font-semibold text-gray-800">
             Benefits of SAP Business Data Cloud
           </h2>
-          <ul className="list-disc list-inside text-gray-700 space-y-2">
+          <ul className="list-disc list-inside text-gray-700 space-y-2 text-justify">
             <li>
-              <strong>Data Products:</strong> Trusted, semantically rich datasets
-              aligned with Line of Business (LOB) structures.
+              <strong>Data Products:</strong> Trusted, semantically rich
+              datasets aligned with Line of Business (LOB) structures.
             </li>
             <li>
               <strong>Intelligent App:</strong> End-to-end data pipeline managed
@@ -127,7 +127,7 @@ const SapBusinessDataCloud = () => {
                 <h3 className="text-lg font-semibold text-blue-700 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-700">{item.description}</p>
+                <p className="text-gray-700 text-justify">{item.description}</p>
               </div>
             ))}
           </div>
