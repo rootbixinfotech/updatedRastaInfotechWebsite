@@ -118,7 +118,7 @@ const ContactUs = () => {
           <h3 className="text-xl font-semibold text-blue-700">
             Contact Information
           </h3>
-         
+
           <div className="flex flex-col gap-4 text-sm text-gray-700">
             <div className="flex items-center gap-2">
               <FaPhoneAlt className="text-blue-600" />
@@ -197,6 +197,33 @@ const ContactUs = () => {
             Get in touch
           </button>
         </form>
+      </div>
+
+      {/* Map Section */}
+      {/* Map Section */}
+      <div className="mt-16 px-4 md:px-0 max-w-6xl mx-auto">
+        <div className="bg-blue-50 py-8 px-6 rounded-2xl shadow-md text-center">
+          <h3 className="text-3xl font-bold text-blue-800 mb-2">
+            Find Us on the Map
+          </h3>
+          <p className="text-gray-700 max-w-3xl mx-auto text-base md:text-lg">
+           Visit our office for consultations, project discussions, or just to say hello.
+            Here's how you can find us easily on the map.
+          </p>
+        </div>
+
+        <div className="mt-8 rounded-2xl overflow-hidden shadow-lg">
+          <iframe
+            title="Rasta Infotech Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.994888103843!2d77.48704687484816!3d13.097372113559675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19252cce05fd%3A0x76fdcb62c9c3e198!2sMHR%20Layout%2C%20Bengaluru%2C%20Karnataka%20560090!5e0!3m2!1sen!2sin!4v1721118880000!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
 
       {/* Toast Container */}
