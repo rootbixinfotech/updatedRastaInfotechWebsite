@@ -14,7 +14,7 @@ const ServiceSidebar = ({ services, sapSolutions }) => {
             <NavLink
               to={service.link}
               className={({ isActive }) =>
-                `flex items-center justify-between px-4 py-3 rounded-lg border 
+                `flex items-center px-4 py-3 rounded-lg border 
                  transition-all duration-200 group 
                  ${
                    isActive

@@ -32,8 +32,8 @@ const Disclaimer = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-2">General Information</h2>
             <p className="text-gray-700 leading-relaxed">
-              The information provided by [Your Company Name] ("we", "our",
-              "us") on [Your Website URL] ("Site") is for general informational
+              The information provided by Rasta Infotech
+               on https://www.rastainfotech.com/ is for general informational
               purposes only. All information on the Site is provided in good
               faith; however, we make no representation or warranty of any kind,
               express or implied, regarding the accuracy, adequacy, reliability,
@@ -47,7 +47,7 @@ const Disclaimer = () => {
               External Links Disclaimer
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              The Site may contain (or you may be sent through the Site) links
+              The Site may contain links
               to other websites or content belonging to or originating from
               third parties or links to websites and features in banners or
               other advertising. We do not warrant, endorse, guarantee, or
@@ -83,7 +83,7 @@ const Disclaimer = () => {
               Limitation of Liability
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              In no event shall [Your Company Name], nor its directors,
+              In no event shall Rasta Infotech, nor its directors,
               employees, partners, agents, suppliers, or affiliates, be liable
               for any indirect, incidental, special, consequential, or punitive
               damages, including without limitation, loss of profits, data, use,
@@ -109,7 +109,7 @@ const Disclaimer = () => {
               from the use of this information, and without warranty of any
               kind, express or implied, including, but not limited to warranties
               of performance, merchantability, and fitness for a particular
-              purpose. [Your Company Name] will not be liable to you or anyone
+              purpose. Rasta Infotech will not be liable to you or anyone
               else for any decision made or action taken in reliance on the
               information given by the Site or for any consequential, special,
               or similar damages.

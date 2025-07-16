@@ -439,48 +439,101 @@ export const DigitalMarketingPageContent = {
       "At Rasta InfoTech, we leverage a wide range of digital marketing tools and technologies to optimize your campaigns and measure success. Our tech stack includes Google Analytics for performance tracking, SEMrush for SEO analysis, Hootsuite for social media management, Mailchimp for email marketing, and WordPress for content management. By integrating these tools with CRM systems like HubSpot and Salesforce, we create seamless workflows that enhance efficiency and drive results.",
   },
 
-  services: [
-    {
-      title: "SEO Services",
-      description:
-        "Optimize your website for search engines to improve visibility, drive organic traffic, and increase rankings. Our SEO services include keyword research, on-page optimization, link building, and technical SEO.",
-    },
-    {
-      title: "Social Media Management",
-      description:
-        "Manage your social media presence across platforms like Facebook, Instagram, Twitter, and LinkedIn. Our services include content creation, community engagement, and paid advertising campaigns.",
-    },
-    {
-      title: "Email Marketing Campaigns",
-      description:
-        "Create and execute targeted email campaigns that nurture leads, promote products, and drive conversions. Our services include list segmentation, personalized content, A/B testing, and performance analytics.",
-    },
-    {
-      title: "Content Creation",
-      description:
-        "Develop and distribute valuable content that attracts and retains your target audience. Our content creation services include blog writing, video production, infographics, and eBooks.",
-    },
-    {
-      title: "PPC Advertising",
-      description:
-        "Drive immediate traffic to your website through paid search advertising on platforms like Google Ads and Bing Ads. Our PPC services include keyword targeting, ad copy optimization, and performance monitoring.",
-    },
-    {
-      title: "Analytics & Reporting",
-      description:
-        "Track and measure the performance of your digital marketing campaigns using tools like Google Analytics and SEMrush. Our services include data analysis, reporting, and actionable insights to optimize your strategies.",
-    },
-    {
-      title: "Website Design & Development",
-      description:
-        "Create a visually appealing and user-friendly website that drives engagement and conversions. Our web design and development services include responsive design, UX/UI optimization, and content management.",
-    },
-    {
-      title: "Online Reputation Management",
-      description:
-        "Monitor and manage your online reputation to build trust and credibility with your audience. Our services include review management, social listening, and brand monitoring.",
-    },
-  ],
+
+
+  services : [
+  {
+    title: "Digital Marketing Services",
+    description:
+      "End-to-end digital marketing solutions to help businesses build a strong online presence, drive engagement, and boost ROI across multiple channels including SEO, PPC, social media, and content marketing.",
+  },
+  {
+    title: "Search Engine Optimization Services",
+    description:
+      "Enhance your website’s visibility in organic search results with advanced SEO strategies, including keyword targeting, technical audits, and content optimization tailored for higher rankings.",
+  },
+  {
+    title: "Social Media Optimization Services",
+    description:
+      "Improve your social media profiles for better reach and engagement. Our SMO services focus on enhancing bio, visuals, hashtags, and post timing to strengthen your brand identity.",
+  },
+  {
+    title: "Social Media Advertising Services",
+    description:
+      "Run paid campaigns on platforms like Facebook, Instagram, and LinkedIn to reach highly targeted audiences and drive conversions through optimized ad creatives and strategic targeting.",
+  },
+  {
+    title: "Google Ads Services",
+    description:
+      "Launch and manage high-performing Google Ads campaigns across search, display, and YouTube to drive targeted traffic, increase conversions, and maximize ad spend efficiency.",
+  },
+  {
+    title: "Lead Generation Services",
+    description:
+      "Generate high-quality leads through multichannel strategies, including landing page funnels, gated content, paid ads, and email automation to fuel your sales pipeline.",
+  },
+  {
+    title: "Search Engine Marketing Services",
+    description:
+      "Combine paid and organic search strategies to dominate search engine results pages (SERPs) using an integrated SEM approach that includes Google Ads, SEO, and remarketing.",
+  },
+  {
+    title: "App Store Optimization Services",
+    description:
+      "Increase your mobile app’s visibility and downloads through effective ASO techniques like keyword-rich titles, compelling descriptions, quality screenshots, and positive reviews.",
+  },
+  {
+    title: "Local SEO Services",
+    description:
+      "Boost your local search presence with Google Business Profile optimization, local citations, geo-targeted keywords, and review management to drive foot traffic and local leads.",
+  },
+  {
+    title: "Backlink Building Services",
+    description:
+      "Enhance your domain authority and SEO rankings by acquiring high-quality, relevant backlinks through ethical link-building strategies such as guest posting and outreach.",
+  },
+  {
+    title: "Conversion Rate Optimization Services",
+    description:
+      "Improve your website’s ability to turn visitors into customers using CRO tactics like A/B testing, heatmaps, behavioral analysis, and UI/UX enhancements.",
+  },
+  {
+    title: "Press Release Services",
+    description:
+      "Distribute well-crafted press releases to major media outlets and news platforms to generate brand awareness, build credibility, and enhance SEO through authoritative links.",
+  },
+  {
+    title: "Content Writing Services",
+    description:
+      "Deliver high-quality, SEO-optimized content tailored to your brand’s voice, including blogs, website copy, product descriptions, and technical articles.",
+  },
+  {
+    title: "Mobile Ads Services",
+    description:
+      "Run targeted mobile advertising campaigns across apps, social media, and mobile web to engage users on smartphones and increase brand visibility and app installs.",
+  },
+  {
+    title: "Content Marketing Services",
+    description:
+      "Attract and convert your audience with strategic content marketing that includes blog publishing, infographics, case studies, and video storytelling.",
+  },
+  {
+    title: "Native Ads Services",
+    description:
+      "Blend promotional content seamlessly into user experiences across platforms with native ads that are less intrusive and more engaging, increasing click-through and conversion rates.",
+  },
+  {
+    title: "Mobile App Promotion Services",
+    description:
+      "Promote your mobile app with targeted campaigns on app stores, influencer marketing, mobile display networks, and pre-launch buzz to boost installs and engagement.",
+  },
+  {
+    title: "Marketplace Ads Services",
+    description:
+      "Advertise directly on marketplaces like Amazon, Flipkart, or Etsy to improve product visibility and sales through sponsored listings and keyword-targeted ads.",
+  },
+],
+
 
   benefits: {
     heading: "Business Benefits of Digital Marketing",

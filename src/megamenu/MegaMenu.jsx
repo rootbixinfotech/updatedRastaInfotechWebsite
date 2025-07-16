@@ -8,32 +8,6 @@ const MegaMenu = ({ type, isMobile }) => {
   const navigate = useNavigate();
   const dataList = type === "services" ? ServiceList : Industries;
 
-  // const serviceRoutes = {
-  //   "SAP CONSULTING SERVICES": "/servicespage/sap-consulting",
-    
-  //   "BLOCKCHAIN": "/all-services-page/blockchain",
-  //   "CYBER SECURITY": "/all-services-page/cyber-security",
-  //   "DEVOPS AUTOMATION SERVICES": "/all-services-page/devopsautomationservices",
-  //   "DIGITAL MARKETING": "/all-services-page/digital-marketing",
-  //   "GOVERNANCE,RISK& COMPLIANCE": "/all-services-page/risk-compliance",
-  //   "MICROSOFT COE": "/all-services-page/microsoft-coe",
-  //   "AGILE IT OPERATIONS": "/all-services-page/agileitopscontent",
-  //   "PLATFORMS & PROTOCOLS - XAAP": "/all-services-page/xaap-content",
-  //   "CLOUD": "/all-services-page/cloud-content",
-  //   "AZURE SERVICES": "/all-services-page/azure-services-page",
-  //   "APPLICATION SERVICES": "/all-services-page/application-services-content",
-  //   "COGNITIVE": "/all-services-page/cognitive-page-content",
-  //   "AI": "/all-services-page/AI-page-content",
-  //   "ENTERPRISE AUTOMATION": "/all-services-page/enterprise-automation-content",
-  //   "PRODUCT-ENGINEERING-SERVICES": "/all-services-page/product-engineering-content",
-  //   "SALESFORCE CONSULTING AND SERVICES COE": "/all-services-page/salesforce-page-content",   
-  //   "AWS SERVICES": "/all-services-page/aws-services-page-content",
-  //   "VMWARE TANZU SERVICES": "/all-services-page/tanzu-services-content",
-  //   "INFRASTRUCTURE SERVICES": "/all-services-page/infrastructure-services-content",
-     
-
-  //   // Add more special cases here if needed
-  // };
 
   const handleServiceClick = (title) => {
     const route = getServicePath(title);
@@ -72,7 +46,7 @@ const MegaMenu = ({ type, isMobile }) => {
                     : handleIndustryClick(item.title)
                 }
               >
-                <span>🏭</span>
+                <i className={item.icon}></i>
                 <div>
                   <p className="font-semibold hover:text-blue-600 transition-colors duration-300">
                     {item.title}

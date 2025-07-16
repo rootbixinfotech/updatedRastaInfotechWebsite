@@ -6,10 +6,10 @@ const serviceRoutes = {
   "cyber security": "/all-services-page/cyber-security",
   "devops automation services": "/all-services-page/devopsautomationservices",
   "digital marketing": "/all-services-page/digital-marketing",
-  "governance,risk& compliance": "/all-services-page/risk-compliance",
+  "governance risk compliance": "/all-services-page/governancerisk-compliance",
   "microsoft coe": "/all-services-page/microsoft-coe",
   "agile it operations": "/all-services-page/agileitopscontent",
-  "platforms & protocols - xaap": "/all-services-page/xaap-content",
+  "platforms protocols - xaap": "/all-services-page/platforms-protocols-xaap",
   "cloud": "/all-services-page/cloud-content",
   "azure services": "/all-services-page/azure-services-page",
   "application services": "/all-services-page/application-services-content",
@@ -30,6 +30,8 @@ function normalizeTitle(title) {
     .replace(/[,&]/g, "")
     .replace(/\s+/g, " ")
     .trim();
+
+   
 }
 
 export function getServicePath(title) {

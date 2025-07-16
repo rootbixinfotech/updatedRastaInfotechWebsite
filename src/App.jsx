@@ -52,6 +52,7 @@ import TermsConditions from "./pages/website-policies/TermsConditions";
 import CookiesPolicy from "./pages/website-policies/CookiesPolicy";
 import ScrollToTop from "./components/ScrollToTop";
 
+
 import {
   SapEwm,
   SapTm,
@@ -138,7 +139,7 @@ function App() {
           element={<ServicePage serviceData={DigitalMarketingPageContent} />}
         />
         <Route
-          path="/all-services-page/risk-compliance"
+          path="/all-services-page/governancerisk-compliance"
           element={
             <ServicePage serviceData={GovernanceRiskCompliancePageContent} />
           }
@@ -152,7 +153,7 @@ function App() {
           element={<ServicePage serviceData={AgileITOpsPageContent} />}
         />
         <Route
-          path="/all-services-page/xaap-content"
+          path="/all-services-page/platforms-protocols-xaap"
           element={<ServicePage serviceData={XAAPPageContent} />}
         />
         <Route

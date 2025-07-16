@@ -1,12 +1,5 @@
 @import "tailwindcss";
 
-/* global css */
-/* body{
-  text-align: justify;
-} */
-
-
-/* From Uiverse.io by gharsh11032000 for card section */ 
 .card {
   position: relative;
   display: flex;

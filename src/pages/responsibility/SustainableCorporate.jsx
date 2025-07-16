@@ -8,12 +8,12 @@ const SustainableCorporate = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-white text-gray-800 p-12">
+    <div className="bg-white text-gray-800 px-2 sm:px-4 md:px-8 py-4 md:py-8 w-full">
       {/* Banner Section */}
-      <section className="relative bg-gradient-to-b from-white to-blue-50 overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-16 md:py-24 gap-8">
+      <section className="relative bg-gradient-to-b from-white to-blue-50 overflow-hidden w-full">
+        <div className="w-full flex flex-col md:flex-row items-center justify-between px-2 sm:px-4 md:px-8 py-8 md:py-16 gap-6 md:gap-8">
           {/* Image */}
-          <div className="md:w-1/2">
+          <div className="w-full md:w-1/2 mb-6 md:mb-0">
             <img
               src={bannerImage}
               alt="Scientist with microscope"
@@ -22,19 +22,19 @@ const SustainableCorporate = () => {
           </div>
 
           {/* Text Content */}
-          <div className="md:w-1/2 text-center md:text-left">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+          <div className="w-full md:w-1/2 text-center md:text-left">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4 md:mb-6">
               Sustainable Corporate Governance
             </h1>
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-base sm:text-lg text-gray-700 mb-4 md:mb-6">
               Building Responsible, Resilient, and Ethical Organizations
             </p>
           </div>
         </div>
       </section>
-      <div className="fixed top-2/3 right-4 transform -translate-y-1/2 rotate-90 origin-right z-50">
+      <div className="fixed top-2/3 right-2 sm:right-4 transform -translate-y-1/2 rotate-90 origin-right z-50">
         <button
-          className="bg-blue-900 text-white py-2 px-4 rounded-l-full text-sm hover:bg-blue-800 transition "
+          className="bg-blue-900 text-white py-2 px-4 rounded-l-full text-xs sm:text-sm hover:bg-blue-800 transition "
           onClick={() => {
             setShowModal(true);
           }}
@@ -44,13 +44,13 @@ const SustainableCorporate = () => {
       </div>
 
       {/* Main Content Section */}
-      <section className="max-w-6xl mx-auto px-6 py-16 space-y-12">
+      <section className="w-full px-2 sm:px-4 md:px-8 py-8 md:py-16 space-y-8 md:space-y-12">
         {/* Introduction */}
         <div>
-          <h2 className="text-3xl font-semibold text-blue-700 mb-4">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-blue-700 mb-2 md:mb-4">
             What Is Sustainable Corporate Governance?
           </h2>
-          <p className="text-lg leading-8 text-justify">
+          <p className="text-base sm:text-lg leading-7 sm:leading-8 text-justify">
             Sustainable corporate governance refers to the systems, principles,
             and processes by which companies are directed and controlled, with a
             focus on long-term value creation for all stakeholders—including
@@ -63,10 +63,10 @@ const SustainableCorporate = () => {
 
         {/* Key Pillars */}
         <div>
-          <h3 className="text-2xl font-semibold text-blue-600 mb-4">
+          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-blue-600 mb-2 md:mb-4">
             Key Pillars of Sustainable Governance
           </h3>
-          <ul className="list-disc pl-6 space-y-3 text-lg">
+          <ul className="list-disc pl-4 sm:pl-6 space-y-2 sm:space-y-3 text-base sm:text-lg">
             <li>
               <strong>Transparency:</strong> Clear reporting and open
               communication with stakeholders.
@@ -92,17 +92,17 @@ const SustainableCorporate = () => {
 
         {/* Why It Matters */}
         <div>
-          <h3 className="text-2xl font-semibold text-blue-600 mb-4">
+          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-blue-600 mb-2 md:mb-4">
             Why It Matters
           </h3>
-          <p className="text-lg leading-8 mb-4 text-justify">
+          <p className="text-base sm:text-lg leading-7 sm:leading-8 mb-2 sm:mb-4 text-justify">
             In an age of climate change, social inequality, and digital
             disruption, businesses are under increasing pressure to demonstrate
             responsible leadership. Investors, regulators, and consumers are
             demanding more than financial performance—they want to see companies
             contributing positively to society and the planet.
           </p>
-          <ul className="list-disc pl-6 space-y-3 text-lg text-justify">
+          <ul className="list-disc pl-4 sm:pl-6 space-y-2 sm:space-y-3 text-base sm:text-lg text-justify">
             <li>Enhanced Reputation</li>
             <li>Risk Mitigation</li>
             <li>Investor Confidence</li>
@@ -114,10 +114,10 @@ const SustainableCorporate = () => {
 
         {/* Our Commitment */}
         <div>
-          <h3 className="text-2xl font-semibold text-blue-600 mb-4">
+          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-blue-600 mb-2 md:mb-4">
             Our Commitment at Rasta Infotech
           </h3>
-          <ul className="list-disc pl-6 space-y-4 text-lg">
+          <ul className="list-disc pl-4 sm:pl-6 space-y-2 sm:space-y-4 text-base sm:text-lg">
             <li>
               <strong>Leadership Accountability:</strong> Ethical decisions,
               transparency, diversity, and long-term value creation.
@@ -143,10 +143,10 @@ const SustainableCorporate = () => {
 
         {/* Governance in Action */}
         <div>
-          <h3 className="text-2xl font-semibold text-blue-600 mb-4">
+          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-blue-600 mb-2 md:mb-4">
             Governance in Action: Our Practices
           </h3>
-          <ul className="list-disc pl-6 space-y-3 text-lg">
+          <ul className="list-disc pl-4 sm:pl-6 space-y-2 sm:space-y-3 text-base sm:text-lg">
             <li>Board Oversight</li>
             <li>Diversity & Inclusion</li>
             <li>Data Governance</li>
@@ -157,14 +157,14 @@ const SustainableCorporate = () => {
 
         {/* Global Standards */}
         <div>
-          <h3 className="text-2xl font-semibold text-blue-600 mb-4">
+          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-blue-600 mb-2 md:mb-4">
             Aligning with Global Standards
           </h3>
-          <p className="text-lg leading-8">
+          <p className="text-base sm:text-lg leading-7 sm:leading-8">
             Rasta Infotech aligns its governance practices with globally
             recognized frameworks and standards such as:
           </p>
-          <ul className="list-disc pl-6 space-y-2 text-lg">
+          <ul className="list-disc pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-base sm:text-lg">
             <li>UN Sustainable Development Goals (SDGs)</li>
             <li>OECD Principles of Corporate Governance</li>
             <li>ISO 26000 – Social Responsibility</li>
@@ -175,28 +175,28 @@ const SustainableCorporate = () => {
 
         {/* Future-Ready Governance */}
         <div>
-          <h3 className="text-2xl font-semibold text-blue-600 mb-4">
+          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-blue-600 mb-2 md:mb-4">
             Future-Ready Governance
           </h3>
-          <p className="text-lg leading-8 text-justify">
+          <p className="text-base sm:text-lg leading-7 sm:leading-8 text-justify">
             As we look ahead, emerging technologies like AI, blockchain, and big
             data are reshaping how companies manage risk, transparency, and
             stakeholder engagement. At Rasta Infotech, we are committed to
             leveraging these innovations to enhance governance and deliver
             greater value to our stakeholders.
           </p>
-          <p className="text-lg leading-8 mt-4">
+          <p className="text-base sm:text-lg leading-7 sm:leading-8 mt-2 sm:mt-4">
             We also recognize the importance of climate resilience, human
             rights, and digital ethics in shaping the future of governance.
           </p>
         </div>
 
-        <div className="px-4 sm:px-8 lg:px-20 ">
-          <div className="bg-[#eeeeee] rounded-2xl py-16 text-center">
-            <h2 className="text-2xl font-bold text-gray-800">
+        <div className="px-0 sm:px-4 lg:px-8 w-full">
+          <div className="bg-[#eeeeee] rounded-2xl py-10 sm:py-16 text-center w-full">
+            <h2 className="text-lg sm:text-2xl font-bold text-gray-800">
               Partner with Us
             </h2>
-            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+            <p className="text-gray-600 mt-2 sm:mt-4 max-w-2xl mx-auto">
               Whether you're a startup building your governance framework or an
               enterprise strengthening its responsible practices, Rasta Infotech
               offers strategic consulting, tools, and support for long-term,
@@ -206,7 +206,7 @@ const SustainableCorporate = () => {
             <button
               type="submit"
               onClick={() => navigate("/contact")}
-              className="bg-gradient-to-r from-blue-500 to-blue-400 text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-full hover:from-blue-600 hover:to-blue-500 transition w-full sm:w-auto"
+              className="bg-gradient-to-r from-blue-500 to-blue-400 text-white text-xs sm:text-base font-semibold px-4 sm:px-6 py-3 rounded-full hover:from-blue-600 hover:to-blue-500 transition w-full sm:w-auto mt-4"
             >
               Contact with us
             </button>

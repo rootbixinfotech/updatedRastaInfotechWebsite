@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import GetInTouch from "../../components/getintouch/GetInTouch";
 import ContactModal from "../../components/ContactModal";
 
-
 const ServicePage = ({ serviceData }) => {
-    const [showModal, setShowModal] = useState(false);
-  
+  const [showModal, setShowModal] = useState(false);
+
   const {
     banner,
     introduction,
@@ -76,7 +75,7 @@ const ServicePage = ({ serviceData }) => {
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-6 h-6 border-2 border-yellow-500 rounded-full animate-bounce"></div>
       </div>
 
-       <div className="fixed top-2/3 right-4 transform -translate-y-1/2 rotate-90 origin-right z-50">
+      <div className="fixed top-2/3 right-4 transform -translate-y-1/2 rotate-90 origin-right z-50">
         <button
           className="bg-blue-900 text-white py-2 px-4 rounded-l-full text-sm hover:bg-blue-800 transition "
           onClick={() => {
@@ -95,7 +94,9 @@ const ServicePage = ({ serviceData }) => {
             {introduction.title.split("–")[1]}
           </span>
         </h2>
-        <p className="leading-relaxed text-gray-300">{introduction.content}</p>
+        <p className="leading-relaxed text-gray-300 text-justify" style={{textJustify:"inter-word"}}>
+          {introduction.content}
+        </p>
       </div>
 
       {/* Types Cards (Blockchain or Cybersecurity) */}
@@ -111,7 +112,7 @@ const ServicePage = ({ serviceData }) => {
               <span className="text-2xl">{type.icon}</span>
             </div>
             <h3 className="text-2xl font-bold mb-2">{type.title}</h3>
-            <p className="text-base">{type.description}</p>
+            <p className="text-base text-justify" style={{textJustify:"inter-word"}}>{type.description}</p>
           </div>
         ))}
       </div>
@@ -129,8 +130,9 @@ const ServicePage = ({ serviceData }) => {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             {whyChooseUs.heading}
           </h2>
-          <p className="text-gray-700 mb-6">{whyChooseUs.description}</p>
-       
+          <p className="text-gray-700 mb-6 text-justify" style={{textJustify:"inter-word"}}>
+            {whyChooseUs.description}
+          </p>
         </div>
       </div>
 
@@ -140,8 +142,9 @@ const ServicePage = ({ serviceData }) => {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             {technologies.heading}
           </h2>
-          <p className="text-gray-700 mb-6">{technologies.description}</p>
-       
+          <p className="text-gray-700 mb-6 text-justify" style={{textJustify:"inter-word"}}>
+            {technologies.description}
+          </p>
         </div>
         <div className="md:w-1/2">
           <img
@@ -166,7 +169,9 @@ const ServicePage = ({ serviceData }) => {
               <h3 className="text-xl font-semibold text-blue-600 mb-2">
                 {service.title}
               </h3>
-              <p className="text-gray-700">{service.description}</p>
+              <p className="text-gray-700 text-justify"style={{textJustify:"inter-word"}}>
+                {service.description}
+              </p>
             </div>
           ))}
         </div>
@@ -175,7 +180,6 @@ const ServicePage = ({ serviceData }) => {
       <GetInTouch />
 
       <ContactModal isOpen={showModal} onClose={() => setShowModal(false)} />
-
     </div>
   );
 };
