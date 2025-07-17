@@ -207,8 +207,8 @@ const ContactUs = () => {
             Find Us on the Map
           </h3>
           <p className="text-gray-700 max-w-3xl mx-auto text-base md:text-lg">
-           Visit our office for consultations, project discussions, or just to say hello.
-            Here's how you can find us easily on the map.
+            Visit our office for consultations, project discussions, or just to
+            say hello. Here's how you can find us easily on the map.
           </p>
         </div>
 

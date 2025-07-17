@@ -96,7 +96,7 @@ const Training = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return (
+  return ( 
     <>
       <section className="bg-gray-50 py-10 relative pt-10 ">
         <div className="max-w-[1500px] mx-auto flex flex-col justify-between lg:flex-row items-start gap-10 mt-16 px-2 sm:px-4 md:px-8">
