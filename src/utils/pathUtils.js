@@ -21,6 +21,7 @@ const serviceRoutes = {
   "aws services": "/all-services-page/aws-services-page-content",
   "vmware tanzu services": "/all-services-page/tanzu-services-content",
   "infrastructure services": "/all-services-page/infrastructure-services-content",
+  "learning management system": "/all-services-page/learning-management-system",
   // Add more special cases here if needed
 };
 

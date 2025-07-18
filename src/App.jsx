@@ -3,7 +3,7 @@ import HomePage from "./components/homepage/HomePage";
 import Navbar from "./components/headers/Navbar";
 import FooterSection from "./components/footer/FooterSection";
 import About from "./pages/About";
-import Careers from "./pages/Carrers"; // You might want to rename this file to "Careers"
+import Careers from "./pages/Carrers";
 import Features from "./pages/Features";
 import Training from "./pages/Training";
 import ServicesPageLayout from "./pages/servicespage/ServicesPageLayout";
@@ -27,7 +27,7 @@ import {
   CloudPageContent,
   AzureServicesPageContent,
   ApplicationServicesPageContent,
-  CognitivePageContent,
+  CognitivePageContent,  
   AIPageContent,
   EnterpriseAutomationPageContent,
   ProductEngineeringPageContent,
@@ -35,6 +35,7 @@ import {
   AwsServicesPageContent,
   TanzuServicesPageContent,
   InfrastructureServicesPageContent,
+  LMSPageContent,
 } from "./data/ServiceData";
 
 import IndustryDetail from "./pages/industriespage/IndustryDetail";
@@ -51,7 +52,6 @@ import CompanyPolicy from "./pages/website-policies/CompanyPolicy";
 import TermsConditions from "./pages/website-policies/TermsConditions";
 import CookiesPolicy from "./pages/website-policies/CookiesPolicy";
 import ScrollToTop from "./components/ScrollToTop";
-
 
 import {
   SapEwm,
@@ -80,7 +80,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <ScrollToTop/>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<ContactUs />} />
@@ -98,7 +98,9 @@ function App() {
           <Route path="sap-enterprise" element={<SAPEnterprise />} />
           <Route path="sap-data-migration" element={<SAPDataMigration />} />
           <Route path="sap-staffing" element={<SAPStaffing />} />
+          
           {/* SAP Solutions routes */}
+
           <Route path="sap-ewm" element={<SapEwm />} />
           <Route path="sap-tm" element={<SapTm />} />
           <Route path="sap-yl" element={<SapYl />} />
@@ -204,6 +206,12 @@ function App() {
             <ServicePage serviceData={InfrastructureServicesPageContent} />
           }
         />
+
+        <Route
+          path="/all-services-page/learning-management-system"
+          element={<ServicePage serviceData={LMSPageContent} />}
+        />
+
         {/* industries section routes */}
         <Route
           path="/industries-page/blockchain"

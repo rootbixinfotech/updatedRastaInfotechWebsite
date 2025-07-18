@@ -1,29 +1,28 @@
 import blockchainimg1 from "../assets/blockchain.jpg";
 import bannerblockchain from "../assets/blockchainbannerimg1.jfif";
-import Automation from "../assets/APPLICATION SERVICES.jpg"
-import infrasturcture from"../assets/INFRASTRUCTURE SERVICES.jpg"
-import DevopsAutomation from "../assets/DEVOPS AUTOMATION SERVICES.jpg"
-import governance from "../assets/GOVERNANCE, RISK & COMPLIANCE.jpg"
-import microservice from "../assets/Microsoft COE.jpg"
-import AgileIT from "../assets/AGILE IT OPERATIONS.jpg"
-import XaapImage from "../assets/PLATFORMS & PROTOCOLS - XAAP.jpg"
-import cloudImg from "../assets/CLOUD.jpg"
-import Azure from "../assets/AZURE SERVICES.jpeg"
-import Cognitive from "../assets/COGNITIVE (1).jpg"
-import platformImg from "../assets/PLATFORMS & PROTOCOLS - XAAP.jpg"
-import productEnggImg from "../assets/PRODUCT-ENGINEERING-SERVICES.jpg"
-import salefore from "../assets/SALESFORCE CONSULTING AND SERVICES.jpg"
-import Awsimg from "../assets/AWS SERVICES.jpeg"
-import TanzuImg from "../assets/VMWARE TANZU SERVICES.jpg"
+import Automation from "../assets/APPLICATION SERVICES.jpg";
+import infrasturcture from "../assets/INFRASTRUCTURE SERVICES.jpg";
+import DevopsAutomation from "../assets/DEVOPS AUTOMATION SERVICES.jpg";
+import governance from "../assets/GOVERNANCE, RISK & COMPLIANCE.jpg";
+import microservice from "../assets/Microsoft COE.jpg";
+import AgileIT from "../assets/AGILE IT OPERATIONS.jpg";
+import XaapImage from "../assets/PLATFORMS & PROTOCOLS - XAAP.jpg";
+import cloudImg from "../assets/CLOUD.jpg";
+import Azure from "../assets/AZURE SERVICES.jpeg";
+import Cognitive from "../assets/COGNITIVE (1).jpg";
+import platformImg from "../assets/PLATFORMS & PROTOCOLS - XAAP.jpg";
+import productEnggImg from "../assets/PRODUCT-ENGINEERING-SERVICES.jpg";
+import salefore from "../assets/SALESFORCE CONSULTING AND SERVICES.jpg";
+import Awsimg from "../assets/AWS SERVICES.jpeg";
+import TanzuImg from "../assets/VMWARE TANZU SERVICES.jpg";
 
 import cyberimg1 from "../assets/cyberimg.jpg";
 import cyberimg2 from "../assets/Toolweuseimg.jpg";
-import DigitalMarketing from "../assets/127431 DIGITAL MARKETING.jpg"
-
+import DigitalMarketing from "../assets/127431 DIGITAL MARKETING.jpg";
 
 import devopsimg1 from "../assets/devops-1.jpg";
 import devopsimg2 from "../assets/devops-2.jpg";
-import Ai from "../assets/AI.jpg"
+import Ai from "../assets/AI.jpg";
 // import bannercybersecurity from "../assets/cybersecurity_banner.jpg";
 
 export const BlockchainPageContent = {
@@ -261,7 +260,6 @@ export const CybersecurityPageContent = {
   ],
 };
 
-
 export const DevOpsAutomationPageContent = {
   banner: {
     image: bannerblockchain,
@@ -379,7 +377,7 @@ export const DevOpsAutomationPageContent = {
   closing: {
     heading: "Transform Your IT Operations with DevOps Automation",
     content:
-      "In today’s dynamic digital environment, manual processes and siloed teams hinder innovation and agility. DevOps Automation Services from Rasta InfoTech provide the blueprint for building resilient, efficient, and scalable systems. Whether you're starting your DevOps journey or looking to enhance existing pipelines, our automation-first approach enables faster delivery, higher quality, and more robust infrastructure management. Partner with us to transform your IT operations, embrace continuous delivery, and unlock the full potential of your engineering teams.",
+      "In today's dynamic digital environment, manual processes and siloed teams hinder innovation and agility. DevOps Automation Services from Rasta InfoTech provide the blueprint for building resilient, efficient, and scalable systems. Whether you're starting your DevOps journey or looking to enhance existing pipelines, our automation-first approach enables faster delivery, higher quality, and more robust infrastructure management. Partner with us to transform your IT operations, embrace continuous delivery, and unlock the full potential of your engineering teams.",
   },
 };
 
@@ -439,101 +437,98 @@ export const DigitalMarketingPageContent = {
       "At Rasta InfoTech, we leverage a wide range of digital marketing tools and technologies to optimize your campaigns and measure success. Our tech stack includes Google Analytics for performance tracking, SEMrush for SEO analysis, Hootsuite for social media management, Mailchimp for email marketing, and WordPress for content management. By integrating these tools with CRM systems like HubSpot and Salesforce, we create seamless workflows that enhance efficiency and drive results.",
   },
 
-
-
-  services : [
-  {
-    title: "Digital Marketing Services",
-    description:
-      "End-to-end digital marketing solutions to help businesses build a strong online presence, drive engagement, and boost ROI across multiple channels including SEO, PPC, social media, and content marketing.",
-  },
-  {
-    title: "Search Engine Optimization Services",
-    description:
-      "Enhance your website’s visibility in organic search results with advanced SEO strategies, including keyword targeting, technical audits, and content optimization tailored for higher rankings.",
-  },
-  {
-    title: "Social Media Optimization Services",
-    description:
-      "Improve your social media profiles for better reach and engagement. Our SMO services focus on enhancing bio, visuals, hashtags, and post timing to strengthen your brand identity.",
-  },
-  {
-    title: "Social Media Advertising Services",
-    description:
-      "Run paid campaigns on platforms like Facebook, Instagram, and LinkedIn to reach highly targeted audiences and drive conversions through optimized ad creatives and strategic targeting.",
-  },
-  {
-    title: "Google Ads Services",
-    description:
-      "Launch and manage high-performing Google Ads campaigns across search, display, and YouTube to drive targeted traffic, increase conversions, and maximize ad spend efficiency.",
-  },
-  {
-    title: "Lead Generation Services",
-    description:
-      "Generate high-quality leads through multichannel strategies, including landing page funnels, gated content, paid ads, and email automation to fuel your sales pipeline.",
-  },
-  {
-    title: "Search Engine Marketing Services",
-    description:
-      "Combine paid and organic search strategies to dominate search engine results pages (SERPs) using an integrated SEM approach that includes Google Ads, SEO, and remarketing.",
-  },
-  {
-    title: "App Store Optimization Services",
-    description:
-      "Increase your mobile app’s visibility and downloads through effective ASO techniques like keyword-rich titles, compelling descriptions, quality screenshots, and positive reviews.",
-  },
-  {
-    title: "Local SEO Services",
-    description:
-      "Boost your local search presence with Google Business Profile optimization, local citations, geo-targeted keywords, and review management to drive foot traffic and local leads.",
-  },
-  {
-    title: "Backlink Building Services",
-    description:
-      "Enhance your domain authority and SEO rankings by acquiring high-quality, relevant backlinks through ethical link-building strategies such as guest posting and outreach.",
-  },
-  {
-    title: "Conversion Rate Optimization Services",
-    description:
-      "Improve your website’s ability to turn visitors into customers using CRO tactics like A/B testing, heatmaps, behavioral analysis, and UI/UX enhancements.",
-  },
-  {
-    title: "Press Release Services",
-    description:
-      "Distribute well-crafted press releases to major media outlets and news platforms to generate brand awareness, build credibility, and enhance SEO through authoritative links.",
-  },
-  {
-    title: "Content Writing Services",
-    description:
-      "Deliver high-quality, SEO-optimized content tailored to your brand’s voice, including blogs, website copy, product descriptions, and technical articles.",
-  },
-  {
-    title: "Mobile Ads Services",
-    description:
-      "Run targeted mobile advertising campaigns across apps, social media, and mobile web to engage users on smartphones and increase brand visibility and app installs.",
-  },
-  {
-    title: "Content Marketing Services",
-    description:
-      "Attract and convert your audience with strategic content marketing that includes blog publishing, infographics, case studies, and video storytelling.",
-  },
-  {
-    title: "Native Ads Services",
-    description:
-      "Blend promotional content seamlessly into user experiences across platforms with native ads that are less intrusive and more engaging, increasing click-through and conversion rates.",
-  },
-  {
-    title: "Mobile App Promotion Services",
-    description:
-      "Promote your mobile app with targeted campaigns on app stores, influencer marketing, mobile display networks, and pre-launch buzz to boost installs and engagement.",
-  },
-  {
-    title: "Marketplace Ads Services",
-    description:
-      "Advertise directly on marketplaces like Amazon, Flipkart, or Etsy to improve product visibility and sales through sponsored listings and keyword-targeted ads.",
-  },
-],
-
+  services: [
+    {
+      title: "Digital Marketing Services",
+      description:
+        "End-to-end digital marketing solutions to help businesses build a strong online presence, drive engagement, and boost ROI across multiple channels including SEO, PPC, social media, and content marketing.",
+    },
+    {
+      title: "Search Engine Optimization Services",
+      description:
+        "Enhance your website's visibility in organic search results with advanced SEO strategies, including keyword targeting, technical audits, and content optimization tailored for higher rankings.",
+    },
+    {
+      title: "Social Media Optimization Services",
+      description:
+        "Improve your social media profiles for better reach and engagement. Our SMO services focus on enhancing bio, visuals, hashtags, and post timing to strengthen your brand identity.",
+    },
+    {
+      title: "Social Media Advertising Services",
+      description:
+        "Run paid campaigns on platforms like Facebook, Instagram, and LinkedIn to reach highly targeted audiences and drive conversions through optimized ad creatives and strategic targeting.",
+    },
+    {
+      title: "Google Ads Services",
+      description:
+        "Launch and manage high-performing Google Ads campaigns across search, display, and YouTube to drive targeted traffic, increase conversions, and maximize ad spend efficiency.",
+    },
+    {
+      title: "Lead Generation Services",
+      description:
+        "Generate high-quality leads through multichannel strategies, including landing page funnels, gated content, paid ads, and email automation to fuel your sales pipeline.",
+    },
+    {
+      title: "Search Engine Marketing Services",
+      description:
+        "Combine paid and organic search strategies to dominate search engine results pages (SERPs) using an integrated SEM approach that includes Google Ads, SEO, and remarketing.",
+    },
+    {
+      title: "App Store Optimization Services",
+      description:
+        "Increase your mobile app's visibility and downloads through effective ASO techniques like keyword-rich titles, compelling descriptions, quality screenshots, and positive reviews.",
+    },
+    {
+      title: "Local SEO Services",
+      description:
+        "Boost your local search presence with Google Business Profile optimization, local citations, geo-targeted keywords, and review management to drive foot traffic and local leads.",
+    },
+    {
+      title: "Backlink Building Services",
+      description:
+        "Enhance your domain authority and SEO rankings by acquiring high-quality, relevant backlinks through ethical link-building strategies such as guest posting and outreach.",
+    },
+    {
+      title: "Conversion Rate Optimization Services",
+      description:
+        "Improve your website's ability to turn visitors into customers using CRO tactics like A/B testing, heatmaps, behavioral analysis, and UI/UX enhancements.",
+    },
+    {
+      title: "Press Release Services",
+      description:
+        "Distribute well-crafted press releases to major media outlets and news platforms to generate brand awareness, build credibility, and enhance SEO through authoritative links.",
+    },
+    {
+      title: "Content Writing Services",
+      description:
+        "Deliver high-quality, SEO-optimized content tailored to your brand's voice, including blogs, website copy, product descriptions, and technical articles.",
+    },
+    {
+      title: "Mobile Ads Services",
+      description:
+        "Run targeted mobile advertising campaigns across apps, social media, and mobile web to engage users on smartphones and increase brand visibility and app installs.",
+    },
+    {
+      title: "Content Marketing Services",
+      description:
+        "Attract and convert your audience with strategic content marketing that includes blog publishing, infographics, case studies, and video storytelling.",
+    },
+    {
+      title: "Native Ads Services",
+      description:
+        "Blend promotional content seamlessly into user experiences across platforms with native ads that are less intrusive and more engaging, increasing click-through and conversion rates.",
+    },
+    {
+      title: "Mobile App Promotion Services",
+      description:
+        "Promote your mobile app with targeted campaigns on app stores, influencer marketing, mobile display networks, and pre-launch buzz to boost installs and engagement.",
+    },
+    {
+      title: "Marketplace Ads Services",
+      description:
+        "Advertise directly on marketplaces like Amazon, Flipkart, or Etsy to improve product visibility and sales through sponsored listings and keyword-targeted ads.",
+    },
+  ],
 
   benefits: {
     heading: "Business Benefits of Digital Marketing",
@@ -807,9 +802,9 @@ export const AgileITOpsPageContent = {
 
   introduction: {
     title: "Agile IT Ops – Adaptive, Scalable, and Efficient",
-    content: `Agile IT Operations is a transformative approach that bridges the traditional divide between IT operations and agile software development. In today’s fast-paced digital landscape, where organizations are expected to innovate rapidly while maintaining high levels of reliability, Agile IT Ops offers a solution that promotes adaptability, speed, and stability. By applying agile principles to IT service management, businesses can streamline workflows, break down departmental silos, and respond to changes with greater agility.
+    content: `Agile IT Operations is a transformative approach that bridges the traditional divide between IT operations and agile software development. In today's fast-paced digital landscape, where organizations are expected to innovate rapidly while maintaining high levels of reliability, Agile IT Ops offers a solution that promotes adaptability, speed, and stability. By applying agile principles to IT service management, businesses can streamline workflows, break down departmental silos, and respond to changes with greater agility.
 
-    At Rasta InfoTech, we recognize that IT operations are no longer just about maintenance—they’re about delivering business value continuously and efficiently. Agile IT Ops involves collaborative cross-functional teams, continuous integration and delivery (CI/CD), infrastructure automation, real-time monitoring, and data-driven decision-making. With our extensive experience in DevOps, ITSM, and agile frameworks, we enable enterprises to transform their operations into intelligent, automated, and scalable systems. Whether you're modernizing legacy infrastructure, automating deployments, or enhancing service resilience, our Agile IT Ops solutions help you operate smarter and faster.`,
+    At Rasta InfoTech, we recognize that IT operations are no longer just about maintenance—they're about delivering business value continuously and efficiently. Agile IT Ops involves collaborative cross-functional teams, continuous integration and delivery (CI/CD), infrastructure automation, real-time monitoring, and data-driven decision-making. With our extensive experience in DevOps, ITSM, and agile frameworks, we enable enterprises to transform their operations into intelligent, automated, and scalable systems. Whether you're modernizing legacy infrastructure, automating deployments, or enhancing service resilience, our Agile IT Ops solutions help you operate smarter and faster.`,
   },
 
   opsModels: [
@@ -847,9 +842,9 @@ export const AgileITOpsPageContent = {
     heading: "Why Choose Agile IT Ops with Rasta InfoTech?",
     description: `Rasta InfoTech is your trusted partner in building resilient, scalable, and forward-looking IT operations. Our Agile IT Ops services are designed to evolve with your business needs. We understand that modern IT isn't just about fixing problems—it's about preventing them, anticipating future needs, and enabling business innovation. 
 
-    By combining agile methodologies with operational excellence, we ensure that your organization can quickly respond to market demands without compromising performance or stability. Our team brings hands-on expertise in automating infrastructure, setting up monitoring systems, integrating CI/CD pipelines, and fostering a DevOps culture. We don’t just deliver tools—we drive cultural change and process improvement that lasts.
+    By combining agile methodologies with operational excellence, we ensure that your organization can quickly respond to market demands without compromising performance or stability. Our team brings hands-on expertise in automating infrastructure, setting up monitoring systems, integrating CI/CD pipelines, and fostering a DevOps culture. We don't just deliver tools—we drive cultural change and process improvement that lasts.
 
-    Whether you're starting from scratch or looking to enhance your existing operations, Rasta InfoTech crafts custom Agile IT Ops roadmaps tailored to your business goals. Our services go beyond technology—they’re about transforming mindsets, reducing time-to-market, increasing system reliability, and improving customer satisfaction.`,
+    Whether you're starting from scratch or looking to enhance your existing operations, Rasta InfoTech crafts custom Agile IT Ops roadmaps tailored to your business goals. Our services go beyond technology—they're about transforming mindsets, reducing time-to-market, increasing system reliability, and improving customer satisfaction.`,
   },
 
   technologies: {
@@ -905,9 +900,9 @@ export const XAAPPageContent = {
 
   introduction: {
     title: "XAAP – Cross-Platform Innovation with Protocol Intelligence",
-    content: `XAAP (eXtensible Application Access Platform) represents a next-generation framework for building interoperable platforms and intelligent protocol-driven ecosystems. In today’s connected world, enterprises must integrate a wide range of services, tools, APIs, and devices across various domains and environments. XAAP enables seamless communication between diverse systems—whether cloud-native, on-premise, or edge-based—by offering a unified platform driven by protocol intelligence, modular design, and security-first architecture.
+    content: `XAAP (eXtensible Application Access Platform) represents a next-generation framework for building interoperable platforms and intelligent protocol-driven ecosystems. In today's connected world, enterprises must integrate a wide range of services, tools, APIs, and devices across various domains and environments. XAAP enables seamless communication between diverse systems—whether cloud-native, on-premise, or edge-based—by offering a unified platform driven by protocol intelligence, modular design, and security-first architecture.
 
-    At Rasta InfoTech, we empower organizations to build scalable, flexible, and robust systems using the XAAP methodology. Whether you're aiming to streamline cross-platform communication, accelerate application delivery, or ensure compliance with industry-specific protocols, our XAAP-based solutions create a cohesive, interoperable environment that connects data, processes, and platforms into a single intelligent workflow. It’s the future of digital infrastructure, built on principles of abstraction, agility, and extensibility.`,
+    At Rasta InfoTech, we empower organizations to build scalable, flexible, and robust systems using the XAAP methodology. Whether you're aiming to streamline cross-platform communication, accelerate application delivery, or ensure compliance with industry-specific protocols, our XAAP-based solutions create a cohesive, interoperable environment that connects data, processes, and platforms into a single intelligent workflow. It's the future of digital infrastructure, built on principles of abstraction, agility, and extensibility.`,
   },
 
   xaapModels: [
@@ -943,7 +938,7 @@ export const XAAPPageContent = {
   whyChooseUs: {
     image: XaapImage, // Replace with actual image import
     heading: "Why Choose XAAP with Rasta InfoTech?",
-    description: `Rasta InfoTech is a trusted name when it comes to building enterprise-grade platforms with protocol intelligence at the core. Our XAAP-based solutions are not just about connecting systems—they’re about orchestrating meaningful workflows, enforcing industry standards, and delivering measurable ROI. We bring deep technical knowledge of modern platforms, APIs, and communication protocols and apply them in a way that simplifies complexity for your business.
+    description: `Rasta InfoTech is a trusted name when it comes to building enterprise-grade platforms with protocol intelligence at the core. Our XAAP-based solutions are not just about connecting systems—they're about orchestrating meaningful workflows, enforcing industry standards, and delivering measurable ROI. We bring deep technical knowledge of modern platforms, APIs, and communication protocols and apply them in a way that simplifies complexity for your business.
 
     With XAAP, we reduce data silos, increase automation, and enable organizations to quickly build, test, and launch applications across heterogeneous environments. Whether it's integrating financial systems via FIX protocol, enabling healthcare interoperability with HL7/FHIR, or creating IoT networks with MQTT, we tailor XAAP to match your domain needs. Our commitment goes beyond delivery—we also guide your teams in adopting platform-centric thinking, improving system resilience, and ensuring long-term maintainability.`,
   },
@@ -1117,7 +1112,7 @@ export const AzureServicesPageContent = {
       icon: "🛡️",
       title: "Azure Security & Compliance",
       description:
-        "Protect your cloud environment with Azure’s built-in security tools and our custom compliance solutions. We implement identity access management, encryption, threat protection, and policy compliance aligned with industry standards like ISO, HIPAA, and GDPR.",
+        "Protect your cloud environment with Azure's built-in security tools and our custom compliance solutions. We implement identity access management, encryption, threat protection, and policy compliance aligned with industry standards like ISO, HIPAA, and GDPR.",
       bgColor: "bg-gradient-to-br from-indigo-50 to-indigo-100",
       textColor: "text-gray-800",
       iconBg: "bg-indigo-200",
@@ -1207,7 +1202,7 @@ export const AzureServicesPageContent = {
   closing: {
     heading: "Accelerate Your Cloud Journey with Azure",
     content:
-      "Harness the full potential of Microsoft Azure with Rasta InfoTech’s expert cloud services. Whether you’re migrating your workloads, building cloud-native applications, or enhancing your existing Azure environment, we provide the tools, strategies, and support to help you succeed. Our team ensures secure, scalable, and cost-efficient cloud solutions that align with your business goals. Partner with us to embrace the future of digital infrastructure and transform your business through the power of Azure.",
+      "Harness the full potential of Microsoft Azure with Rasta InfoTech's expert cloud services. Whether you're migrating your workloads, building cloud-native applications, or enhancing your existing Azure environment, we provide the tools, strategies, and support to help you succeed. Our team ensures secure, scalable, and cost-efficient cloud solutions that align with your business goals. Partner with us to embrace the future of digital infrastructure and transform your business through the power of Azure.",
   },
 };
 
@@ -1220,9 +1215,9 @@ export const ApplicationServicesPageContent = {
 
   introduction: {
     title: "End-to-End Application Services for Digital-First Enterprises",
-    content: `In today’s competitive and rapidly evolving digital landscape, applications are at the core of business innovation and user engagement. Whether it’s a customer-facing mobile app, an enterprise-grade web portal, or a mission-critical backend system, applications must be fast, secure, scalable, and user-friendly. At Rasta InfoTech, we offer comprehensive application services that cover the entire lifecycle—from ideation and design to development, deployment, and ongoing maintenance.
+    content: `In today's competitive and rapidly evolving digital landscape, applications are at the core of business innovation and user engagement. Whether it's a customer-facing mobile app, an enterprise-grade web portal, or a mission-critical backend system, applications must be fast, secure, scalable, and user-friendly. At Rasta InfoTech, we offer comprehensive application services that cover the entire lifecycle—from ideation and design to development, deployment, and ongoing maintenance.
 
-    Our application services are engineered to accelerate your digital transformation journey. We combine modern software development methodologies like Agile and DevOps with cutting-edge technologies including microservices, APIs, cloud-native infrastructure, and AI-driven automation. Whether you’re building a new application, re-engineering legacy systems, or integrating third-party solutions, we ensure quality, performance, and business alignment. With Rasta InfoTech, your applications become powerful enablers of growth, productivity, and innovation.`,
+    Our application services are engineered to accelerate your digital transformation journey. We combine modern software development methodologies like Agile and DevOps with cutting-edge technologies including microservices, APIs, cloud-native infrastructure, and AI-driven automation. Whether you're building a new application, re-engineering legacy systems, or integrating third-party solutions, we ensure quality, performance, and business alignment. With Rasta InfoTech, your applications become powerful enablers of growth, productivity, and innovation.`,
   },
 
   appTypes: [
@@ -1248,7 +1243,7 @@ export const ApplicationServicesPageContent = {
       icon: "🏢",
       title: "Enterprise Application Services",
       description:
-        "We engineer robust enterprise-grade software tailored to your organization’s needs—ERP systems, CRM platforms, supply chain solutions, and HRMS tools. Our enterprise apps integrate with your core systems and support high availability, complex workflows, and large-scale data processing.",
+        "We engineer robust enterprise-grade software tailored to your organization's needs—ERP systems, CRM platforms, supply chain solutions, and HRMS tools. Our enterprise apps integrate with your core systems and support high availability, complex workflows, and large-scale data processing.",
       bgColor: "bg-gradient-to-br from-sky-50 to-sky-100",
       textColor: "text-gray-800",
       iconBg: "bg-sky-200",
@@ -1260,7 +1255,7 @@ export const ApplicationServicesPageContent = {
     heading: "Why Choose Rasta InfoTech for Application Services?",
     description: `Rasta InfoTech is more than just an application development company—we are your strategic technology partner. With a team of experienced designers, developers, architects, and QA engineers, we take a holistic approach to application delivery. Every solution we build is aligned with your business objectives, user expectations, and industry standards.
 
-    We follow a user-centric design process to ensure intuitive UI/UX. Our agile delivery model enables iterative development, faster releases, and real-time feedback. We adopt cloud-native and microservice-based architectures to ensure scalability and fault tolerance. Whether it’s modernizing legacy systems or creating greenfield apps, we use secure coding practices, performance optimization, and continuous testing to deliver high-quality software.
+    We follow a user-centric design process to ensure intuitive UI/UX. Our agile delivery model enables iterative development, faster releases, and real-time feedback. We adopt cloud-native and microservice-based architectures to ensure scalability and fault tolerance. Whether it's modernizing legacy systems or creating greenfield apps, we use secure coding practices, performance optimization, and continuous testing to deliver high-quality software.
 
     Our post-deployment services ensure ongoing performance tuning, feature enhancements, security updates, and technical support. Rasta InfoTech delivers reliable, future-ready applications that help businesses improve operations, deliver better customer experiences, and gain a competitive edge in the digital age.`,
   },
@@ -1458,13 +1453,13 @@ export const AIPageContent = {
 
     We bring deep expertise in supervised and unsupervised learning, deep learning, reinforcement learning, and generative AI. Our team works closely with your business and data teams to develop models that align with your KPIs and ethical standards. We focus on delivering AI systems that are explainable, auditable, and compliant with privacy regulations.
 
-    Whether you’re looking to build an AI-powered chatbot, optimize your supply chain, detect fraud in financial transactions, or automate healthcare diagnostics, Rasta InfoTech ensures secure, high-performance AI integration across your tech stack.`,
+    Whether you're looking to build an AI-powered chatbot, optimize your supply chain, detect fraud in financial transactions, or automate healthcare diagnostics, Rasta InfoTech ensures secure, high-performance AI integration across your tech stack.`,
   },
 
   technologies: {
     image: cyberimg2, // Replace with actual image import
     heading: "Technologies & Platforms We Work With",
-    description: `Our AI solutions are powered by the industry’s most trusted tools and platforms. For machine learning and deep learning, we use TensorFlow, PyTorch, Keras, Scikit-learn, and Hugging Face Transformers. Our data processing pipeline includes Apache Spark, Pandas, Kafka, and Airflow.
+    description: `Our AI solutions are powered by the industry's most trusted tools and platforms. For machine learning and deep learning, we use TensorFlow, PyTorch, Keras, Scikit-learn, and Hugging Face Transformers. Our data processing pipeline includes Apache Spark, Pandas, Kafka, and Airflow.
 
     For NLP and large language models (LLMs), we use OpenAI, Cohere, Google PaLM, and custom fine-tuned transformer models. We deploy AI solutions on AWS SageMaker, Azure Machine Learning, Google Vertex AI, and custom Kubernetes clusters with MLFlow and Docker.
 
@@ -1705,7 +1700,7 @@ export const ProductEngineeringPageContent = {
   introduction: {
     title:
       "Innovative Product Engineering Services to Accelerate Your Digital Vision",
-    content: `In today’s digital economy, rapid innovation, scalability, and user-centric design are key to successful product development. Product engineering is more than just building software—it's a strategic process that blends technology, design, and agility to bring ideas to life faster and more efficiently.
+    content: `In today's digital economy, rapid innovation, scalability, and user-centric design are key to successful product development. Product engineering is more than just building software—it's a strategic process that blends technology, design, and agility to bring ideas to life faster and more efficiently.
 
     At Rasta InfoTech, we provide end-to-end product engineering services that help startups and enterprises transform concepts into market-ready solutions. From product ideation and architecture to development, testing, and post-launch support, we deliver full-lifecycle engineering services built on agile methodologies. Our experienced teams combine modern technologies, automation, and cross-functional collaboration to accelerate time-to-market, reduce development costs, and ensure product-market fit.`,
   },
@@ -1745,7 +1740,7 @@ export const ProductEngineeringPageContent = {
     heading: "Why Choose Rasta InfoTech for Product Engineering?",
     description: `Rasta InfoTech is a trusted partner for digital product innovation. With a deep understanding of business strategy and emerging technologies, we help clients deliver future-ready products that scale. Our engineering process is guided by lean principles, agile execution, and quality-first thinking.
 
-    We work in collaborative product pods composed of developers, designers, QA testers, DevOps engineers, and project managers. Our delivery model adapts to your business goals—whether you’re launching an MVP, entering new markets, or scaling an existing platform. We also bring a product mindset to every engagement, ensuring you get a solution that is not only technically sound but also resonates with end users and adapts to change quickly.`,
+    We work in collaborative product pods composed of developers, designers, QA testers, DevOps engineers, and project managers. Our delivery model adapts to your business goals—whether you're launching an MVP, entering new markets, or scaling an existing platform. We also bring a product mindset to every engagement, ensuring you get a solution that is not only technically sound but also resonates with end users and adapts to change quickly.`,
   },
 
   technologies: {
@@ -1802,7 +1797,7 @@ export const SalesforcePageContent = {
   introduction: {
     title:
       "Salesforce Consulting Services That Drive Connected Customer Experiences",
-    content: `Salesforce is the world’s leading CRM platform, empowering organizations to streamline sales, marketing, service, and operations with intelligent automation and a 360-degree view of customers. But to unlock its full potential, you need a strategic partner who understands both the technology and your business goals.
+    content: `Salesforce is the world's leading CRM platform, empowering organizations to streamline sales, marketing, service, and operations with intelligent automation and a 360-degree view of customers. But to unlock its full potential, you need a strategic partner who understands both the technology and your business goals.
 
     At Rasta InfoTech, our Salesforce Center of Excellence (COE) delivers tailored consulting, implementation, customization, and managed services that help organizations get the most out of Salesforce. Whether you're starting a CRM journey, optimizing an existing org, or expanding with industry clouds, our certified Salesforce experts help you transform customer experiences, automate workflows, and maximize ROI. From startups to large enterprises, we deliver scalable Salesforce solutions aligned to your digital strategy.`,
   },
@@ -1842,7 +1837,7 @@ export const SalesforcePageContent = {
     heading: "Why Rasta InfoTech for Salesforce COE Services?",
     description: `With a dedicated Salesforce Center of Excellence, Rasta InfoTech combines strategic insight with deep platform expertise to deliver Salesforce solutions that transform your business. Our consultants, developers, and architects follow agile methodologies, Salesforce best practices, and industry-aligned templates to deliver faster, smarter, and more sustainable outcomes.
 
-    We bring experience across multiple Salesforce clouds—Sales, Service, Marketing, Experience (Community), Field Service, and more. Whether it’s CPQ implementation, Einstein AI insights, workflow automation, or mobile app development, we ensure end-to-end value from your investment. Partnering with us means gaining a trusted advisor who can scale with you across releases, org changes, and innovation cycles.`,
+    We bring experience across multiple Salesforce clouds—Sales, Service, Marketing, Experience (Community), Field Service, and more. Whether it's CPQ implementation, Einstein AI insights, workflow automation, or mobile app development, we ensure end-to-end value from your investment. Partnering with us means gaining a trusted advisor who can scale with you across releases, org changes, and innovation cycles.`,
   },
 
   technologies: {
@@ -1941,7 +1936,7 @@ export const AwsServicesPageContent = {
   whyChooseUs: {
     image: Awsimg,
     heading: "Why Choose Rasta InfoTech for AWS Cloud Services?",
-    description: `At Rasta InfoTech, we are an advanced AWS service provider with certified cloud architects, DevOps specialists, and security engineers. We’ve helped organizations across industries accelerate their cloud transformation journey using AWS’s robust ecosystem. Our approach combines deep domain knowledge, agile delivery, and cost optimization strategies to ensure tangible business outcomes.
+    description: `At Rasta InfoTech, we are an advanced AWS service provider with certified cloud architects, DevOps specialists, and security engineers. We've helped organizations across industries accelerate their cloud transformation journey using AWS's robust ecosystem. Our approach combines deep domain knowledge, agile delivery, and cost optimization strategies to ensure tangible business outcomes.
 
     Whether you're starting with a single workload or transforming your entire IT estate, we bring automation, scalability, and reliability to your cloud initiatives. We prioritize operational excellence, security-first design, and continuous innovation through AWS native tools and best practices. Partner with us to unlock the full value of AWS for your digital evolution.`,
   },
@@ -2049,7 +2044,7 @@ export const TanzuServicesPageContent = {
 - Tanzu Build Service: Automate container builds using Cloud Native Buildpacks and streamline DevOps workflows.
 - Tanzu Mission Control (TMC): Centralized Kubernetes lifecycle management across multiple clusters and teams.
 - Tanzu Observability (Wavefront): Real-time metrics, logs, and tracing for cloud-native apps and platform monitoring.
-- Spring Boot & Spring Cloud: Rapid microservices development supported by Tanzu’s full Spring ecosystem.
+- Spring Boot & Spring Cloud: Rapid microservices development supported by Tanzu's full Spring ecosystem.
 - Harbor & Carvel: Manage container images and Kubernetes configuration using secure, open-source tools integrated with Tanzu.
 
 We also integrate Tanzu with Git, Jenkins, GitLab, Istio, Fluentd, and third-party security scanners to build scalable and secure modern platforms.`,
@@ -2085,6 +2080,170 @@ We also integrate Tanzu with Git, Jenkins, GitLab, Istio, Fluentd, and third-par
       title: "Managed Tanzu Platform Services",
       description:
         "We provide 24/7 platform management, updates, scaling, and support for Tanzu environments across hybrid and multi-cloud setups.",
+    },
+  ],
+};
+
+export const LMSPageContent = {
+  banner: {
+    image: bannerblockchain, // Replace with actual banner image
+    heading: "Learning Management System (LMS)",
+    breadcrumb: ["HOME", "SOLUTIONS", "LEARNING MANAGEMENT SYSTEM"],
+  },
+
+  introduction: {
+    title: "Delivering Scalable & Engaging Learning Experiences",
+    content: `Rasta Infotech offers a robust Learning Management System (LMS) tailored to deliver online education efficiently, engagingly, and securely. Whether you're running a school, institution, or corporate training program, our LMS platform is designed to meet diverse learning needs—from early childhood development to national e-governance education initiatives.
+
+    Built with a user-first approach, our LMS provides an intuitive interface, powerful automation, and rich content delivery models including live classes, assessments, progress tracking, and gamified learning. We empower education providers to scale, automate, and personalize their programs with cutting-edge digital tools designed for the future of learning.`,
+  },
+
+  LMSinfrastructurePillars: [
+    {
+      icon: "📚",
+      title: "No Lead Leakage",
+      description:
+        "Rasta Infotech ensures complete control over your lead funnel by plugging every possible gap. With real-time syncing, intelligent routing, and activity tracking, it guarantees zero lead leakage, so no opportunity is ever missed.",
+      bgColor: "bg-gradient-to-br from-blue-50 to-blue-100",
+      textColor: "text-gray-800",
+      iconBg: "bg-blue-200",
+    },
+    {
+      icon: "🏥",
+      title: "No Missing Follow-ups",
+      description:
+        "Powered by AI, LMSBaba™ proactively prompts users with smart follow-up reminders to ensure no conversation falls through the cracks. It helps your team stay on top of every lead interaction—boosting response times and conversion rates .",
+      bgColor: "bg-gradient-to-br from-indigo-50 to-indigo-100",
+      textColor: "text-gray-800",
+      iconBg: "bg-indigo-200",
+    },
+    {
+      icon: "🧑‍🏫",
+      title: "Hybrid & Virtual Learning Delivery",
+      description:
+        "Facilitates learning via traditional classroom, online virtual institutions, and knowledge banks with access across web and mobile devices.",
+      bgColor: "bg-gradient-to-br from-sky-50 to-sky-100",
+      textColor: "text-gray-800",
+      iconBg: "bg-sky-200",
+    },
+  ],
+
+  whyChooseUs: {
+    image: TanzuImg, // Replace with actual image
+    heading: "Why Choose Rasta Infotech LMS?",
+    description: `Our LMS is designed to eliminate manual efforts, reduce lead leakage, and ensure consistent learner engagement through automation and AI. From auto-synced lead systems to communication integration with WhatsApp, SMS, and Email, we offer a plug-and-play solution with minimal setup and rapid user adoption.
+
+    Hosted on secure AWS infrastructure, our LMS ensures top-tier performance, data safety, and reliability. With agile implementation, customizable workflows, and real-time alerts for follow-ups, Rasta Infotech provides a complete ecosystem for educational success.`,
+  },
+
+  technologies: {
+    image: devopsimg2, // Replace with actual image
+    heading: "Technology Stack That Powers Our LMS",
+    description: `Our LMS solution is built using modern technologies and integrated tools to offer unmatched functionality. We utilize secure cloud infrastructure (AWS), communication APIs (Business WhatsApp, SMS, SMTP), and AI-based reminders for follow-ups. 
+
+    The platform supports real-time dashboards, plug-in CRMs, and secure communication protocols. It's built using agile methodology, ensuring faster go-to-market and continuous improvement. Our modular, scalable architecture makes it ideal for institutions, corporates, and government initiatives alike.`,
+  },
+
+  services: [
+    {
+      title: "Auto Lead Syncing",
+      description:
+        "Automatically sync leads into your system from forms, CRM, or third-party platforms to centralize lead management.",
+    },
+    {
+      title: "Call Log Capturing",
+      description:
+        "Track all incoming and outgoing calls related to a lead or user, ensuring full traceability and audit trails.",
+    },
+    {
+      title: "Rule-Based Auto Lead Distribution",
+      description:
+        "Assign leads to specific users or departments automatically based on predefined criteria or availability.",
+    },
+    {
+      title: "Customized Lead Pipeline",
+      description:
+        "Define your own lead stages for enrollment, inquiry, or course progression with full customization options.",
+    },
+    {
+      title: "Quick Quotation Builder",
+      description:
+        "Generate and share professional quotes instantly with pre-defined templates and automated workflows.",
+    },
+    {
+      title: "Lead Follow-Up Alerts",
+      description:
+        "Get AI-powered reminders and notifications for pending follow-ups to ensure no opportunity is missed.",
+    },
+    {
+      title: "Buyer’s Address Book Management",
+      description:
+        "Maintain and auto-update contact databases for all students, parents, or organizations interacting with the LMS.",
+    },
+    {
+      title: "Lead History & Tracking",
+      description:
+        "View complete activity logs, communication history, and progress records for every learner or lead.",
+    },
+    {
+      title: "WhatsApp, Calls & Email Communication",
+      description:
+        "Communicate with leads directly via WhatsApp, phone calls, emails or SMS—all integrated in one place.",
+    },
+    {
+      title: "Automated Email Notifications",
+      description:
+        "Trigger automatic emails for signups, events, follow-ups, assignments, and reminders using customizable templates.",
+    },
+    {
+      title: "Dashboard & Analytics",
+      description:
+        "Visual dashboards for monitoring learner engagement, performance, and operational KPIs across the system.",
+    },
+    {
+      title: "Repetitive Workflow Automation",
+      description:
+        "Automate repetitive admin tasks like enrollments, reminders, document collection, and payment reminders.",
+    },
+    {
+      title: "User Permission & Role Management",
+      description:
+        "Grant role-based access to admins, instructors, and students with fine-grained permission controls.",
+    },
+    {
+      title: "Business WhatsApp API Integration",
+      description:
+        "Enable direct two-way messaging with learners or leads via secure Business WhatsApp APIs.",
+    },
+    {
+      title: "Click to Call Integration",
+      description:
+        "Enable your team to initiate voice calls to users/leads with one-click from the platform interface.",
+    },
+    {
+      title: "SMS API Integration",
+      description:
+        "Send instant alerts, reminders, and confirmations to students or parents using SMS gateway integration.",
+    },
+    {
+      title: "Secured SMTP Email Integration",
+      description:
+        "Ensure high deliverability of emails through secure and authenticated SMTP setups.",
+    },
+    {
+      title: "Purchase Order Management",
+      description:
+        "Track and manage purchase orders, course enrollments, or bulk registrations in a single module.",
+    },
+    {
+      title: "AMC & Renewal Management",
+      description:
+        "Monitor course renewal dates, AMC contracts, and subscription cycles with automatic renewal alerts.",
+    },
+    {
+      title: "Event & Meeting Calendar",
+      description:
+        "Organize and manage classes, meetings, training sessions, and parent-teacher interactions using a unified calendar.",
     },
   ],
 };

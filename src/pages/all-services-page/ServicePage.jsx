@@ -3,6 +3,8 @@ import GetInTouch from "../../components/getintouch/GetInTouch";
 import ContactModal from "../../components/ContactModal";
 
 const ServicePage = ({ serviceData }) => {
+
+  console.log(serviceData);
   const [showModal, setShowModal] = useState(false);
 
   const {
@@ -30,6 +32,8 @@ const ServicePage = ({ serviceData }) => {
     salesforceCapabilities,
     awsCapabilities,
     tanzuCapabilities,
+    LMSinfrastructurePillars
+
   } = serviceData;
 
   // Use either blockchainTypes or cybersecurityTypes depending on which exists
@@ -52,7 +56,8 @@ const ServicePage = ({ serviceData }) => {
     engineeringPillars ||
     salesforceCapabilities ||
     awsCapabilities ||
-    tanzuCapabilities;
+    tanzuCapabilities ||
+    LMSinfrastructurePillars
 
   return (
     <div className="font-sans  ">

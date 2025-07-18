@@ -16,7 +16,6 @@ import "swiper/css/pagination";
 import { FaArrowRight } from "react-icons/fa";
 import { MdEmail, MdOutlineMessage, MdPerson } from "react-icons/md";
 
-// const studentImages = [img1, img2, img3, img4, img5, img6];
 
 import { FaThLarge } from "react-icons/fa";
 
@@ -41,43 +40,45 @@ const carouselImages = [
 const training = [
   {
     img: img5,
-    name: "Sourabh Sharma ",
-    linkedIn: "",
-    comp: "GANDIVA IT SERVICES PRIVATE LIMITED.",
+    name: "Mahadev Prasad HM",
+    linkedIn: "https://www.linkedin.com/in/mahadev-prasad-h-m-06034a19b/",
+    comp: "CAPGEMINI",
     text: "Working with Rasta Infotech was a game-changer for our business. Their team quickly understood our requirements and delivered a high-quality solution ahead of schedule. Excellent communication and technical skills!",
   },
   {
     img: img2,
-    name: "Aarav Mehta",
-    comp: "BB Infotech Solutions Pvt Ltd",
+    name: "Ashwin Pandit",
+    comp: "Infosys",
+    linkedIn:
+      "https://www.linkedin.com/in/ashwin-pandit-bbb21ab8/",
     text: "Rasta Infotech helped us revamp our digital presence. From design to deployment, everything was handled with professionalism and attention to detail. We saw a 40% increase in user engagement within the first month.",
   },
   {
     img: img3,
-    name: "Priya Nair",
-    linkedIn: "",
-    comp: "Artiset",
+    name: "Maha Laxmi",
+    linkedIn: "https://www.linkedin.com/in/maha-lakshmi-23770890/?original_referer=https%3A%2F%2Fgtracademy.org%2F",
+    comp: "Norton Rose Fulbright",
     text: "Their DevOps automation services streamlined our entire release cycle. What used to take days now takes just a few hours. Their team is knowledgeable, proactive, and genuinely cares about client success.",
   },
   {
     img: img6,
-    name: "Rahul Verma",
-    comp: "Wraystech Pvt Ltd",
-    linkedIn: "",
+    name: "Sreevathsa Muruditthaya",
+    comp: "LTIMindtree",
+    linkedIn: "https://www.linkedin.com/in/shreevathsa-muruditthaya-978ab617",
     text: "We collaborated with Rasta Infotech on a complex web application, and they exceeded our expectations. The UI/UX was modern, responsive, and built with scalability in mind. Highly recommend them!",
   },
   {
     img: img1,
-    name: "Anjali Desai",
+    name: "Tamal Ray",
     comp: "Tagskills",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/in/tamal-ray-7b120a159/?original_referer=https%3A%2F%2Fgtracademy.org%2F",
     text: "Excellent service from start to finish. The team provided timely updates, clear documentation, and thoughtful suggestions that improved our product. They’ve become our go-to tech partner.Highly recommend them!",
   },
   {
     img: img4,
-    name: "Karan Patel",
-    comp: "Canarys Pvt Ltd",
-    linkedIn: "",
+    name: "Hareesh Patel",
+    comp: "METKA EGN",
+    linkedIn: "https://www.linkedin.com/in/hareesh-chinta-28ba55211/",
     text: "I’ve worked with multiple vendors in the past, but none matched the efficiency and dedication of Rasta Infotech. They deliver what they promise, and they do it with integrity.They’ve become our go-to tech partner.Highly recommend them!",
   },
 ];
@@ -88,6 +89,7 @@ const Training = () => {
   const [activeTab, setActiveTab] = useState("Developments");
   const [phone, setPhone] = useState("");
 
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev === carouselImages.length - 1 ? 0 : prev + 1));
@@ -96,7 +98,7 @@ const Training = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return ( 
+  return (
     <>
       <section className="bg-gray-50 py-10 relative pt-10 ">
         <div className="max-w-[1500px] mx-auto flex flex-col justify-between lg:flex-row items-start gap-10 mt-16 px-2 sm:px-4 md:px-8">
@@ -118,7 +120,7 @@ const Training = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a
-                href="#contact"
+                href="/contact"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-md transition text-center"
               >
                 Book Call
