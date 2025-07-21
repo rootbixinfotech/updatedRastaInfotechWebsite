@@ -2112,7 +2112,7 @@ export const LMSPageContent = {
       icon: "🏥",
       title: "No Missing Follow-ups",
       description:
-        "Powered by AI, LMSBaba™ proactively prompts users with smart follow-up reminders to ensure no conversation falls through the cracks. It helps your team stay on top of every lead interaction—boosting response times and conversion rates .",
+        "Powered by AI, Rashta Infotech proactively prompts users with smart follow-up reminders to ensure no conversation falls through the cracks. It helps your team stay on top of every lead interaction—boosting response times and conversion rates .",
       bgColor: "bg-gradient-to-br from-indigo-50 to-indigo-100",
       textColor: "text-gray-800",
       iconBg: "bg-indigo-200",

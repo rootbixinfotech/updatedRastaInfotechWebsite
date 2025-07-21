@@ -110,7 +110,7 @@ function App() {
             path="sap-business-data-cloud"
             element={<SapBusinessDataCloud />}
           />
-          <Route path="sap-analytics-cloud" element={<SapAnalyticsCloud />} />
+          <Route path="sap-analytics-cloud" element={<SapAnalyticsCloud />} /> 
           <Route path="sap-datasphere" element={<SapDatasphere />} />
           <Route path="sap-s4hana" element={<SapS4hana />} />
           <Route path="sap-business-suite" element={<SapBusinessSuite />} />
