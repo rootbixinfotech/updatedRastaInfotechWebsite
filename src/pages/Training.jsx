@@ -28,6 +28,7 @@ import yesSecuritiesLogo from "../assets/yes-securitiesimg.png";
 import himalayaLogo from "../assets/himalayaimg.png";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import Seo from '../components/Seo';
 
 const tabs = ["Projects", "Support", "Developments"];
 
@@ -100,6 +101,7 @@ const Training = () => {
 
   return (
     <>
+      <Seo title="Training | Rasta Infotech" description="Training programs and opportunities at Rasta Infotech." />
       <section className="bg-gray-50 py-10 relative pt-10 ">
         <div className="max-w-[1500px] mx-auto flex flex-col justify-between lg:flex-row items-start gap-10 mt-16 px-2 sm:px-4 md:px-8">
           {/* Left Content */}

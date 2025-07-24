@@ -3,11 +3,11 @@ import { Industries } from "../data/Data";
 import { ServiceList } from "../data/Data";
 import { useNavigate } from "react-router-dom";
 import { getServicePath, getIndustryPath } from "../utils/pathUtils";
+import * as FaIcons from "react-icons/fa";
 
 const MegaMenu = ({ type, isMobile }) => {
   const navigate = useNavigate();
   const dataList = type === "services" ? ServiceList : Industries;
-
 
   const handleServiceClick = (title) => {
     const route = getServicePath(title);
@@ -36,27 +36,30 @@ const MegaMenu = ({ type, isMobile }) => {
             {type === "services" ? "Our Services" : "Industries We Serve"}
           </h4>
           <ul className="space-y-4 text-sm max-h-[320px] overflow-y-auto pr-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {dataList.map((item, index) => (
-              <li
-                key={index}
-                className={`flex items-start space-x-2 cursor-pointer hover:bg-blue-50 p-2 rounded-md transition-colors duration-300`}
-                onClick={() =>
-                  type === "services"
-                    ? handleServiceClick(item.title)
-                    : handleIndustryClick(item.title)
-                }
-              >
-                <i className={item.icon}></i>
-                <div>
-                  <p className="font-semibold hover:text-blue-600 transition-colors duration-300">
-                    {item.title}
-                  </p>
-                  <p className="text-gray-500 text-xs line-clamp-2">
-                    {item.description}
-                  </p>
-                </div>
-              </li>
-            ))}
+            {dataList.map((item, index) => {
+              const IconComponent = FaIcons[item.icon] || FaIcons.FaRegCircle;
+              return (
+                <li
+                  key={index}
+                  className={`flex items-start space-x-2 cursor-pointer hover:bg-blue-50 p-2 rounded-md transition-colors duration-300`}
+                  onClick={() =>
+                    type === "services"
+                      ? handleServiceClick(item.title)
+                      : handleIndustryClick(item.title)
+                  }
+                >
+                  <span className="text-xl mt-1"><IconComponent /></span>
+                  <div>
+                    <p className="font-semibold hover:text-blue-600 transition-colors duration-300">
+                      {item.title}
+                    </p>
+                    <p className="text-gray-500 text-xs line-clamp-2">
+                      {item.description}
+                    </p>
+                  </div>
+                </li>
+              );
+            })}
           </ul>
         </div>
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Seo from '../../components/Seo';
 
 const features = [
   {
@@ -65,63 +66,66 @@ const features = [
 
 const SapEwm = () => {
   return (
-    <div className="bg-gray-50 min-h-screen py-24 px-6 lg:px-20">
-      <div className="max-w-screen-xl mx-auto space-y-12">
-        {/* Page Title */}
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">
-            SAP Extended Warehouse Management (SAP EWM)
-          </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
-            SAP EWM enables you to monitor warehouse operations in real time,
-            optimize resources, and integrate with the broader supply chain. Get
-            full transparency and performance control from goods receipt to
-            shipping.
-          </p>
-        </div>
-
-        {/* Introduction */}
-        <section className="bg-white p-8 rounded-xl shadow-md space-y-4">
-          <h2 className="text-2xl font-semibold text-gray-800">
-            What is SAP EWM?
-          </h2>
-          <p className="text-gray-700 leading-relaxed text-justify">
-            SAP EWM (Extended Warehouse Management) is a leading system that
-            integrates warehouse execution into the supply chain to provide
-            transparency, flexibility, and real-time operations. It helps manage
-            inventory, automate operations, and optimize resources across the
-            warehouse floor—from goods receipt to storage, picking, packing, and
-            shipping.
-          </p>
-          <p className="text-gray-700 leading-relaxed text-justify">
-            SAP EWM on the SAP S/4HANA platform empowers companies to achieve
-            high productivity through intelligent automation and optimization.
-            Techniques like interleaving tasks and space/equipment control
-            enhance efficiency and throughput.
-          </p>
-        </section>
-
-        {/* Features Section */}
-        <section>
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6">
-            Key Features of SAP EWM
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {features.map((feature, index) => (
-              <div
-                key={index}
-                className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition duration-300"
-              >
-                <h3 className="text-xl font-semibold text-blue-700 mb-2">
-                  {index + 1}. {feature.title}
-                </h3>
-                <p className="text-gray-700 text-justify">{feature.content}</p>
-              </div>
-            ))}
+    <>
+      <Seo title="SAP EWM | Rasta Infotech" description="Explore SAP Extended Warehouse Management (EWM) solutions by Rasta Infotech." />
+      <div className="bg-gray-50 min-h-screen py-24 px-6 lg:px-20">
+        <div className="max-w-screen-xl mx-auto space-y-12">
+          {/* Page Title */}
+          <div className="text-center">
+            <h1 className="text-4xl font-bold text-gray-800 mb-4">
+              SAP Extended Warehouse Management (SAP EWM)
+            </h1>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
+              SAP EWM enables you to monitor warehouse operations in real time,
+              optimize resources, and integrate with the broader supply chain. Get
+              full transparency and performance control from goods receipt to
+              shipping.
+            </p>
           </div>
-        </section>
+
+          {/* Introduction */}
+          <section className="bg-white p-8 rounded-xl shadow-md space-y-4">
+            <h2 className="text-2xl font-semibold text-gray-800">
+              What is SAP EWM?
+            </h2>
+            <p className="text-gray-700 leading-relaxed text-justify">
+              SAP EWM (Extended Warehouse Management) is a leading system that
+              integrates warehouse execution into the supply chain to provide
+              transparency, flexibility, and real-time operations. It helps manage
+              inventory, automate operations, and optimize resources across the
+              warehouse floor—from goods receipt to storage, picking, packing, and
+              shipping.
+            </p>
+            <p className="text-gray-700 leading-relaxed text-justify">
+              SAP EWM on the SAP S/4HANA platform empowers companies to achieve
+              high productivity through intelligent automation and optimization.
+              Techniques like interleaving tasks and space/equipment control
+              enhance efficiency and throughput.
+            </p>
+          </section>
+
+          {/* Features Section */}
+          <section>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+              Key Features of SAP EWM
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {features.map((feature, index) => (
+                <div
+                  key={index}
+                  className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition duration-300"
+                >
+                  <h3 className="text-xl font-semibold text-blue-700 mb-2">
+                    {index + 1}. {feature.title}
+                  </h3>
+                  <p className="text-gray-700 text-justify">{feature.content}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

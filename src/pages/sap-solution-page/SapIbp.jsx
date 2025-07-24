@@ -1,4 +1,5 @@
 import React from "react";
+import Seo from '../../components/Seo';
 
 const addons = [
   {
@@ -15,6 +16,8 @@ const addons = [
 
 const SAPSPPPage = () => {
   return (
+    <>
+      <Seo title="SAP IBP | Rasta Infotech" description="Discover SAP Integrated Business Planning (IBP) solutions by Rasta Infotech." />
    <div className="bg-gray-50 min-h-screen py-16 px-6 lg:px-20">
   <div className="max-w-screen-xl mx-auto space-y-12">
     {/* Page Header */}
@@ -79,7 +82,7 @@ const SAPSPPPage = () => {
     </section>
   </div>
 </div>
-
+    </>
   );
 };
 

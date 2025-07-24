@@ -8,6 +8,7 @@ import clothesImage from "../assets/clothing-csr.png";
 import foodImage from "../assets/comminity-food.png";
 import innovationImage from "../assets/Innovation-csr.png";
 import GetInTouch from "../components/getintouch/GetInTouch";
+import Seo from '../components/Seo';
 
 const Csr = () => {
   useEffect(() => {
@@ -15,7 +16,8 @@ const Csr = () => {
   }, []);
 
   return (
-    <div className="text-gray-800 bg-white px-6 py-12 font-[Poppins] pt-24">
+    <>
+      <Seo title="CSR | Rasta Infotech" description="Corporate Social Responsibility initiatives by Rasta Infotech." />
       {/* Banner Section */}
       <div
         className="relative bg-cover bg-center h-[380px] md:h-[400px] flex items-center justify-center text-center text-white rounded-3xl shadow-lg"
@@ -37,7 +39,7 @@ const Csr = () => {
       </div>
 
       {/* Responsibility Highlight Box */}
-      <div className="bg-gray-800 text-white p-8 sm:p-10 rounded-2xl shadow-lg  mx-auto my-12 text-center">
+      <div className="bg-gray-800 text-white p-8 sm:p-10 rounded-2xl shadow-lg  mx-auto my-12 text-center ">
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">
           What are our <span className="text-orange-500">responsibility</span>
         </h2>
@@ -179,7 +181,7 @@ const Csr = () => {
 
       {/* Contact CTA */}
       <GetInTouch />
-    </div>
+    </>
   );
 };
 
