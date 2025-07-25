@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { FiPlayCircle } from "react-icons/fi";
 import ContactModal from "../../components/ContactModal";
 import GetInTouch from "../../components/getintouch/GetInTouch";
-import Seo from '../../components/Seo';
 import {
   HospitalityPageContent,
   HealthCarePageContent,
@@ -49,7 +48,6 @@ const IndustryDetail = () => {
 
   return (
     <>
-      <Seo title={`${industryData?.title || 'Industry'} | Rasta Infotech`} description={industryData?.description || 'Industry details at Rasta Infotech.'} />
       <section className="bg-white font-sans text-gray-800 pt-24 text-[20px] ">
         {/* Heading Section */}
         <div className="max-w-[1580px] mx-auto px-6 md:px-10 pt-12">

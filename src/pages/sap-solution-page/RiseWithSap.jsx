@@ -1,5 +1,4 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const RiseWithSap = () => {
   const benefits = [
@@ -55,7 +54,6 @@ const RiseWithSap = () => {
 
   return (
     <>
-      <Seo title="Rise with SAP | Rasta Infotech" description="Discover Rise with SAP solutions and transformation services by Rasta Infotech." />
       <div className="max-w-7xl mx-auto px-4 py-24 text-gray-800">
         <h1 className="text-4xl font-bold mb-8 text-blue-900">RISE with SAP</h1>
 

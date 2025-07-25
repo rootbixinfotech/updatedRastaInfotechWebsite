@@ -1,10 +1,8 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const SapS4hana = () => {
   return (
     <>
-      <Seo title="SAP S/4HANA | Rasta Infotech" description="Getting started with SAP S/4HANA: strategy, capabilities, and transformation by Rasta Infotech." />
       <div className="bg-gray-50 py-24 px-6 lg:px-20">
         <div className="max-w-screen-xl mx-auto space-y-14">
           {/* Header Section */}

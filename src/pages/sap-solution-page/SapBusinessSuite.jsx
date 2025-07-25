@@ -1,5 +1,4 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const benefits = [
   {
@@ -56,7 +55,6 @@ const benefits = [
 const SapBusinessSuite = () => {
   return (
     <>
-      <Seo title="SAP Business Suite | Rasta Infotech" description="Explore SAP Business Suite solutions and enterprise management by Rasta Infotech." />
       <div className="bg-gray-50 min-h-screen py-24 px-6 lg:px-20">
         <div className="max-w-screen-xl mx-auto space-y-12">
           {/* Title */}

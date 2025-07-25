@@ -1,11 +1,9 @@
 import React from "react";
 import cookiesBanner from "../../assets/blockchainbannerimg1.jfif"; // Replace with your image
-import Seo from '../../components/Seo';
 
 const CookiesPolicy = () => {
   return (
     <>
-      <Seo title="Cookies Policy | Rasta Infotech" description="Cookies policy for Rasta Infotech website." />
       <div className="text-[#1a1a1a]">
         {/* Banner */}
         <section

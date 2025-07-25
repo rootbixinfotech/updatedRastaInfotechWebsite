@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import peopleBanner from "../../assets/terms.jpg";
 import ContactModal from "../../components/ContactModal";
-import Seo from '../../components/Seo';
 
 
 const PeopleView = () => {
@@ -9,7 +8,6 @@ const PeopleView = () => {
   
   return (
     <>
-      <Seo title="People View | Rasta Infotech" description="See how people experience purpose, growth, and belonging at Rasta Infotech." />
       <div className="bg-slate-50 text-gray-800 pt-20">
       {/* Banner */}
       <section className="relative h-[420px] overflow-hidden rounded-b-3xl shadow-md text-justify">

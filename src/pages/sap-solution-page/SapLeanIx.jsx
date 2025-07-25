@@ -1,10 +1,8 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const SapLeanIX = () => {
   return (
     <>
-      <Seo title="SAP LeanIX | Rasta Infotech" description="Explore SAP LeanIX solutions and services by Rasta Infotech." />
       <div className="max-w-7xl mx-auto px-4 py-24 text-gray-800">
         <h1 className="text-4xl font-bold mb-8 text-blue-900">SAP LeanIX</h1>
 

@@ -1,10 +1,8 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const SapGreenToken = () => {
   return (
     <>
-      <Seo title="SAP GreenToken | Rasta Infotech" description="Learn about SAP GreenToken solutions and sustainability with Rasta Infotech." />
       <div className="max-w-7xl mx-auto px-4 py-24 text-gray-800">
         <h1 className="text-4xl font-bold mb-8 text-green-700">
           SAP Green Token

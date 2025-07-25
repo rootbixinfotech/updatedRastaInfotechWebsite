@@ -5,7 +5,6 @@ import climateImage from "../../assets/climateimage-2.jfif";
 import climateImagess from "../../assets/climateimage-3.jpeg";
 import ContactModal from "../../components/ContactModal";
 import { useNavigate } from "react-router-dom";
-import Seo from '../../components/Seo';
 
 const EnvironmentClimate = () => {
   const navigate = useNavigate();
@@ -13,7 +12,6 @@ const EnvironmentClimate = () => {
 
   return (
     <>
-      <Seo title="Environment & Climate | Rasta Infotech" description="Learn about environment and climate responsibility at Rasta Infotech." />
       <div className="bg-white text-gray-800 font-sans px-4 md:px-10 py-10 md:py-20">
         {/* Banner Section */}
         <div className="relative bg-gradient-to-br from-green-100 via-blue-100 to-white py-12 md:py-20 text-center px-4 sm:px-6">

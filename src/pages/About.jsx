@@ -6,14 +6,12 @@ import IndustriesWeServe from "../components/industriesweserve/IndustriesWeServe
 import GetInTouch from "../components/getintouch/GetInTouch";
 import { useState } from "react";
 import ContactModal from "../components/ContactModal";
-import Seo from '../components/Seo';
 
 const About = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
     <>
-      <Seo title="About | Rasta Infotech" description="About Rasta Infotech: Learn about our mission, vision, and team." />
       <div className="font-sans min-h-screen pt-20 ">
         {/* Header */}
         <div className="bg-gradient-to-b from-white via-blue-50 to-blue-100 text-center py-32 px-4">

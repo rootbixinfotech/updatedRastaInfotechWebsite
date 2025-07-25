@@ -1,11 +1,9 @@
 import React from "react";
 import termsBanner from "../../assets/blockchainbannerimg1.jfif"; // Replace with your banner image
-import Seo from '../../components/Seo';
 
 const TermsConditions = () => {
   return (
     <>
-      <Seo title="Terms & Conditions | Rasta Infotech" description="Read the terms and conditions for using Rasta Infotech's website and services." />
       <div className="text-[#1a1a1a]">
         {/* Banner */}
         <section

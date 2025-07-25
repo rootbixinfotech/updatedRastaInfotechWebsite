@@ -1,7 +1,6 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa";
 import aboutImage from "../../assets/aboutus_3.jpg";
-import Seo from '../../components/Seo';
 
 const pointsLeft = [
   "Experts in AI, Blockchain & Data Science",
@@ -20,7 +19,6 @@ const pointsRight = [
 const AboutUsSection = () => {
   return (
     <>
-      <Seo title="About Us | Rasta Infotech" description="Learn more about Rasta Infotech, our mission, vision, and the team driving innovation." />
       <section className="py-20 px-6 bg-white text-gray-800" id="about">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
           {/* Left Image */}

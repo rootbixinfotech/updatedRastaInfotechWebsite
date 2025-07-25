@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import bannerImage from "../../assets/sustnablebanner.jpg";
 import ContactModal from "../../components/ContactModal";
 import { useNavigate } from "react-router-dom";
-import Seo from '../../components/Seo';
 
 const SustainableCorporate = () => {
   const [showModal, setShowModal] = useState(false);
@@ -10,7 +9,6 @@ const SustainableCorporate = () => {
 
   return (
     <>
-      <Seo title="Sustainable Corporate | Rasta Infotech" description="Discover sustainable corporate practices at Rasta Infotech." />
       <div className="bg-white text-gray-800 px-2 sm:px-4 md:px-8 py-4 md:py-8 w-full">
         {/* Banner Section */}
         <section className="relative bg-gradient-to-b from-white to-blue-50 overflow-hidden w-full">

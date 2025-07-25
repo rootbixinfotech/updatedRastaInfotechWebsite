@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import valuesBanner from "../../assets/terms.jpg";
 import ContactModal from "../../components/ContactModal";
-import Seo from '../../components/Seo';
 
 const valuesList = [
   {
@@ -51,7 +50,6 @@ const PeopleValues = () => {
 
   return (
     <>
-      <Seo title="People Values | Rasta Infotech" description="Discover the core values and culture of people at Rasta Infotech." />
       <div className="bg-slate-50 text-gray-800 pt-20">
         {/* Banner */}
         <section className="relative h-[420px] overflow-hidden rounded-b-3xl shadow-md text-justify">

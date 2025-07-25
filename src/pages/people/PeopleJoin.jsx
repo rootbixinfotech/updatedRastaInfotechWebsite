@@ -1,13 +1,11 @@
 import { useState } from "react";
 import joinBanner from "../../assets/terms.jpg";
 import ContactModal from "../../components/ContactModal";
-import Seo from '../../components/Seo';
 
 const PeopleJoin = () => {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <Seo title="Join People | Rasta Infotech" description="Join the team at Rasta Infotech and be part of our innovative culture." />
       <div className="bg-slate-100 text-gray-800 pt-20">
         {/* Hero Section */}
         <section className="relative h-[420px] rounded-b-3xl overflow-hidden shadow-md">

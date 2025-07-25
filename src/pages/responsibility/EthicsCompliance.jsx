@@ -3,7 +3,6 @@ import codeImage from "../../assets/ethichComplain.jfif";
 import ethicsBanner from "../../assets/ethicbanner.jfif";
 import ContactModal from "../../components/ContactModal";
 import { useNavigate } from "react-router-dom";
-import Seo from '../../components/Seo';
 
 const EthicsCompliance = () => {
   const navigate = useNavigate();
@@ -11,7 +10,6 @@ const EthicsCompliance = () => {
 
   return (
     <>
-      <Seo title="Ethics & Compliance | Rasta Infotech" description="Learn about ethics and compliance initiatives at Rasta Infotech." />
       <div className="bg-white text-gray-800 py-12 px-4 sm:px-6 md:px-12 max-w-[1400px] mx-auto space-y-20">
         {/* Banner */}
         <div className="relative h-64 sm:h-80 md:h-[400px] rounded-xl overflow-hidden shadow-md mb-10">

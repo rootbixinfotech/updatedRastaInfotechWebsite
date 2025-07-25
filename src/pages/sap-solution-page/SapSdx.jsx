@@ -1,10 +1,8 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const SapSdx = () => {
   return (
     <>
-      <Seo title="SAP SDX | Rasta Infotech" description="Explore SAP SDX solutions and services by Rasta Infotech." />
       <div className="max-w-7xl mx-auto px-4 py-24 text-gray-800">
         <h1 className="text-4xl font-bold mb-8 text-green-900">
           SAP Sustainability Data Exchange (SDX)

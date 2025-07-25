@@ -1,5 +1,4 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const features = [
   {
@@ -37,7 +36,6 @@ const features = [
 const SapAnalyticsCloud = () => {
   return (
     <>
-      <Seo title="SAP Analytics Cloud | Rasta Infotech" description="Explore SAP Analytics Cloud solutions and analytics services by Rasta Infotech." />
       <div className="bg-gray-50 py-24 px-6 lg:px-20">
         <div className="max-w-screen-xl mx-auto space-y-14">
           {/* Header */}

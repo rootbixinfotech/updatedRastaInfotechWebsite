@@ -2,13 +2,12 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import csrBanner from "../assets/banner-csrpage.png";
+import csrBanner from "../assets/Csr_Banner.png";
 import womenImage from "../assets/women-empower-csr.jpeg";
 import clothesImage from "../assets/clothing-csr.png";
 import foodImage from "../assets/comminity-food.png";
 import innovationImage from "../assets/Innovation-csr.png";
 import GetInTouch from "../components/getintouch/GetInTouch";
-import Seo from '../components/Seo';
 
 const Csr = () => {
   useEffect(() => {
@@ -17,26 +16,30 @@ const Csr = () => {
 
   return (
     <>
-      <Seo title="CSR | Rasta Infotech" description="Corporate Social Responsibility initiatives by Rasta Infotech." />
       {/* Banner Section */}
-      <div
-        className="relative bg-cover bg-center h-[380px] md:h-[400px] flex items-center justify-center text-center text-white rounded-3xl shadow-lg"
-        style={{
-          backgroundImage: `url(${csrBanner})`,
-        }}
-      >
-        <div className="relative px-6 max-w-4xl">
-          <h1 className="text-4xl md:text-5xl font-extrabold drop-shadow-md mb-2">
-            🌍 Corporate Social Responsibility
-          </h1>
-          <p className="text-xl md:text-2xl font-medium text-gray-800 drop-shadow-sm">
-            Uplifting Communities
-          </p>
-          <p className="text-xl md:text-2xl font-medium text-blue-800 drop-shadow-sm">
-            Empowering Women, Creating Change
-          </p>
-        </div>
-      </div>
+   <div
+  className="relative bg-cover bg-no-repeat bg-position-[center_top_5.5rem] h-[400px] md:h-[800px] flex items-center justify-center text-center text-white rounded-3xl shadow-lg"
+  style={{
+    backgroundImage: `url(${csrBanner})`,
+  }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black/30 rounded-3xl"></div>
+
+  {/* Content */}
+  <div className="relative px-6 max-w-4xl z-10">
+    <h1 className="text-4xl md:text-5xl font-extrabold drop-shadow-md mb-2">
+      🌍 Corporate Social Responsibility
+    </h1>
+    <p className="text-xl md:text-2xl font-medium text-gray-100 drop-shadow-sm">
+      Uplifting Communities
+    </p>
+    <p className="text-xl md:text-2xl font-medium text-blue-200 drop-shadow-sm">
+      Empowering Women, Creating Change
+    </p>
+  </div>
+</div>
+
 
       {/* Responsibility Highlight Box */}
       <div className="bg-gray-800 text-white p-8 sm:p-10 rounded-2xl shadow-lg  mx-auto my-12 text-center ">

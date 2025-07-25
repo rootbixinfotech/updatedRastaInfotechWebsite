@@ -8,7 +8,6 @@ import educationImage from "../../assets/socialimpacepeopleimage-2.jfif";
 import socialBanner from "../../assets/socialbanner.jfif";
 import ContactModal from "../../components/ContactModal";
 import { useNavigate } from "react-router-dom";
-import Seo from '../../components/Seo';
 
 const SocialPeopleImpact = () => {
   const navigate = useNavigate();
@@ -17,7 +16,6 @@ const SocialPeopleImpact = () => {
 
   return (
     <>
-      <Seo title="Social & People Impact | Rasta Infotech" description="Explore social and people impact initiatives at Rasta Infotech." />
       <div className="bg-white text-gray-800 py-16 px-6 md:px-12 max-w-[1400px] mx-auto space-y-20 pt-30">
         {/* Page Header */}
         <div className="relative h-[400px] rounded-xl overflow-hidden shadow-md mb-10">

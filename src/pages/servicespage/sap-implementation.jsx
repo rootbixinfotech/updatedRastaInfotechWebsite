@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import ContactModal from "../../components/ContactModal";
-import Seo from '../../components/Seo';
 
 const SAPImplementation = () => {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <Seo title="SAP Implementation Services | Rasta Infotech" description="Optimize your business with SAP implementation services from Rasta Infotech." />
       <div className="w-full h-full pt-24 px-4 md:px-20 bg-gray-50">
         <div className="w-full max-w-5xl mx-auto space-y-12">
           {/* Heading */}

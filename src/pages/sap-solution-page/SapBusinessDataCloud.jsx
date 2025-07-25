@@ -1,5 +1,4 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const newCapabilities = [
   {
@@ -27,7 +26,6 @@ const newCapabilities = [
 const SapBusinessDataCloud = () => {
   return (
     <>
-      <Seo title="SAP Business Data Cloud | Rasta Infotech" description="Explore SAP Business Data Cloud solutions and data management by Rasta Infotech." />
       <div className="bg-gray-50 min-h-screen py-24 px-6 lg:px-20">
         <div className="max-w-screen-xl mx-auto space-y-12">
           {/* Header */}

@@ -1,5 +1,4 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const features = [
   {
@@ -67,7 +66,6 @@ const features = [
 const SapEwm = () => {
   return (
     <>
-      <Seo title="SAP EWM | Rasta Infotech" description="Explore SAP Extended Warehouse Management (EWM) solutions by Rasta Infotech." />
       <div className="bg-gray-50 min-h-screen py-24 px-6 lg:px-20">
         <div className="max-w-screen-xl mx-auto space-y-12">
           {/* Page Title */}

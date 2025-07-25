@@ -1,5 +1,4 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const SapBTP = () => {
   const btpBenefits = [
@@ -27,7 +26,6 @@ const SapBTP = () => {
 
   return (
     <>
-      <Seo title="SAP BTP | Rasta Infotech" description="Discover SAP Business Technology Platform (BTP) solutions by Rasta Infotech." />
       <div className="max-w-7xl mx-auto px-4 py-24 text-gray-800">
         <h1 className="text-4xl font-bold mb-8 text-blue-900">
           What is SAP BTP?

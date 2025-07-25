@@ -1,11 +1,9 @@
 import React from "react";
 import privacyPolicy from "../../assets/blockchainbannerimg1.jfif";
-import Seo from '../../components/Seo';
 
 const Disclaimer = () => {
   return (
     <>
-      <Seo title="Disclaimer | Rasta Infotech" description="Disclaimer for Rasta Infotech website and services." />
       <div className="text-[#1a1a1a]">
         {/* Banner */}
         <section

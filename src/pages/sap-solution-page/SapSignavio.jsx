@@ -1,5 +1,4 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const SapSignavio = () => {
   const useCases = [
@@ -80,7 +79,6 @@ const SapSignavio = () => {
 
   return (
     <>
-      <Seo title="SAP Signavio | Rasta Infotech" description="Discover SAP Signavio solutions and business transformation with Rasta Infotech." />
       <div className="max-w-7xl mx-auto px-4 py-24 text-gray-800">
         <h1 className="text-4xl font-bold mb-8 text-blue-900">SAP Signavio</h1>
 

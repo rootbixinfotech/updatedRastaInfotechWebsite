@@ -1,5 +1,4 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const phases = [
   {
@@ -37,7 +36,6 @@ const phases = [
 const SapActivate = () => {
   return (
     <>
-      <Seo title="SAP Activate | Rasta Infotech" description="Learn about SAP Activate methodology and best practices with Rasta Infotech." />
       <div className="max-w-7xl mx-auto px-4 py-24 text-gray-800">
         <h1 className="text-4xl font-bold mb-8 text-blue-900">SAP Activate</h1>
 

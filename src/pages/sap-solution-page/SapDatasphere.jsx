@@ -1,10 +1,8 @@
 import React from "react";
-import Seo from '../../components/Seo';
 
 const SapDatasphere = () => {
   return (
     <>
-      <Seo title="SAP Datasphere | Rasta Infotech" description="Discover SAP Datasphere solutions and data management by Rasta Infotech." />
       <div className="bg-gray-50 py-24 px-6 lg:px-20">
         <div className="max-w-screen-xl mx-auto space-y-14">
           {/* Page Title */}
