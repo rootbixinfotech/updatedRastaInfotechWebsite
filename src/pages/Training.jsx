@@ -173,7 +173,6 @@ const Training = () => {
             </div>
           </div>
         </div>
-        {/* End Marquee Section */}
 
         {/* bleow banner section has image and content */}
 
@@ -490,7 +489,7 @@ const Training = () => {
           <div className="max-w-[1500px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold text-blue-800 leading-snug">git config --global user.email
+              <h2 className="text-3xl md:text-4xl font-bold text-blue-800 leading-snug">
                 Rasta Infotech & GTR Academy Collaboration
               </h2>
               <p className="text-gray-700 text-lg text-justify">
