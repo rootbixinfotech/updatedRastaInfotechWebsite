@@ -16,8 +16,10 @@ const Navbar = () => {
   const navItems = [
     { label: "ABOUT", key: "ABOUT", hasSub: false },
     { label: "SERVICES", key: "SERVICES", hasSub: true },
-    { label: "TRAININGS", key: "TRAININGS", hasSub: false },
+
+    // { label: "TRAININGS", key: "TRAININGS", hasSub: false },
     // { label: "CAREER", key: "CAREER", hasSub: false },
+
     { label: "INDUSTRIES", key: "INDUSTRIES", hasSub: true },
     { label: "CONTACT", key: "CONTACT", hasSub: false },
     { label: "RESPONSIBILITY", key: "RESPONSIBILITY", hasSub: true },
@@ -28,8 +30,10 @@ const Navbar = () => {
   const routeMap = {
     ABOUT: "/about",
     SERVICES: "/services",
-    TRAININGS: "/training",
+
+    // TRAININGS: "/training",
     // CAREER: "/careers",
+    
     INDUSTRIES: "/industries",
     CONTACT: "/contact",
     RESPONSIBILITY: "/responsibility",

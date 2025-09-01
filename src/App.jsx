@@ -5,7 +5,9 @@ import FooterSection from "./components/footer/FooterSection";
 import About from "./pages/About";
 import Careers from "./pages/Carrers";
 import Features from "./pages/Features";
-import Training from "./pages/Training";
+
+// import Training from "./pages/Training";
+
 import ServicesPageLayout from "./pages/servicespage/ServicesPageLayout";
 import SAPConsulting from "./pages/servicespage/sap-consulting";
 import SAPImplementation from "./pages/servicespage/sap-implementation";
@@ -88,7 +90,7 @@ function App() {
         <Route path="/careers" element={<Careers />} />
         <Route path="/features" element={<Features />} />
         <Route path="/documents" element={<Documents />} />
-        <Route path="/training" element={<Training />} />
+        {/* <Route path="/training" element={<Training />} /> */}
         <Route path="/csr" element={<Csr />} />
 
         <Route path="/servicespage" element={<ServicesPageLayout />}>
