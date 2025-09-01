@@ -1,21 +1,11 @@
 import { useState, useEffect } from "react";
 import tainingimg from "../assets/trainings_img1.jpg";
 import tainingimg2 from "../assets/trainings_img2.jpg";
-import img1 from "../assets/student-6.jpeg";
-import img2 from "../assets/student_5.jpeg";
-import img3 from "../assets/student_4.jpeg";
-import img4 from "../assets/student_3.jpeg";
-import img5 from "../assets/student_2.jpeg";
-import img6 from "../assets/student_1.jpeg";
-import { CiLinkedin } from "react-icons/ci";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { FaArrowRight } from "react-icons/fa";
 import { MdEmail, MdOutlineMessage, MdPerson } from "react-icons/md";
-
 
 import { FaThLarge } from "react-icons/fa";
 
@@ -37,58 +27,13 @@ const carouselImages = [
   "https://images.pexels.com/photos/68761/pexels-photo-68761.jpeg",
 ];
 
-const training = [
-  {
-    img: img5,
-    name: "Mahadev Prasad HM",
-    linkedIn: "https://www.linkedin.com/in/mahadev-prasad-h-m-06034a19b/",
-    comp: "CAPGEMINI",
-    text: "Working with Rasta Infotech was a game-changer for our business. Their team quickly understood our requirements and delivered a high-quality solution ahead of schedule. Excellent communication and technical skills!",
-  },
-  {
-    img: img2,
-    name: "Ashwin Pandit",
-    comp: "Infosys",
-    linkedIn:
-      "https://www.linkedin.com/in/ashwin-pandit-bbb21ab8/",
-    text: "Rasta Infotech helped us revamp our digital presence. From design to deployment, everything was handled with professionalism and attention to detail. We saw a 40% increase in user engagement within the first month.",
-  },
-  {
-    img: img3,
-    name: "Maha Laxmi",
-    linkedIn: "https://www.linkedin.com/in/maha-lakshmi-23770890/?original_referer=https%3A%2F%2Fgtracademy.org%2F",
-    comp: "Norton Rose Fulbright",
-    text: "Their DevOps automation services streamlined our entire release cycle. What used to take days now takes just a few hours. Their team is knowledgeable, proactive, and genuinely cares about client success.",
-  },
-  {
-    img: img6,
-    name: "Sreevathsa Muruditthaya",
-    comp: "LTIMindtree",
-    linkedIn: "https://www.linkedin.com/in/shreevathsa-muruditthaya-978ab617",
-    text: "We collaborated with Rasta Infotech on a complex web application, and they exceeded our expectations. The UI/UX was modern, responsive, and built with scalability in mind. Highly recommend them!",
-  },
-  {
-    img: img1,
-    name: "Tamal Ray",
-    comp: "Tagskills",
-    linkedIn: "https://www.linkedin.com/in/tamal-ray-7b120a159/?original_referer=https%3A%2F%2Fgtracademy.org%2F",
-    text: "Excellent service from start to finish. The team provided timely updates, clear documentation, and thoughtful suggestions that improved our product. They’ve become our go-to tech partner.Highly recommend them!",
-  },
-  {
-    img: img4,
-    name: "Hareesh Patel",
-    comp: "METKA EGN",
-    linkedIn: "https://www.linkedin.com/in/hareesh-chinta-28ba55211/",
-    text: "I’ve worked with multiple vendors in the past, but none matched the efficiency and dedication of Rasta Infotech. They deliver what they promise, and they do it with integrity.They’ve become our go-to tech partner.Highly recommend them!",
-  },
-];
+
 
 const Training = () => {
   const [current, setCurrent] = useState(0);
   const [openIndex, setOpenIndex] = useState(null);
   const [activeTab, setActiveTab] = useState("Developments");
   const [phone, setPhone] = useState("");
-
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -537,76 +482,15 @@ const Training = () => {
           </div>
         </section>
 
-        {/* Real Success Stories */}
-
-        <div className="max-w-[1500px] mx-auto px-2 sm:px-4 md:px-8 py-10 md:py-20">
-          {/* Heading */}
-          <div className="text-center mb-14">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0f0f3a] mb-4">
-              Real Success Stories
-            </h2>
-            <p className="text-gray-700 text-lg max-w-3xl mx-auto leading-relaxed">
-              <strong className="text-[#0f0f3a]">RastaInfotech</strong> isn't
-              just about acquiring new skills; it's about transforming lives.
-              Our alumni network is a testament to the impact of our training,
-              with countless graduates going on to lead successful careers. Your
-              success story starts here.
-            </p>
-          </div>
-
-          {/* Carousel */}
-          <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
-            spaceBetween={30}
-            slidesPerView={1}
-            loop={true}
-            pagination={{ clickable: true }}
-            navigation
-            autoplay={{ delay: 3500, disableOnInteraction: false }}
-            breakpoints={{
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-            }}
-          >
-            {training.map((student, index) => (
-              <SwiperSlide key={index}>
-                <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-lg text-center hover:shadow-xl transition-all duration-300 h-full flex flex-col items-center justify-between">
-                  <img
-                    src={student.img}
-                    alt={student.name}
-                    className="w-24 h-24 rounded-full object-cover mb-4 shadow-md"
-                  />
-                  <h3 className="text-lg font-semibold text-[#0f0f3a]">
-                    {student.name}
-                  </h3>
-
-                  {student.comp && (
-                    <p className="text-sm text-gray-500 mb-2">{student.comp}</p>
-                  )}
-
-                  <p className="text-gray-600 text-sm mt-2">{student.text}</p>
-
-                  <a
-                    href={student.linkedIn || "https://www.linkedin.com"} // fallback if empty
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-4 text-blue-600 hover:text-blue-800 text-2xl"
-                  >
-                    <CiLinkedin />
-                  </a>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
+ 
 
         {/* collabration section */}
 
-        <section className="bg-gradient-to-br from-white to-slate-50 py-10 sm:py-20 px-2 sm:px-4 md:px-8">
+        <section className="bg-gradient-to-br from-white to-slate-50 py-10 sm:py-2 px-2 sm:px-4 md:px-8">
           <div className="max-w-[1500px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold text-blue-800 leading-snug">
+              <h2 className="text-3xl md:text-4xl font-bold text-blue-800 leading-snug">git config --global user.email
                 Rasta Infotech & GTR Academy Collaboration
               </h2>
               <p className="text-gray-700 text-lg text-justify">
